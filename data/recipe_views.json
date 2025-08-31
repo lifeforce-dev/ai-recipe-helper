@@ -334,5 +334,64 @@
         }
       ]
     }
+    ,
+    {
+      "recipe_id": "mongolian_beef",
+      "aliases": [
+        "mongolian beef"
+      ],
+      "ingredient_sections": [
+        { "name": "Prep – Bowl 1", "items": [
+          { "item": "cornstarch", "quantity": 0.25, "unit": "cup" },
+          { "item": "ground_white_pepper", "quantity": 0.5, "unit": "tsp" },
+          { "label": "salt", "note": "pinch" }
+        ]},
+        { "name": "Prep – Bowl 2", "items": [
+          { "item": "ginger", "quantity": 1, "unit": "tbsp" },
+          { "item": "fresno_chili", "quantity": 2, "unit": "count" },
+          { "item": "gochugaru", "quantity": 2, "unit": "tsp" }
+        ]},
+        { "name": "Prep – Bowl 3", "items": [
+          { "item": "brown_sugar", "quantity": 0.5, "unit": "cup" }
+        ]},
+        { "name": "Prep – Bowl 4 (Sauce)", "items": [
+          { "item": "dark_soy_sauce", "quantity": 0.25, "unit": "cup" },
+          { "item": "soy_sauce", "quantity": 0.25, "unit": "cup" },
+          { "label": "water", "note": "splash" },
+          { "label": "rice vinegar", "note": "to taste" }
+        ]},
+        { "name": "Prep – Bowl 5", "items": [
+          { "item": "thai_basil", "quantity": 1, "unit": "handful" },
+          { "item": "garlic", "quantity": 5, "unit": "clove" }
+        ]},
+        { "name": "Beef", "items": [
+          { "item": "flank_steak", "quantity": 1, "unit": "lb" }
+        ]},
+        { "name": "For Wok", "items": [
+          { "item": "peanut_oil", "quantity": 3, "unit": "tbsp" }
+        ]},
+        { "name": "Veg – Add Early", "items": [
+          { "item": "green_onion", "quantity": 1, "unit": "bunch" }
+        ]}
+      ],
+      "instruction_sections": [
+        { "name": "Prep", "steps": [
+          "Assemble Bowls 1–6 as described."
+        ]},
+        { "name": "Season & Fry Beef", "steps": [
+          "Heat peanut oil in wok.",
+          "Toss beef in Bowl 1 to coat; shallow‑fry until browned; set aside."
+        ]},
+        { "name": "Aromatics & Sauce", "steps": [
+          "Sear green onions ~1 minute until caramelized.",
+          "Add Bowl 2; stir‑fry 45 seconds.",
+          "Add Bowl 3, then Bowl 4; boil and reduce ~3 minutes until slightly thickened."
+        ]},
+        { "name": "Finish", "steps": [
+          "Return beef; toss until sauce glazes.",
+          "Cut heat; add Thai basil and garlic; toss to combine."
+        ]}
+      ]
+    }
   ]
 }

@@ -106,6 +106,28 @@
         { "item": "mirin", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" }
       ],
       "instructions": "Mix marinade (gochujang, gochugaru, soy sauce, sugar, honey, sesame oil, minced garlic, grated ginger, mirin). Add pork and marinate 30 minutes (or a few hours). Heat oil in a pan over medium-high. Add marinated pork; stir-fry until mostly cooked. Add onion, carrot, and garlic; stir-fry until vegetables are tender and pork is cooked through. Add green onions; stir 1 minute. Drizzle a little sesame oil and black pepper to taste. Serve with steamed rice."
+    },
+    {
+      "recipe_id": "mongolian_beef",
+      "title": "Mongolian Beef",
+      "servings": 4,
+      "theme_tags": ["chinese", "beef", "stir_fry", "weeknight"],
+      "ingredients": [
+        { "item": "flank_steak", "quantity": 1, "unit": "lb", "category": "meat", "storage": "refrigerated" },
+        { "item": "peanut_oil", "quantity": 3, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
+        { "item": "thai_basil", "quantity": 1, "unit": "handful", "category": "produce", "storage": "refrigerated" },
+        { "item": "cornstarch", "quantity": 0.25, "unit": "cup", "category": "grain_legume", "storage": "pantry" },
+        { "item": "ground_white_pepper", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "green_onion", "quantity": 1, "unit": "bunch", "category": "produce", "storage": "refrigerated" },
+        { "item": "ginger", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "refrigerated" },
+        { "item": "fresno_chili", "quantity": 2, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "gochugaru", "quantity": 2, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "dark_soy_sauce", "quantity": 0.25, "unit": "cup", "category": "condiment", "storage": "pantry" },
+        { "item": "soy_sauce", "quantity": 0.25, "unit": "cup", "category": "condiment", "storage": "pantry" },
+        { "item": "brown_sugar", "quantity": 0.5, "unit": "cup", "category": "other", "storage": "pantry" },
+        { "item": "garlic", "quantity": 5, "unit": "clove", "category": "produce", "storage": "pantry" }
+      ],
+      "instructions": "Prep bowls: B1 cornstarch + white pepper + salt; B2 ginger + fresno chiles + gochugaru; B3 brown sugar; B4 dark soy + soy sauce + water + rice vinegar; B5 Thai basil + garlic; B6 flank steak sliced 1/2 inch. Heat peanut oil in wok. Toss beef in B1; shallow‑fry until browned; set aside. Sear green onions ~1 minute until caramelized. Add B2; stir‑fry 45 seconds. Add B3, then B4; boil and reduce ~3 minutes. Return beef; toss until glazed. Cut heat; add Thai basil and garlic; toss to combine."
     }
   ]
 }
