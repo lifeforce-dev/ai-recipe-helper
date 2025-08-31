@@ -152,15 +152,25 @@
       ],
       "ingredient_sections": [
         {
-          "name": "Prep – Vegetables",
+          "name": "Prep – Vegetables (Simmer)",
           "items": [
-            { "item": "zucchini", "quantity": 1, "unit": "count" },
             { "item": "radish", "quantity": 1, "unit": "handful" },
             { "item": "onion", "quantity": 0.5, "unit": "count" },
-            { "item": "green_onion", "quantity": 1, "unit": "count" },
-            { "item": "cheongyang_chili_pepper", "quantity": 2, "unit": "count" },
             { "item": "shiitake_mushroom", "quantity": 2, "unit": "count" },
             { "item": "yellow_potato", "quantity": 1, "unit": "count" }
+          ]
+        },
+        {
+          "name": "Finish – Zucchini & Chili",
+          "items": [
+            { "item": "zucchini", "quantity": 1, "unit": "count" },
+            { "item": "cheongyang_chili_pepper", "quantity": 2, "unit": "count" }
+          ]
+        },
+        {
+          "name": "Finish – Green Onion",
+          "items": [
+            { "item": "green_onion", "quantity": 1, "unit": "count" }
           ]
         },
         {
@@ -226,7 +236,13 @@
         {
           "name": "Finish",
           "steps": [
-            "Add zucchini slices and chili peppers at the end; simmer briefly and serve hot."
+            "Add zucchini slices and chili peppers at the end; simmer briefly."
+          ]
+        },
+        {
+          "name": "Finish – Green Onion",
+          "steps": [
+            "Add green onion at the very end; stir once and serve hot."
           ]
         }
       ]
