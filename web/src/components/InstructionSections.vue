@@ -27,9 +27,11 @@ defineProps<{ sections: InstructionSection[] }>()
 .stepRow { display: flex; align-items: flex-start; gap: 10px; }
 .num {
   width: 24px; height: 24px; border-radius: 50%;
-  background: var(--muted-2); color: var(--fg);
+  background: var(--step-badge-bg);
+  border: 1px solid var(--step-badge-border);
+  color: var(--step-badge-text);
   display: flex; align-items: center; justify-content: center;
-  font-weight: 600; font-size: 12px; margin-top: 2px;
+  font-weight: 700; font-size: 12px; margin-top: 2px;
 }
 .step { flex: 1; }
 </style>
