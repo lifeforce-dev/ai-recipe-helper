@@ -8,7 +8,7 @@
         <div class="steps">
           <div v-for="(s, j) in sec.steps" :key="j" class="stepRow">
             <div class="num">{{ j + 1 }}</div>
-            <div class="step">• {{ s }}</div>
+            <div class="step">{{ s }}</div>
           </div>
         </div>
       </div>
