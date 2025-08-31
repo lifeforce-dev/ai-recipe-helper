@@ -1,0 +1,30 @@
+{
+  "recipe_id": "my_recipe_slug",
+  "title": "My Delicious Thing",
+  "servings": 2,
+  "theme_tags": ["korean", "weeknight"],
+  "ingredients": [
+    {
+      "item": "chicken_thigh",
+      "quantity": 1.5,
+      "unit": "lb",
+      "category": "meat",
+      "storage": "frozen"
+    },
+    {
+      "item": "soy_sauce",
+      "quantity": 0.25,
+      "unit": "cup",
+      "category": "condiment",
+      "storage": "pantry"
+    },
+    {
+      "item": "garlic",
+      "quantity": 4,
+      "unit": "clove",
+      "category": "produce",
+      "storage": "pantry"
+    }
+  ],
+  "instructions": "Short, clear steps. Optional."
+}

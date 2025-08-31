@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schema/recipes.schema.json",
+  "title": "Recipe Catalog",
+  "type": "object",
+  "required": [
+    "recipes"
+  ],
+  "properties": {
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recipe_id",
+          "title",
+          "servings",
+          "theme_tags",
+          "ingredients"
+        ],
+        "properties": {
+          "recipe_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_\\-]+$"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "servings": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "theme_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ingredients": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "item",
+                "quantity",
+                "unit",
+                "category",
+                "storage"
+              ],
+              "properties": {
+                "item": {
+                  "type": "string",
+                  "pattern": "^[a-z0-9_\\-]+$"
+                },
+                "quantity": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "unit": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "meat",
+                    "produce",
+                    "dairy",
+                    "grain_legume",
+                    "spice_herb",
+                    "condiment",
+                    "oil_fat",
+                    "other"
+                  ]
+                },
+                "storage": {
+                  "type": "string",
+                  "enum": [
+                    "pantry",
+                    "refrigerated",
+                    "frozen"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "instructions": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "uniqueItems": false
+    }
+  },
+  "additionalProperties": false
+}

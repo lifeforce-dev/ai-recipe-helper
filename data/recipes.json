@@ -1,0 +1,86 @@
+{
+  "recipes": [
+    {
+      "recipe_id": "broccoli_stir_fry",
+      "title": "Broccoli Stir Fry",
+      "servings": 2,
+      "theme_tags": ["chinese", "vegetarian", "stir_fry", "weeknight"],
+      "ingredients": [
+        { "item": "broccoli", "quantity": 1, "unit": "lb", "category": "produce", "storage": "refrigerated" },
+        { "item": "garlic", "quantity": 5, "unit": "clove", "category": "produce", "storage": "pantry" },
+        { "item": "ginger", "quantity": 0.5, "unit": "oz", "category": "produce", "storage": "refrigerated" },
+        { "item": "neutral_oil", "quantity": 2, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
+        { "item": "shaoxing_wine", "quantity": 1, "unit": "tsp", "category": "condiment", "storage": "pantry" },
+
+        { "item": "salt", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "sugar", "quantity": 1, "unit": "tsp", "category": "other", "storage": "pantry" },
+        { "item": "shaoxing_wine", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
+        { "item": "chicken_bouillon_powder", "quantity": 1, "unit": "tsp", "category": "condiment", "storage": "pantry" },
+        { "item": "cornstarch", "quantity": 2, "unit": "tsp", "category": "grain_legume", "storage": "pantry" },
+        { "item": "water", "quantity": 2, "unit": "tbsp", "category": "other", "storage": "pantry" },
+        { "item": "oyster_sauce", "quantity": 1, "unit": "tsp", "category": "condiment", "storage": "pantry" }
+      ],
+      "instructions": "Blanch broccoli in salted, oiled boiling water; shock in ice bath and drain. Stir-fry aromatics in hot oil, add broccoli, Shaoxing wine, then pour in premixed sauce (salt, sugar, chicken bouillon, cornstarch, water, oyster sauce); toss until glossy and thickened."
+    }
+    ,
+    {
+      "recipe_id": "butter_chicken",
+      "title": "Butter Chicken",
+      "servings": 4,
+      "theme_tags": ["indian", "chicken", "curry", "weeknight"],
+      "ingredients": [
+        { "item": "chicken_thigh", "quantity": 1.5, "unit": "lb", "category": "meat", "storage": "refrigerated" },
+        { "item": "greek_yogurt", "quantity": 0.75, "unit": "cup", "category": "dairy", "storage": "refrigerated" },
+        { "item": "lemon_juice", "quantity": 2, "unit": "tsp", "category": "produce", "storage": "refrigerated" },
+        { "item": "ginger", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "refrigerated" },
+        { "item": "kashmiri_chili_powder", "quantity": 2.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "turmeric", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "ground_cumin", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "garam_masala", "quantity": 1, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "salt", "quantity": 2, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+
+        { "item": "onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
+        { "item": "garlic", "quantity": 5, "unit": "clove", "category": "produce", "storage": "pantry" },
+        { "item": "ginger", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "refrigerated" },
+        { "item": "salt", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+
+        { "item": "garam_masala", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "kashmiri_chili_powder", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "turmeric", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "fenugreek_powder", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "sugar", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
+
+        { "item": "ghee", "quantity": 2, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
+        { "item": "crushed_tomatoes", "quantity": 14, "unit": "oz", "category": "condiment", "storage": "pantry" },
+        { "item": "heavy_cream", "quantity": 0.75, "unit": "cup", "category": "dairy", "storage": "refrigerated" },
+        { "item": "unsalted_butter", "quantity": 2, "unit": "tbsp", "category": "dairy", "storage": "refrigerated" }
+      ],
+      "instructions": "Sear marinated chicken in ghee; set aside. In same pan cook onion, salt, garlic, ginger until softened. Add garam masala, Kashmiri chili, turmeric, fenugreek, sugar; cook until fragrant. Add crushed tomatoes, reduce briefly, blend smooth; return sauce and chicken to pan and simmer 7 minutes. Add heavy cream; simmer 7 minutes. Cut heat, stir in butter; salt to taste."
+    },
+    {
+      "recipe_id": "gochujang_stew",
+      "title": "Gochujang Stew (고추장찌개)",
+      "servings": 4,
+      "theme_tags": ["korean", "stew", "spicy", "pork"],
+      "ingredients": [
+        { "item": "zucchini", "quantity": 1, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "radish", "quantity": 1, "unit": "handful", "category": "produce", "storage": "refrigerated" },
+        { "item": "onion", "quantity": 0.5, "unit": "count", "category": "produce", "storage": "pantry" },
+        { "item": "green_onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "cheongyang_chili_pepper", "quantity": 2, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "shiitake_mushroom", "quantity": 2, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "yellow_potato", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
+        { "item": "pork", "quantity": 6.3, "unit": "oz", "category": "meat", "storage": "refrigerated" },
+        { "item": "neutral_oil", "quantity": 0.33, "unit": "cup", "category": "oil_fat", "storage": "pantry" },
+        { "item": "red_chili_powder", "quantity": 4, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "water", "quantity": 2.5, "unit": "cup", "category": "other", "storage": "pantry" },
+        { "item": "gochujang", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "refrigerated" },
+        { "item": "soup_soy_sauce", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
+        { "item": "tuna_extract", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
+        { "item": "sugar", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
+        { "item": "garlic", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "pantry" }
+      ],
+      "instructions": "Slice zucchini. Slice radish, onion, green onion, chili peppers, and mushrooms. Slice pork and season with black pepper. In a pot, add cooking oil and stir-fry pork with black pepper until cooked through; add red chili powder and bloom on low heat. Add water and gochujang; bring to a boil. Add soup soy sauce, tuna extract (optional), sugar, and minced garlic; mix well. Add radish, onion, potato, and mushrooms; simmer until radish is soft and flavors blend. Finish with zucchini and chili peppers; simmer briefly and serve hot."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "recipe_id": "your_recipe_id",
+  "aliases": ["my chinese chicken breast thing"],
+  "ingredient_sections": [
+    {
+      "name": "Group 1 – Main",
+      "items": [
+        { "item": "chicken_breast" },
+        { "item": "garlic" },
+        { "item": "ginger" },
+        { "item": "oil" }
+      ]
+    },
+    {
+      "name": "Group 2 – Sauce",
+      "items": [
+        { "item": "soy_sauce", "quantity": 3, "unit": "tbsp" },
+        { "item": "oyster_sauce", "quantity": 1, "unit": "tbsp" },
+        { "item": "sugar", "quantity": 1, "unit": "tsp" },
+        { "item": "cornstarch", "quantity": 2, "unit": "tsp" },
+        { "item": "water", "quantity": 3, "unit": "tbsp" }
+      ]
+    },
+    {
+      "name": "Group 3 – Blanching",
+      "items": [
+        { "label": "Ice Cold Water", "note": "enough to submerge" },
+        { "item": "salt", "quantity": 1, "unit": "tbsp" },
+        { "item": "oil", "quantity": 1, "unit": "tsp" }
+      ]
+    }
+  ],
+  "instruction_sections": [
+    {
+      "name": "Prep",
+      "steps": [
+        "Slice chicken and pat dry.",
+        "Mince aromatics."
+      ]
+    },
+  { "name": "Cook", "steps": ["Sear chicken in oil.", "Add aromatics.", "Pour in sauce; simmer to thicken."] }
+  ]
+}

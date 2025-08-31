@@ -1,0 +1,25 @@
+<template>
+  <div v-if="recipe" class="recipe">
+    <h1>{{ recipe.title }}</h1>
+    <div class="kv">Servings: {{ recipe.servings }}</div>
+    <div class="kv" style="margin-top:6px">Tags: {{ recipe.theme_tags.join(", ") }}</div>
+
+    <IngredientOverview :ingredients="recipe.ingredients" />
+
+    <IngredientSections v-if="view?.ingredient_sections" :sections="view.ingredient_sections" />
+    <InstructionSections v-if="view?.instruction_sections" :sections="view.instruction_sections" />
+  </div>
+  <div v-else class="kv">Select a recipe to view details.</div>
+</template>
+
+<script setup lang="ts">
+import type { Recipe, RecipeView } from "../types"
+import IngredientOverview from "./IngredientOverview.vue"
+import IngredientSections from "./IngredientSections.vue"
+import InstructionSections from "./InstructionSections.vue"
+
+defineProps<{
+  recipe: Recipe | null
+  view: RecipeView | null
+}>()
+</script>

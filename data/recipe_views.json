@@ -1,0 +1,235 @@
+{
+  "views": [
+    {
+      "recipe_id": "broccoli_stir_fry",
+      "aliases": [
+        "broccoli stir fry",
+        "chinese broccoli stir fry",
+        "stir fried broccoli"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Group 1 – Main",
+          "items": [
+            { "item": "broccoli", "quantity": 1, "unit": "lb" },
+            { "item": "garlic", "quantity": 5, "unit": "clove" },
+            { "item": "ginger", "quantity": 0.5, "unit": "oz" }
+          ]
+        },
+        {
+          "name": "Group 2 – Sauce",
+          "items": [
+            { "item": "salt", "quantity": 0.5, "unit": "tsp" },
+            { "item": "sugar", "quantity": 1, "unit": "tsp" },
+            { "item": "shaoxing_wine", "quantity": 1, "unit": "tbsp" },
+            { "item": "chicken_bouillon_powder", "quantity": 1, "unit": "tsp" },
+            { "item": "cornstarch", "quantity": 2, "unit": "tsp" },
+            { "item": "water", "quantity": 2, "unit": "tbsp" },
+            { "item": "oyster_sauce", "quantity": 1, "unit": "tsp" }
+          ]
+        },
+        {
+          "name": "Group 3 – Blanching",
+          "items": [
+            { "label": "Ice Cold Water", "note": "enough to fully submerge broccoli" },
+            { "item": "salt", "quantity": 1, "unit": "tbsp" },
+            { "item": "neutral_oil", "quantity": 1, "unit": "tsp" }
+          ]
+        },
+        {
+          "name": "Group 4 – For Stir Fry",
+          "items": [
+            { "item": "neutral_oil", "quantity": 2, "unit": "tbsp" },
+            { "item": "shaoxing_wine", "quantity": 1, "unit": "tsp" }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Blanching",
+          "steps": [
+            "Boil enough water (violently) to fully submerge the broccoli and add salt (1 tbsp) and oil (1 tsp)",
+            "Once the water reaches a violent boil",
+            "Add the Broccoli stalks first and then the Broccoli florets, ensuring they are fully submerged",
+            "Cover and bring to a boil again (roughly 3 minutes depending on how good your burner is)",
+            "Once Boiling, immediately remove broccoli and place in the Ice Water using a spider strainer",
+            "Discard the hot water",
+            "Transfer broccoli from cold bath to strainer to drain"
+          ]
+        },
+        {
+          "name": "Stir Fry",
+          "steps": [
+            "Heat pan until hot, then lower heat. You DO NOT want to burn the garlic or the stir fry will taste bitter",
+            "Add oil (2 tbsp) and swirl until hot (it will get runnier and feel thinner), add garlic (4–5 cloves)",
+            "Stir to coat with the oil and add the ginger (1/2 oz)",
+            "Stir constantly for 20–30 seconds, then put the heat on high and add broccoli, stirring constantly (You should hear sizzling from moisture evaporation. If you can’t hear your cooking you’re not stirfrying you’re boiling, and your pan isn’t hot enough)",
+            "Add Shaoxing Wine (1 tsp), pouring it in from the edges so it sizzles. This is important for aromatics.",
+            "Slowly add in the Sauce a bit at a time while stirring, making sure not to make the dish soggy",
+            "Stir continuously for about 1 min, then add oil (about 1 tbsp) and mix",
+            "Plate and serve, making sure to get all the sauce from the pan"
+          ]
+        }
+      ]
+    },
+    {
+      "recipe_id": "butter_chicken",
+      "aliases": [
+        "butter chicken",
+        "murgh makhani",
+        "that butter chicken thing"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Marinade",
+          "items": [
+            { "item": "chicken_thigh", "quantity": 1.5, "unit": "lb" },
+            { "item": "greek_yogurt", "quantity": 0.75, "unit": "cup" },
+            { "item": "lemon_juice", "quantity": 2, "unit": "tsp" },
+            { "label": "ginger grated", "note": "2-inch knob" },
+            { "item": "kashmiri_chili_powder", "quantity": 2.5, "unit": "tsp" },
+            { "item": "turmeric", "quantity": 1, "unit": "tsp" },
+            { "item": "ground_cumin", "quantity": 1, "unit": "tsp" },
+            { "item": "garam_masala", "quantity": 1, "unit": "tbsp" },
+            { "item": "salt", "quantity": 2, "unit": "tsp" }
+          ]
+        },
+        {
+          "name": "Prep – Bowl 1",
+          "items": [
+            { "item": "onion", "quantity": 1, "unit": "count", "note": "thinly sliced" }
+          ]
+        },
+        {
+          "name": "Prep – Bowl 2",
+          "items": [
+            { "item": "garlic", "quantity": 5, "unit": "clove", "note": "finely chopped" },
+            { "item": "ginger", "quantity": 1, "unit": "tbsp", "note": "grated (15g)" },
+            { "item": "salt", "quantity": 0.5, "unit": "tsp" }
+          ]
+        },
+        {
+          "name": "Prep – Bowl 3 (Spices)",
+          "items": [
+            { "item": "garam_masala", "quantity": 1, "unit": "tsp" },
+            { "item": "kashmiri_chili_powder", "quantity": 1, "unit": "tsp" },
+            { "item": "turmeric", "quantity": 0.5, "unit": "tsp" },
+            { "item": "fenugreek_powder", "quantity": 0.5, "unit": "tsp" },
+            { "item": "sugar", "quantity": 1, "unit": "tbsp" }
+          ]
+        },
+        {
+          "name": "Have Ready",
+          "items": [
+            { "item": "ghee", "quantity": 2, "unit": "tbsp" },
+            { "item": "crushed_tomatoes", "quantity": 14, "unit": "oz" },
+            { "item": "heavy_cream", "quantity": 0.75, "unit": "cup" },
+            { "item": "unsalted_butter", "quantity": 2, "unit": "tbsp" }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Cooking",
+          "steps": [
+            "Sear chicken using the Ghee (not oil or butter), set aside.",
+            "Same pan, Onions, Salt, Garlic, Ginger, cook until softened",
+            "Add Garam Masala, Kashmiri Chili, Tumeric, Fenugreek Powder, Sugar, cook until fragent",
+            "Add crushed tomatoes and reduce for 2 mins, then blend in blender",
+            "Add sauce + chicken back to pan and simmer for seven minutes",
+            "add heavy creme, simmer another 7 minutes",
+            "Cut heat, stir in butter, salt to taste"
+          ]
+        }
+      ]
+    },
+    {
+      "recipe_id": "gochujang_stew",
+      "aliases": [
+        "gochujang stew",
+        "gochujang jjigae",
+        "고추장찌개"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Prep – Vegetables",
+          "items": [
+            { "item": "zucchini", "quantity": 1, "unit": "count" },
+            { "item": "radish", "quantity": 1, "unit": "handful" },
+            { "item": "onion", "quantity": 0.5, "unit": "count" },
+            { "item": "green_onion", "quantity": 1, "unit": "count" },
+            { "item": "cheongyang_chili_pepper", "quantity": 2, "unit": "count" },
+            { "item": "shiitake_mushroom", "quantity": 2, "unit": "count" },
+            { "item": "yellow_potato", "quantity": 1, "unit": "count" }
+          ]
+        },
+        {
+          "name": "Pork & Oil",
+          "items": [
+            { "item": "pork", "quantity": 6.3, "unit": "oz" },
+            { "label": "black pepper", "note": "generously" },
+            { "item": "neutral_oil", "quantity": 0.33, "unit": "cup" }
+          ]
+        },
+        {
+          "name": "Chili Oil",
+          "items": [
+            { "item": "red_chili_powder", "quantity": 4, "unit": "tbsp" }
+          ]
+        },
+        {
+          "name": "Broth Base",
+          "items": [
+            { "item": "water", "quantity": 2.5, "unit": "cup" },
+            { "item": "gochujang", "quantity": 2, "unit": "tbsp" }
+          ]
+        },
+        {
+          "name": "Seasoning",
+          "items": [
+            { "item": "soup_soy_sauce", "quantity": 2, "unit": "tbsp" },
+            { "item": "tuna_extract", "quantity": 1, "unit": "tbsp" },
+            { "item": "sugar", "quantity": 1, "unit": "tbsp" },
+            { "item": "garlic", "quantity": 1, "unit": "tbsp" }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Prep",
+          "steps": [
+            "Slice zucchini.",
+            "Slice radish, onion, green onion, chili peppers, and mushrooms.",
+            "Slice pork and season lightly with black pepper."
+          ]
+        },
+        {
+          "name": "Pork & Chili Oil",
+          "steps": [
+            "In a pot, add cooking oil generously and stir-fry pork with black pepper until cooked through.",
+            "Add red chili powder and stir-fry on low heat to release color and aroma."
+          ]
+        },
+        {
+          "name": "Broth & Season",
+          "steps": [
+            "Add water and gochujang; bring to a boil.",
+            "Add soup soy sauce, tuna extract (or fish sauce), sugar, and minced garlic; mix well."
+          ]
+        },
+        {
+          "name": "Simmer Veg 1",
+          "steps": [
+            "Add radish, onion, potato, and mushrooms; simmer until radish is soft and flavors blend."
+          ]
+        },
+        {
+          "name": "Finish",
+          "steps": [
+            "Add zucchini slices and chili peppers at the end; simmer briefly and serve hot."
+          ]
+        }
+      ]
+    }
+  ]
+}
