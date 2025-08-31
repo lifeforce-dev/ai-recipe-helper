@@ -81,6 +81,31 @@
         { "item": "garlic", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "pantry" }
       ],
       "instructions": "Slice zucchini. Slice radish, onion, green onion, chili peppers, and mushrooms. Slice pork and season with black pepper. In a pot, add cooking oil and stir-fry pork with black pepper until cooked through; add red chili powder and bloom on low heat. Add water and gochujang; bring to a boil. Add soup soy sauce, tuna extract (optional), sugar, and minced garlic; mix well. Add radish, onion, potato, and mushrooms; simmer until radish is soft and flavors blend. Finish with zucchini and chili peppers; simmer briefly and serve hot."
+    },
+    {
+      "recipe_id": "pork_stir_fry",
+      "title": "Pork Stir Fry (제육볶음)",
+      "servings": 4,
+      "theme_tags": ["korean", "stir_fry", "pork", "weeknight"],
+      "ingredients": [
+        { "item": "pork", "quantity": 1.1, "unit": "lb", "category": "meat", "storage": "refrigerated" },
+        { "item": "onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
+        { "item": "green_onion", "quantity": 2, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "garlic", "quantity": 3, "unit": "clove", "category": "produce", "storage": "pantry" },
+        { "item": "carrot", "quantity": 1, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "neutral_oil", "quantity": 1, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
+
+        { "item": "gochujang", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "refrigerated" },
+        { "item": "gochugaru", "quantity": 1, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "soy_sauce", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
+        { "item": "sugar", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
+        { "item": "honey", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
+        { "item": "sesame_oil", "quantity": 1, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
+        { "item": "garlic", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "pantry" },
+        { "item": "ginger", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "refrigerated" },
+        { "item": "mirin", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" }
+      ],
+      "instructions": "Mix marinade (gochujang, gochugaru, soy sauce, sugar, honey, sesame oil, minced garlic, grated ginger, mirin). Add pork and marinate 30 minutes (or a few hours). Heat oil in a pan over medium-high. Add marinated pork; stir-fry until mostly cooked. Add onion, carrot, and garlic; stir-fry until vegetables are tender and pork is cooked through. Add green onions; stir 1 minute. Drizzle a little sesame oil and black pepper to taste. Serve with steamed rice."
     }
   ]
 }

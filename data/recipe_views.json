@@ -247,5 +247,92 @@
         }
       ]
     }
+    ,
+    {
+      "recipe_id": "pork_stir_fry",
+      "aliases": [
+        "pork stir fry",
+        "spicy pork stir fry",
+        "gochujang pork stir fry"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Marinade",
+          "items": [
+            { "item": "gochujang", "quantity": 2, "unit": "tbsp" },
+            { "item": "gochugaru", "quantity": 1, "unit": "tbsp" },
+            { "item": "soy_sauce", "quantity": 2, "unit": "tbsp" },
+            { "item": "sugar", "quantity": 1, "unit": "tbsp" },
+            { "item": "honey", "quantity": 1, "unit": "tbsp" },
+            { "item": "sesame_oil", "quantity": 1, "unit": "tbsp" },
+            { "item": "garlic", "quantity": 1, "unit": "tbsp" },
+            { "item": "ginger", "quantity": 1, "unit": "tbsp" },
+            { "item": "mirin", "quantity": 1, "unit": "tbsp" }
+          ]
+        },
+        {
+          "name": "Pork",
+          "items": [
+            { "item": "pork", "quantity": 1.1, "unit": "lb" }
+          ]
+        },
+        {
+          "name": "For Stir Fry",
+          "items": [
+            { "item": "neutral_oil", "quantity": 1, "unit": "tbsp" }
+          ]
+        },
+        {
+          "name": "Veg – Add Later",
+          "items": [
+            { "item": "onion", "quantity": 1, "unit": "count" },
+            { "item": "carrot", "quantity": 1, "unit": "count", "note": "optional" },
+            { "item": "garlic", "quantity": 3, "unit": "clove" }
+          ]
+        },
+        {
+          "name": "Finish – Green Onion",
+          "items": [
+            { "item": "green_onion", "quantity": 2, "unit": "count" }
+          ]
+        },
+        {
+          "name": "Finish – Season",
+          "items": [
+            { "label": "sesame oil", "note": "drizzle to taste" },
+            { "label": "black pepper", "note": "to taste" }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Marinade",
+          "steps": [
+            "Mix marinade ingredients until smooth.",
+            "Add sliced pork; marinate 30 minutes (or longer)."
+          ]
+        },
+        {
+          "name": "Stir-Fry Pork",
+          "steps": [
+            "Heat oil in a pan over medium-high heat.",
+            "Add marinated pork; stir-fry until mostly cooked."
+          ]
+        },
+        {
+          "name": "Add Veg",
+          "steps": [
+            "Add onion, carrot (if using), and minced garlic; stir-fry until vegetables are tender and pork is fully cooked."
+          ]
+        },
+        {
+          "name": "Finish",
+          "steps": [
+            "Add green onions; stir for 1 minute.",
+            "Drizzle a little sesame oil and season with black pepper to taste. Serve hot with rice."
+          ]
+        }
+      ]
+    }
   ]
 }
