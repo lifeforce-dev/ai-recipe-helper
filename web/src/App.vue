@@ -78,6 +78,7 @@ const suggestionsList = ref<HTMLDivElement | null>(null)
 const layoutEl = ref<HTMLDivElement | null>(null)
 const leftPanel = ref<HTMLDivElement | null>(null)
 const rightPanel = ref<HTMLDivElement | null>(null)
+let lastScrollLeft = 0
 
 onMounted(async () => {
   entries.value = await loadCatalogs()
@@ -117,6 +118,22 @@ onMounted(async () => {
     ensureInitialPanel()
   }
   window.addEventListener("resize", onResize)
+  // Track horizontal scroll to detect swipe back to the catalog and keep it scrolled to top.
+  const onHorizScroll = () => {
+    if (!isMobile.value) return
+    const el = layoutEl.value
+    if (!el) return
+    const x = el.scrollLeft
+    if (x < lastScrollLeft) {
+      leftPanel.value?.scrollTo({ top: 0, behavior: "auto" })
+    }
+    lastScrollLeft = x
+  }
+  layoutEl.value?.addEventListener("scroll", onHorizScroll, { passive: true })
+  // Remove the listener on unmount.
+  onUnmounted(() => {
+    layoutEl.value?.removeEventListener("scroll", onHorizScroll)
+  })
   await nextTick()
   updateListScrollStates()
   ensureInitialPanel()
@@ -164,7 +181,11 @@ function openRecipe(id: string) {
   activeId.value = id
   // Auto-scroll to the recipe panel on mobile after selection.
   if (isMobile.value) {
-    nextTick().then(() => scrollToPanel("right"))
+    nextTick().then(() => {
+      // Reset the recipe panel vertical scroll to the top before animating.
+      rightPanel.value?.scrollTo({ top: 0, behavior: "auto" })
+      scrollToPanel("right")
+    })
   }
 }
 
@@ -209,6 +230,9 @@ function scrollToPanel(which: "left" | "right") {
 function ensureInitialPanel() {
   if (!isMobile.value) return
   const hasRecipe = !!activeEntry.value
+  if (!hasRecipe) {
+    leftPanel.value?.scrollTo({ top: 0, behavior: "auto" })
+  }
   scrollToPanel(hasRecipe ? "right" : "left")
 }
 </script>
