@@ -455,5 +455,33 @@
         ]}
       ]
     }
+    ,
+    {
+      "recipe_id": "candied_bacon",
+      "aliases": ["candied bacon", "caramelized bacon"],
+      "ingredient_sections": [
+        { "name": "Glaze", "items": [
+          { "item": "brown_sugar", "quantity": 0.25, "unit": "cup" },
+          { "item": "rice_vinegar", "quantity": 2, "unit": "tbsp" },
+          { "item": "maple_syrup", "quantity": 2, "unit": "tbsp" },
+          { "label": "black pepper", "note": "to taste" }
+        ]},
+        { "name": "Bacon", "items": [
+          { "item": "bacon", "quantity": 1, "unit": "lb" }
+        ]}
+      ],
+      "instruction_sections": [
+        { "name": "Prep", "steps": [
+          "Preheat oven to 350°F (175°C).",
+          "Stir glaze: brown sugar + rice vinegar + maple syrup + black pepper."
+        ]},
+        { "name": "Bake & Baste", "steps": [
+          "Place bacon on a rack set over a sheet pan.",
+          "Bake 10 min; flip and bake 5 min.",
+          "Brush both sides with glaze; bake 5 min.",
+          "Repeat glazing every 5 min until browned and crisp, ~35 min total."
+        ]}
+      ]
+    }
   ]
 }

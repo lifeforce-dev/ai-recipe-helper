@@ -160,5 +160,20 @@
       ],
       "instructions": "Brown beef in two pressed batches for deep crust; reserve fat. Sweat onions; toast garlic and spices in beef fat, then add tomato sauce and cook to deep red. Deglaze pot with red wine; add beef, onion/spice mix, 3 cups beef broth, beans, and chocolate. Cover and simmer 1 hour, stirring every 15 minutes to lift fond; add more broth as needed. Finish with masa harina slurry, 1/4 tsp MSG, and salt to taste."
     }
+    ,
+    {
+      "recipe_id": "candied_bacon",
+      "title": "Candied Bacon",
+      "servings": 4,
+      "theme_tags": ["american", "pork", "snack", "oven"],
+      "source": "https://www.allrecipes.com/recipe/221007/candied-bacon/",
+      "ingredients": [
+        { "item": "brown_sugar", "quantity": 0.25, "unit": "cup", "category": "other", "storage": "pantry" },
+        { "item": "rice_vinegar", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
+        { "item": "maple_syrup", "quantity": 2, "unit": "tbsp", "category": "other", "storage": "pantry" },
+        { "item": "bacon", "quantity": 1, "unit": "lb", "category": "meat", "storage": "refrigerated" }
+      ],
+      "instructions": "Preheat oven to 350°F (175°C). Mix brown sugar, rice vinegar, maple syrup, and black pepper to taste. Arrange thick‑cut bacon on a rack over a sheet pan. Bake 10 minutes, flip and bake 5 more. Brush both sides with glaze and return to oven; continue baking and brushing every 5 minutes until browned and crisp, about 35 minutes total."
+    }
   ]
 }
