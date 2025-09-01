@@ -1,9 +1,15 @@
 <template>
   <div class="section">
-    <h2>Sectioned Prep</h2>
+    <div class="section-head">
+      <h2>Sectioned Prep</h2>
+      <div class="section-hint">Prep by groups so you can cook faster.</div>
+    </div>
     <div class="grid-two">
       <div v-for="(sec, i) in sections" :key="i" class="panel">
-        <div class="kv" style="margin-bottom:8px">{{ i + 1 }}. {{ sec.name }}</div>
+        <div class="panel-title">
+          <span class="panel-index">{{ i + 1 }}</span>
+          <span class="panel-name">{{ sec.name }}</span>
+        </div>
         <div class="rows col">
           <template v-for="(it, j) in sec.items" :key="j">
             <template v-if="'item' in it">
@@ -57,4 +63,23 @@ function findDefault(item?: string, fromIndex?: number, portion?: number): { qty
 
 <style scoped>
 .col { display: flex; flex-direction: column; gap: 6px; }
+/* Reuse header styles from InstructionSections (scoped copy). */
+.section-head {
+  padding: 10px 12px;
+  margin: 0 0 8px 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+}
+.section-head h2 { margin: 0 0 2px 0; font-size: 18px; letter-spacing: .2px }
+.section-head .section-hint { margin: 0; opacity: .75 }
+
+.panel-title {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 8px;
+  background: rgba(255,255,255,0.015);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px; padding: 6px 10px;
+}
+.panel-index { width: 20px; height: 20px; min-width: 20px; border-radius: 999px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 11px; color: #fff; background: #475569; border: 1px solid rgba(0,0,0,0.35) }
+.panel-name { font-weight: 600; letter-spacing: .2px }
 </style>

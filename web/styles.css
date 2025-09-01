@@ -12,19 +12,21 @@
 	--panel-alt-odd: #141a22; /* subtle alt background for panels */
 	--panel-alt-even: #171a21;
 	/* Step badge theme */
-	--step-badge-bg: rgba(56, 189, 248, 0.28); /* lighter fill */
+	--step-badge-bg: rgba(56, 189, 248, 0.36); /* a touch brighter to anchor reading */
 	--step-badge-border: rgba(30, 64, 175, 0.85); /* darker outline */
 	--step-badge-text: #ffffff; /* white numbers */
 	/* Leader line colors: odd/even rows for readability */
 	--leader-odd: #4a5266;
 	--leader-even: #1f2531;
-	/* Instruction row-band theming (distinct left-to-right bands) */
-	--rowband-even-bg: rgba(96, 165, 250, 0.14);
-	--rowband-even-border: rgba(96, 165, 250, 0.38);
-	--rowband-even-accent: #60a5fa;
-	--rowband-odd-bg: rgba(110, 231, 183, 0.14);
-	--rowband-odd-border: rgba(110, 231, 183, 0.38);
-	--rowband-odd-accent: #34d399;
+	/* Instruction row-band theming (alternating muted neutrals) */
+	/* A: Slate gray */
+	--rowband-even-bg: rgba(148, 163, 184, 0.08);
+	--rowband-even-border: rgba(148, 163, 184, 0.22);
+	--rowband-even-accent: rgba(148, 163, 184, 0.50);
+	/* B: Soft steel-blue */
+	--rowband-odd-bg: rgba(96, 120, 156, 0.09);
+	--rowband-odd-border: rgba(96, 120, 156, 0.24);
+	--rowband-odd-accent: rgba(96, 120, 156, 0.50);
 }
 
 /* Resets & layout */
