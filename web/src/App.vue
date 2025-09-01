@@ -2,16 +2,18 @@
   <div class="container">
     <div class="header">
       <div class="brand">Recipe Catalog</div>
-      <div class="search">
-        <input
-          placeholder="Search recipes (title or alias)…"
-          v-model="query"
-        />
-      </div>
     </div>
 
     <div class="layout">
       <div class="panel">
+        <div class="panel-search">
+          <div class="search">
+            <input
+              placeholder="Search recipes (title or alias)…"
+              v-model="query"
+            />
+          </div>
+        </div>
         <div class="kv" style="margin-bottom:10px">{{ filtered.length }} recipe{{ filtered.length === 1 ? '' : 's' }}</div>
         <div class="list">
           <div
