@@ -17,7 +17,7 @@
         </div>
         <div class="panel-divider"></div>
         <div class="kv" style="margin-bottom:10px">{{ filtered.length }} recipe{{ filtered.length === 1 ? '' : 's' }}</div>
-        <div class="list">
+  <div class="list" ref="primaryList">
           <div
             v-for="entry in filtered"
             :key="entry.recipe.recipe_id"
@@ -35,7 +35,7 @@
   <div v-if="suggestions.length" class="suggestions-title">Suggestions</div>
   <div v-if="suggestions.length" class="panel-divider"></div>
   <div v-if="suggestions.length" class="kv" style="margin-bottom:10px">{{ suggestions.length }} recipe{{ suggestions.length === 1 ? '' : 's' }}</div>
-        <div v-if="suggestions.length" class="list">
+  <div v-if="suggestions.length" class="list" ref="suggestionsList">
           <div
             v-for="entry in suggestions"
             :key="entry.recipe.recipe_id + '-sugg'"
@@ -64,7 +64,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, ref } from "vue"
+import { computed, onMounted, onUnmounted, ref, watch, nextTick } from "vue"
 import Fuse from "fuse.js"
 import { loadCatalogs } from "./data"
 import type { DisplayEntry } from "./types"
@@ -74,6 +74,8 @@ const entries = ref<DisplayEntry[]>([])
 const query = ref("")
 const activeId = ref<string | null>(null)
 const searchInput = ref<HTMLInputElement | null>(null)
+const primaryList = ref<HTMLDivElement | null>(null)
+const suggestionsList = ref<HTMLDivElement | null>(null)
 
 onMounted(async () => {
   entries.value = await loadCatalogs()
@@ -104,7 +106,14 @@ onMounted(async () => {
   // Cleanup on unmount to avoid leaks.
   onUnmounted(() => {
     window.removeEventListener("keydown", onKey)
+    window.removeEventListener("resize", onResize)
   })
+
+  // Observe resize to update gradient visibility on lists.
+  const onResize = () => updateListScrollStates()
+  window.addEventListener("resize", onResize)
+  await nextTick()
+  updateListScrollStates()
 })
 
 const fuse = computed(() =>
@@ -148,4 +157,20 @@ function openRecipe(id: string) {
   location.hash = `#/recipe/${id}`
   activeId.value = id
 }
+
+function updateListScroll(el: HTMLElement | null): void {
+  if (!el) return
+  const hasScroll = el.scrollHeight > el.clientHeight + 1
+  el.classList.toggle("has-scroll", hasScroll)
+}
+function updateListScrollStates(): void {
+  updateListScroll(primaryList.value)
+  updateListScroll(suggestionsList.value)
+}
+
+// Recompute after data/filter changes.
+watch([filtered, suggestions], async () => {
+  await nextTick()
+  updateListScrollStates()
+})
 </script>

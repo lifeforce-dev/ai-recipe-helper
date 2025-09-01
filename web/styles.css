@@ -81,7 +81,7 @@ a { color: inherit; text-decoration: none }
 .panel-head-section .catalog-head {
 	position: relative;
 	padding: 4px 0 8px 0;
-	margin: 0 12px 18px 12px; /* reduce space above input; bottom gap handled by header padding/margin */
+	margin: 0 12px 24px 12px; /* reduce space above input; bottom gap handled by header padding/margin */
 }
 .panel-head-section .catalog-head::after {
 	content: "";
@@ -134,20 +134,15 @@ a { color: inherit; text-decoration: none }
 	box-shadow: 0 0 0 3px rgba(96,165,250,0.22);
 }
 .list { position: relative; display: flex; flex-direction: column; gap: 8px; max-height: 72vh; overflow: auto }
+.list.has-scroll { padding-bottom: 12px; }
 @supports (height: 100dvh) {
 	/* Use dynamic viewport on capable browsers to avoid resize jumps while scrolling. */
 	.list { max-height: 72dvh }
 }
-.list::after {
-	/* Soft fade to imply more content below instead of a hard cutoff */
-	content: "";
-	position: sticky;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 18px;
-	background: linear-gradient(to bottom, rgba(15,17,21,0), rgba(15,17,21,0.9));
-	pointer-events: none;
+/* Robust bottom fade using mask-image so it blends with content */
+.list.has-scroll {
+	-webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) calc(100% - 18px), rgba(0,0,0,0) 100%);
+	mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) calc(100% - 18px), rgba(0,0,0,0) 100%);
 }
 
 /* Sleek scrollbar styling */
