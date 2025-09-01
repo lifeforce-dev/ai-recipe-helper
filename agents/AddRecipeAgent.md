@@ -10,6 +10,7 @@ This json file will be used by another agent to select recipes from the json lis
 - Generate a `recipe_id` slug: lowercase, a–z, 0–9, `_` or `-`. Prefer short, descriptive slugs.
 - Normalize ingredient names to snake_case (e.g., "Soy Sauce" -> "soy_sauce").
 - Choose units from the user's conventions: lb, count, cup, cup_dry, tbsp, tsp, clove, etc.
+ - Preserve grams exactly when provided in the source. Do not convert to ounces/cups unless the source used them. Avoid unnecessary unit conversions in general.
  - Set `theme_tags` to something reasonable for each recipe. Prefer existing tags; add new tags only when necessary.
  - Set `category` to one of: meat | produce | dairy | grain_legume | spice_herb | condiment | oil_fat | other (matches schema).
  - Set `storage` to one of: pantry | refrigerated | frozen (matches schema).
