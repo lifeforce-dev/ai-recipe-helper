@@ -4,6 +4,7 @@
   "ingredient_sections": [
     {
   "name": "Main Ingredients",
+    "rank": 0,
       "items": [
         { "item": "chicken_breast" },
         { "item": "garlic" },
@@ -13,6 +14,7 @@
     },
     {
   "name": "Sauce",
+    "rank": 1,
       "items": [
         { "item": "soy_sauce", "quantity": 3, "unit": "tbsp" },
         { "item": "oyster_sauce", "quantity": 1, "unit": "tbsp" },
@@ -23,6 +25,7 @@
     },
     {
   "name": "Blanching Water",
+    "rank": 2,
       "items": [
         { "label": "Ice Cold Water", "note": "enough to submerge" },
         { "item": "salt", "quantity": 1, "unit": "tbsp" },

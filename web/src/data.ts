@@ -7,6 +7,8 @@ export async function loadCatalogs(): Promise<DisplayEntry[]> {
 		fetch(`${base}data/recipe_views.json`).then(r => r.json())
 	])
 	const views = new Map<string, RecipeView>(vc.views.map((v: RecipeView) => [v.recipe_id, v]))
+
+	// Use the views as defined in data. Any manual ranks should already be present there.
 	return rc.recipes
 		.map((recipe: Recipe) => ({ recipe, view: views.get(recipe.recipe_id) }))
 		.sort((a: DisplayEntry, b: DisplayEntry) => a.recipe.title.localeCompare(b.recipe.title))

@@ -52,10 +52,18 @@ This json file will be used by another agent to select recipes from the json lis
   - Be concise but functionally identical: retain explicit sequencing, dependencies, and critical cues. When unsure, prefer near‑verbatim phrasing from the source.
 - Duplicate ingredient entries in the base recipe that appear at different times (like shaoxing_wine twice) remain as-is in the base array and should be placed in the appropriate view groups by context.
 
+### Manual ranks (required)
+- Each ingredient_sections entry MUST include a manual rank: an integer starting at 0 that reflects when that group is first used in the instructions.
+- Ranks are authoritative for ordering in the UI. Do not rely on any automatic or fuzzy matching. Read the instruction_sections yourself and set ranks accordingly.
+- All ranks within a single recipe must be unique and form a simple sequence (1..N). No duplicates, no gaps. If you add or remove a group, renumber as needed to keep the sequence correct.
+- If instruction_sections are edited or reordered, update ranks to match the new first-use order.
+- Persist ranks in data/recipe_views.json only (do not touch web/public files).
+
 ### View merge rules
 - File: `data/recipe_views.json` with shape `{ views: RecipeView[] }` (see `web/src/types.ts`).
 - If a view for `recipe_id` exists, update it; else append. Keep aliases simple and optional.
 - Do not modify views for other recipes.
+ - When updating an existing view, ensure every ingredient section has a valid rank and that the 1..N sequence is maintained. If you rename or split/merge groups, adjust ranks to preserve the correct instruction order.
 
 ### Group naming rules (Sectioned Prep)
 - Never include "Group n" in a group title.
@@ -69,6 +77,7 @@ This json file will be used by another agent to select recipes from the json lis
 - View ingredient_sections include quantities for real items; labels carry no fabricated numbers.
 - Instruction order matches the source; no new steps were invented.
  - Functional identity preserved: no context loss from oversimplification; original sequencing and intent are intact.
+ - Ingredient sections each include a manual `rank` (1..N), unique and consistent with first-use order in instruction_sections.
 
 ## Additional guidance: How to infer prep groupings when there are none provided
 

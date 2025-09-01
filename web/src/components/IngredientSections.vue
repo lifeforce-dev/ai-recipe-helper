@@ -5,7 +5,7 @@
       <div class="section-hint">Prep by groups so you can cook faster.</div>
     </div>
     <div class="grid-two">
-      <div v-for="(sec, i) in sections" :key="i" class="panel">
+      <div v-for="(sec, i) in sortedSections" :key="i" class="panel">
         <div class="panel-title">
           <span class="panel-name">{{ sec.name }}</span>
         </div>
@@ -58,6 +58,9 @@ function findDefault(item?: string, fromIndex?: number, portion?: number): { qty
   const factor = portion != null && portion > 0 ? portion : 1
   return { qty: picked.quantity != null ? picked.quantity * factor : undefined, unit: picked.unit }
 }
+const sortedSections = computed(() => {
+  return [...props.sections].sort((a, b) => (a.rank ?? Infinity) - (b.rank ?? Infinity))
+})
 </script>
 
 <style scoped>

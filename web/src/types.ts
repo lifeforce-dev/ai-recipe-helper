@@ -23,6 +23,7 @@ export type ViewItem =
 export type IngredientSection = {
 	name: string
 	items: ViewItem[]
+	rank?: number
 }
 export type InstructionSection = { name: string; steps: string[] }
 export type RecipeView = {

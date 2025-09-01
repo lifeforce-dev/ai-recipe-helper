@@ -10,6 +10,7 @@
       "ingredient_sections": [
         {
           "name": "Main Ingredients",
+          "rank": 2,
           "items": [
             { "item": "broccoli" },
             { "item": "garlic" },
@@ -18,6 +19,7 @@
         },
         {
           "name": "Sauce",
+          "rank": 3,
           "items": [
             { "item": "salt" },
             { "item": "sugar" },
@@ -30,6 +32,7 @@
         },
         {
           "name": "Blanching Water",
+          "rank": 0,
           "items": [
             { "label": "Ice Cold Water", "note": "enough to fully submerge broccoli" },
             { "item": "salt", "quantity": 1, "unit": "tbsp" },
@@ -38,6 +41,7 @@
         },
         {
           "name": "For Stir‑Fry",
+          "rank": 1,
           "items": [
             { "item": "neutral_oil" },
             { "item": "shaoxing_wine", "from_index": 0 }
@@ -82,6 +86,7 @@
       "ingredient_sections": [
         {
           "name": "Marinade",
+          "rank": 0,
           "items": [
             { "item": "chicken_thigh" },
             { "item": "greek_yogurt" },
@@ -96,12 +101,14 @@
         },
         {
           "name": "Onions",
+          "rank": 2,
           "items": [
             { "item": "onion", "note": "thinly sliced" }
           ]
         },
         {
           "name": "Aromatics",
+          "rank": 3,
           "items": [
             { "item": "garlic", "note": "finely chopped" },
             { "item": "ginger", "quantity": 1, "unit": "tbsp", "note": "grated (15g)" },
@@ -110,6 +117,7 @@
         },
         {
           "name": "Spice Mix",
+          "rank": 4,
           "items": [
             { "item": "garam_masala", "quantity": 1, "unit": "tsp" },
             { "item": "kashmiri_chili_powder", "quantity": 1, "unit": "tsp" },
@@ -120,6 +128,7 @@
         },
         {
           "name": "Have Ready",
+          "rank": 1,
           "items": [
             { "item": "ghee" },
             { "item": "crushed_tomatoes" },
@@ -153,6 +162,7 @@
       "ingredient_sections": [
         {
           "name": "Simmer Vegetables",
+          "rank": 4,
           "items": [
             { "item": "radish" },
             { "item": "onion" },
@@ -162,6 +172,7 @@
         },
         {
           "name": "Finish – Zucchini & Chili",
+          "rank": 5,
           "items": [
             { "item": "zucchini" },
             { "item": "cheongyang_chili_pepper" }
@@ -169,12 +180,14 @@
         },
         {
           "name": "Finish – Green Onion",
+          "rank": 6,
           "items": [
             { "item": "green_onion" }
           ]
         },
         {
           "name": "Pork & Oil",
+          "rank": 0,
           "items": [
             { "item": "pork" },
             { "label": "black pepper", "note": "generously" },
@@ -183,12 +196,14 @@
         },
         {
           "name": "Chili Oil",
+          "rank": 1,
           "items": [
             { "item": "red_chili_powder" }
           ]
         },
         {
           "name": "Broth Base",
+          "rank": 2,
           "items": [
             { "item": "water" },
             { "item": "gochujang" }
@@ -196,6 +211,7 @@
         },
         {
           "name": "Seasoning",
+          "rank": 3,
           "items": [
             { "item": "soup_soy_sauce" },
             { "item": "tuna_extract" },
@@ -258,6 +274,7 @@
       "ingredient_sections": [
         {
           "name": "Main",
+          "rank": 1,
           "items": [
             { "item": "chicken_thigh", "note": "bite‑size pieces" },
             { "item": "sweet_potato", "note": "thick sticks" },
@@ -270,6 +287,7 @@
         },
         {
           "name": "Marinade",
+          "rank": 0,
           "items": [
             { "item": "gochujang" },
             { "item": "rice_wine" },
@@ -313,6 +331,7 @@
       "ingredient_sections": [
         {
           "name": "Marinade",
+          "rank": 0,
           "items": [
             { "item": "gochujang" },
             { "item": "gochugaru" },
@@ -327,18 +346,21 @@
         },
         {
           "name": "Pork",
+          "rank": 2,
           "items": [
             { "item": "pork" }
           ]
         },
         {
           "name": "For Stir‑Fry",
+          "rank": 1,
           "items": [
             { "item": "neutral_oil" }
           ]
         },
         {
           "name": "Veg – Add Later",
+          "rank": 3,
           "items": [
             { "item": "onion" },
             { "item": "carrot", "note": "optional" },
@@ -347,12 +369,14 @@
         },
         {
           "name": "Finish – Green Onion",
+          "rank": 4,
           "items": [
             { "item": "green_onion" }
           ]
         },
         {
           "name": "Finish – Season",
+          "rank": 5,
           "items": [
             { "label": "sesame oil", "note": "drizzle to taste" },
             { "label": "black pepper", "note": "to taste" }
@@ -395,38 +419,38 @@
         "mongolian beef"
       ],
       "ingredient_sections": [
-        { "name": "Beef Coating", "items": [
+  { "name": "Beef Coating", "items": [
           { "item": "cornstarch" },
           { "item": "ground_white_pepper" },
           { "label": "salt", "note": "pinch" }
-        ]},
-        { "name": "Aromatics & Chili", "items": [
+  ], "rank": 2},
+  { "name": "Aromatics & Chili", "items": [
           { "item": "ginger" },
           { "item": "fresno_chili" },
           { "item": "gochugaru" }
-        ]},
-        { "name": "Brown Sugar", "items": [
+  ], "rank": 4},
+  { "name": "Brown Sugar", "items": [
           { "item": "brown_sugar" }
-        ]},
-        { "name": "Sauce Base", "items": [
+  ], "rank": 5},
+  { "name": "Sauce Base", "items": [
           { "item": "dark_soy_sauce" },
           { "item": "soy_sauce" },
           { "label": "water", "note": "splash" },
           { "label": "rice vinegar", "note": "to taste" }
-        ]},
-        { "name": "Finish – Herbs & Garlic", "items": [
+  ], "rank": 6},
+  { "name": "Finish – Herbs & Garlic", "items": [
           { "item": "thai_basil" },
           { "item": "garlic" }
-        ]},
-        { "name": "Beef", "items": [
+  ], "rank": 7},
+  { "name": "Beef", "items": [
           { "item": "flank_steak" }
-        ]},
-        { "name": "Wok Oil", "items": [
+  ], "rank": 1},
+  { "name": "Wok Oil", "items": [
           { "item": "peanut_oil" }
-        ]},
-        { "name": "Green Onion – Sear Early", "items": [
+  ], "rank": 0},
+  { "name": "Green Onion – Sear Early", "items": [
           { "item": "green_onion" }
-        ]}
+  ], "rank": 3}
       ],
       "instruction_sections": [
         { "name": "Prep", "steps": [
@@ -451,35 +475,35 @@
       "recipe_id": "simple_perfect_chili",
       "aliases": ["chili", "perfect chili", "simple chili"],
       "ingredient_sections": [
-        { "name": "Meat", "items": [
+  { "name": "Meat", "items": [
           { "item": "ground_beef" }
-        ]},
-        { "name": "Aromatics", "items": [
+  ], "rank": 1},
+  { "name": "Aromatics", "items": [
           { "item": "onion" },
           { "item": "garlic" }
-        ]},
-        { "name": "Spices", "items": [
+  ], "rank": 0},
+  { "name": "Spices", "items": [
           { "item": "chili_powder", "note": "Gebhardt if possible" },
           { "item": "ground_cumin" },
           { "item": "ground_oregano" },
           { "item": "cayenne_pepper" },
           { "item": "salt" }
-        ]},
-        { "name": "Liquids & Base", "items": [
+  ], "rank": 2},
+  { "name": "Liquids & Base", "items": [
           { "item": "tomato_sauce" },
           { "item": "red_wine" },
           { "item": "beef_broth", "note": "start with 3 cups" }
-        ]},
-        { "name": "Beans & Chocolate", "items": [
+  ], "rank": 3},
+  { "name": "Beans & Chocolate", "items": [
           { "item": "kidney_beans" },
           { "item": "pinto_beans" },
           { "item": "bakers_chocolate" }
-        ]},
-        { "name": "Finishers", "items": [
+  ], "rank": 4},
+  { "name": "Finishers", "items": [
           { "item": "masa_harina" },
           { "item": "water", "note": "for slurry" },
           { "item": "msg" }
-        ]}
+  ], "rank": 5}
       ],
       "instruction_sections": [
         { "name": "Prep – Everything", "steps": [
@@ -539,15 +563,15 @@
       "recipe_id": "candied_bacon",
       "aliases": ["candied bacon", "caramelized bacon"],
       "ingredient_sections": [
-        { "name": "Glaze", "items": [
+  { "name": "Glaze", "items": [
           { "item": "brown_sugar" },
           { "item": "rice_vinegar" },
           { "item": "maple_syrup" },
           { "label": "black pepper", "note": "to taste" }
-        ]},
-        { "name": "Bacon", "items": [
+  ], "rank": 0},
+  { "name": "Bacon", "items": [
           { "item": "bacon" }
-        ]}
+  ], "rank": 1}
       ],
       "instruction_sections": [
         { "name": "Prep", "steps": [
@@ -573,6 +597,7 @@
       "ingredient_sections": [
         {
           "name": "Main",
+          "rank": 2,
           "items": [
             { "item": "chicken_thigh" },
             { "item": "sweet_potato", "note": "cut into thick sticks" },
@@ -584,6 +609,7 @@
         },
         {
           "name": "Marinade",
+          "rank": 0,
           "items": [
             { "item": "gochujang" },
             { "item": "rice_wine" },
@@ -599,6 +625,7 @@
         },
         {
           "name": "For Stir‑Fry",
+          "rank": 1,
           "items": [
             { "item": "neutral_oil" }
           ]
