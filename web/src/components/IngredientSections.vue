@@ -75,10 +75,5 @@ function findDefault(item?: string, fromIndex?: number, portion?: number): { qty
 
 .panel-title { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; padding: 4px 0 6px; border-bottom: 1px solid rgba(255,255,255,0.06) }
 .panel-name { font-weight: 700; letter-spacing: .2px }
-/* Wrap long group names and avoid clipping */
-.panel-name { overflow-wrap: anywhere; word-break: break-word }
-/* Responsive: collapse two-column prep grid to one column on small screens */
-@media (max-width: 820px) {
-  .grid-two { display: grid; grid-template-columns: 1fr; gap: 12px }
-}
+/* keep previous layout; no forced wrapping */
 </style>

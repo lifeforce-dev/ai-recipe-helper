@@ -162,8 +162,8 @@ const activeEntry = computed<DisplayEntry | null>(() =>
 function openRecipe(id: string) {
   location.hash = `#/recipe/${id}`
   activeId.value = id
-  // On mobile, snap to recipe panel on selection.
-  if (isMobile) {
+  // Auto-scroll to the recipe panel on mobile after selection.
+  if (isMobile.value) {
     nextTick().then(() => scrollToPanel("right"))
   }
 }
