@@ -9,7 +9,7 @@
       ],
       "ingredient_sections": [
         {
-          "name": "Group 1 – Main",
+          "name": "Main Ingredients",
           "items": [
             { "item": "broccoli" },
             { "item": "garlic" },
@@ -17,7 +17,7 @@
           ]
         },
         {
-          "name": "Group 2 – Sauce",
+          "name": "Sauce",
           "items": [
             { "item": "salt" },
             { "item": "sugar" },
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "name": "Group 3 – Blanching",
+          "name": "Blanching Water",
           "items": [
             { "label": "Ice Cold Water", "note": "enough to fully submerge broccoli" },
             { "item": "salt", "quantity": 1, "unit": "tbsp" },
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "name": "Group 4 – For Stir Fry",
+          "name": "For Stir‑Fry",
           "items": [
             { "item": "neutral_oil" },
             { "item": "shaoxing_wine", "from_index": 0 }
@@ -95,13 +95,13 @@
           ]
         },
         {
-          "name": "Prep – Bowl 1",
+          "name": "Onions",
           "items": [
             { "item": "onion", "note": "thinly sliced" }
           ]
         },
         {
-          "name": "Prep – Bowl 2",
+          "name": "Aromatics",
           "items": [
             { "item": "garlic", "note": "finely chopped" },
             { "item": "ginger", "quantity": 1, "unit": "tbsp", "note": "grated (15g)" },
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "name": "Prep – Bowl 3 (Spices)",
+          "name": "Spice Mix",
           "items": [
             { "item": "garam_masala", "quantity": 1, "unit": "tsp" },
             { "item": "kashmiri_chili_powder", "quantity": 1, "unit": "tsp" },
@@ -152,7 +152,7 @@
       ],
       "ingredient_sections": [
         {
-          "name": "Prep – Vegetables (Simmer)",
+          "name": "Simmer Vegetables",
           "items": [
             { "item": "radish" },
             { "item": "onion" },
@@ -246,8 +246,7 @@
           ]
         }
       ]
-    }
-    ,
+    },
     {
       "recipe_id": "dak_galbi",
       "aliases": [
@@ -303,8 +302,7 @@
           ]
         }
       ]
-    }
-    ,
+    },
     {
       "recipe_id": "pork_stir_fry",
       "aliases": [
@@ -334,7 +332,7 @@
           ]
         },
         {
-          "name": "For Stir Fry",
+          "name": "For Stir‑Fry",
           "items": [
             { "item": "neutral_oil" }
           ]
@@ -390,67 +388,65 @@
           ]
         }
       ]
-    }
-    ,
+    },
     {
       "recipe_id": "mongolian_beef",
       "aliases": [
         "mongolian beef"
       ],
       "ingredient_sections": [
-        { "name": "Prep – Bowl 1", "items": [
+        { "name": "Beef Coating", "items": [
           { "item": "cornstarch" },
           { "item": "ground_white_pepper" },
           { "label": "salt", "note": "pinch" }
         ]},
-        { "name": "Prep – Bowl 2", "items": [
+        { "name": "Aromatics & Chili", "items": [
           { "item": "ginger" },
           { "item": "fresno_chili" },
           { "item": "gochugaru" }
         ]},
-        { "name": "Prep – Bowl 3", "items": [
+        { "name": "Brown Sugar", "items": [
           { "item": "brown_sugar" }
         ]},
-        { "name": "Prep – Bowl 4 (Sauce)", "items": [
+        { "name": "Sauce Base", "items": [
           { "item": "dark_soy_sauce" },
           { "item": "soy_sauce" },
           { "label": "water", "note": "splash" },
           { "label": "rice vinegar", "note": "to taste" }
         ]},
-        { "name": "Prep – Bowl 5", "items": [
+        { "name": "Finish – Herbs & Garlic", "items": [
           { "item": "thai_basil" },
           { "item": "garlic" }
         ]},
         { "name": "Beef", "items": [
           { "item": "flank_steak" }
         ]},
-        { "name": "For Wok", "items": [
+        { "name": "Wok Oil", "items": [
           { "item": "peanut_oil" }
         ]},
-        { "name": "Veg – Add Early", "items": [
+        { "name": "Green Onion – Sear Early", "items": [
           { "item": "green_onion" }
         ]}
       ],
       "instruction_sections": [
         { "name": "Prep", "steps": [
-          "Assemble Bowls 1–6 as described."
+          "Assemble prep groups as described."
         ]},
         { "name": "Season & Fry Beef", "steps": [
           "Heat peanut oil in wok.",
-          "Toss beef in Bowl 1 to coat; shallow‑fry until browned; set aside."
+          "Toss beef in Beef Coating; shallow‑fry until browned; set aside."
         ]},
         { "name": "Aromatics & Sauce", "steps": [
           "Sear green onions ~1 minute until caramelized.",
-          "Add Bowl 2; stir‑fry 45 seconds.",
-          "Add Bowl 3, then Bowl 4; boil and reduce ~3 minutes until slightly thickened."
+          "Add Aromatics & Chili; stir‑fry 45 seconds.",
+          "Add Brown Sugar, then Sauce Base; boil and reduce ~3 minutes until slightly thickened."
         ]},
         { "name": "Finish", "steps": [
           "Return beef; toss until sauce glazes.",
           "Cut heat; add Thai basil and garlic; toss to combine."
         ]}
       ]
-    }
-    ,
+    },
     {
       "recipe_id": "simple_perfect_chili",
       "aliases": ["chili", "perfect chili", "simple chili"],
@@ -538,8 +534,7 @@
           "Taste and add salt 1/4 tsp at a time until just slightly saltier than seems right when hot (it mutes as it cools)."
         ]}
       ]
-    }
-    ,
+    },
     {
       "recipe_id": "candied_bacon",
       "aliases": ["candied bacon", "caramelized bacon"],
@@ -566,8 +561,7 @@
           "Repeat glazing every 5 min until browned and crisp, ~35 min total."
         ]}
       ]
-    }
-    ,
+    },
     {
       "recipe_id": "dak_galbi",
       "aliases": [
@@ -604,7 +598,7 @@
           ]
         },
         {
-          "name": "For Stir Fry",
+          "name": "For Stir‑Fry",
           "items": [
             { "item": "neutral_oil" }
           ]

@@ -57,6 +57,12 @@ This json file will be used by another agent to select recipes from the json lis
 - If a view for `recipe_id` exists, update it; else append. Keep aliases simple and optional.
 - Do not modify views for other recipes.
 
+### Group naming rules (Sectioned Prep)
+- Never include "Group n" in a group title.
+- Titles must be concise and descriptive so the user can infer usage at a glance (e.g., "Sauce", "Blanching Water", "For Stir‑Fry", "Aromatics", "Broth Base").
+- Prefer action/purpose over container numbering (e.g., avoid "Prep – Bowl 2" unless the original recipe explicitly labels it that way and the label carries meaning).
+- Keep consistent style across a recipe (e.g., "Finish – Green Onion", "Veg – Add Later").
+
 ### Validation checklist (quick)
 - Recipe passes `schema/recipes.schema.json`.
 - ingredients use snake_case item names and standard units.

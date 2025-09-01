@@ -3,7 +3,7 @@
   "aliases": ["my chinese chicken breast thing"],
   "ingredient_sections": [
     {
-      "name": "Group 1 – Main",
+  "name": "Main Ingredients",
       "items": [
         { "item": "chicken_breast" },
         { "item": "garlic" },
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "name": "Group 2 – Sauce",
+  "name": "Sauce",
       "items": [
         { "item": "soy_sauce", "quantity": 3, "unit": "tbsp" },
         { "item": "oyster_sauce", "quantity": 1, "unit": "tbsp" },
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "name": "Group 3 – Blanching",
+  "name": "Blanching Water",
       "items": [
         { "label": "Ice Cold Water", "note": "enough to submerge" },
         { "item": "salt", "quantity": 1, "unit": "tbsp" },
