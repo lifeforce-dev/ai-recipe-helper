@@ -1,8 +1,5 @@
 <template>
   <div class="container">
-    <div class="header">
-      <div class="brand">Recipe Catalog</div>
-    </div>
 
     <div class="layout">
       <div class="panel">

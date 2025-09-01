@@ -73,15 +73,15 @@ a { color: inherit; text-decoration: none }
 .panel > .panel-head-section { margin-left: -2px; margin-right: -2px; padding-left: 0; padding-right: 0 }
 .panel-search { margin-bottom: 12px }
 .panel-head-section {
-	padding: 10px 0 12px 0; /* no side padding so children can align with list content */
-	margin: 0 0 8px 0;
+	padding: 10px 0 4px 0; /* no side padding so children can align with list content; tighter to divider */
+	margin: 0 0 -5px 0; /* reduce gap between search and divider */
 	border-radius: 12px;
 	background: linear-gradient(180deg, rgba(27,32,43,0.85), rgba(20,24,33,0.85));
 }
 .panel-head-section .catalog-head {
 	position: relative;
 	padding: 4px 0 8px 0;
-	margin: 0 12px 8px 12px; /* align with card text gutters */
+	margin: 0 12px 18px 12px; /* reduce space above input; bottom gap handled by header padding/margin */
 }
 .panel-head-section .catalog-head::after {
 	content: "";
