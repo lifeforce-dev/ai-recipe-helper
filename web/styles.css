@@ -154,15 +154,14 @@ a { color: inherit; text-decoration: none }
 /* Mobile: snap two panels horizontally; show one at a time */
 @media (max-width: 820px) {
 	.layout.mobile-snap {
-		display: block;
+		display: flex;            /* row of panels */
+		flex-wrap: nowrap;       /* keep panels on one row */
 		overflow-x: auto;
 		overflow-y: hidden;
 		scroll-snap-type: x mandatory;
-		white-space: nowrap;
 	}
 	.layout.mobile-snap > .panel {
-		display: inline-block;
-		vertical-align: top;
+		display: block;          /* flex item */
 		width: 100%;
 		min-width: 100%;
 		scroll-snap-align: start;
@@ -202,7 +201,14 @@ a { color: inherit; text-decoration: none }
 .mt-6 { margin-top: 6px }
 
 /* Recipe view */
-.recipe h1 { margin: 0 0 8px 0; font-size: 24px }
+.recipe h1 {
+	margin: 0 0 8px 0;
+	font-size: 24px;
+	/* Ensure long titles wrap on small screens instead of clipping. */
+	white-space: normal;
+	overflow-wrap: anywhere; /* allow breaks inside long words/URLs if needed */
+	word-break: normal;
+}
 .section { margin-top: 18px }
 .section h2 { margin: 0 0 10px 0; font-size: 16px; color: var(--muted) }
 .kv { color: var(--muted); font-size: 13px }

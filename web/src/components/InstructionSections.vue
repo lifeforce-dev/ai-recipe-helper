@@ -117,7 +117,15 @@ watch(
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 11px; margin-top: 2px;
 }
-.step { flex: 1; line-height: 1.4; font-size: 16px; color: #f1f5f9 }
+.step {
+  flex: 1;
+  line-height: 1.4;
+  font-size: 16px;
+  color: #f1f5f9;
+  /* Allow multi-line wrapping within the card */
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
 
 /* Persistent selection state mirrors hover but a bit stronger. */
 /* Local hover: tone down saturation vs. global rule to keep text as star. */
