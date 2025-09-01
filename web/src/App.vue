@@ -6,14 +6,19 @@
 
     <div class="layout">
       <div class="panel">
-        <div class="panel-search">
-          <div class="search">
-            <input
-              placeholder="Search recipes (title or alias)…"
-              v-model="query"
-            />
+        <div class="panel-head-section">
+          <div class="catalog-head">Recipe Catalog</div>
+          <div class="panel-search">
+            <div class="search">
+              <input
+                ref="searchInput"
+                placeholder="Search recipes (title or alias)…"
+                v-model="query"
+              />
+            </div>
           </div>
         </div>
+        <div class="panel-divider"></div>
         <div class="kv" style="margin-bottom:10px">{{ filtered.length }} recipe{{ filtered.length === 1 ? '' : 's' }}</div>
         <div class="list">
           <div
@@ -62,7 +67,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, ref } from "vue"
+import { computed, onMounted, onUnmounted, ref } from "vue"
 import Fuse from "fuse.js"
 import { loadCatalogs } from "./data"
 import type { DisplayEntry } from "./types"
@@ -71,6 +76,7 @@ import RecipeView from "./components/RecipeView.vue"
 const entries = ref<DisplayEntry[]>([])
 const query = ref("")
 const activeId = ref<string | null>(null)
+const searchInput = ref<HTMLInputElement | null>(null)
 
 onMounted(async () => {
   entries.value = await loadCatalogs()
@@ -79,6 +85,28 @@ onMounted(async () => {
   addEventListener("hashchange", () => {
     const id = location.hash.replace("#/recipe/", "")
     activeId.value = id || null
+  })
+
+  // Global "/" to focus the search, unless typing in a text field already.
+  const onKey = (e: KeyboardEvent) => {
+    if (e.key === "/" && !e.metaKey && !e.ctrlKey && !e.altKey) {
+      const target = e.target as HTMLElement | null
+      const tag = target?.tagName?.toLowerCase()
+      const isTyping = tag === "input" || tag === "textarea" || !!target?.isContentEditable
+      if (isTyping) {
+        return
+      }
+      e.preventDefault()
+      searchInput.value?.focus()
+      // Select current text to allow immediate overwrite.
+      searchInput.value?.select()
+    }
+  }
+  window.addEventListener("keydown", onKey)
+
+  // Cleanup on unmount to avoid leaks.
+  onUnmounted(() => {
+    window.removeEventListener("keydown", onKey)
   })
 })
 

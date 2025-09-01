@@ -62,9 +62,56 @@ a { color: inherit; text-decoration: none }
 	flex: 1; background: var(--panel); border: 1px solid var(--border); color: var(--text);
 	border-radius: 10px; padding: 12px 14px; outline: none;
 }
+.panel .search input {
+	background: linear-gradient(180deg, #161a22, #12161e);
+	border-radius: 10px;
+	border: 1px solid rgba(71,85,105,0.45);
+}
 .layout { display: grid; grid-template-columns: 330px 1fr; gap: 18px }
 .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 14px }
-.panel-search { margin-bottom: 10px }
+.panel-search { margin-bottom: 12px }
+.panel-head-section {
+	padding: 10px;
+	margin: -6px -6px 10px -6px; /* breathe to panel edges without changing panel padding elsewhere */
+	border-radius: 10px;
+}
+.panel-head-section .catalog-head {
+	position: relative;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+.panel-head-section .catalog-head::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 1px;
+	background: rgba(148,163,184,0.35); /* subtle, not bold underline */
+}
+.panel-head-section .search {
+	/* Slightly elevate the search affordance */
+	border-radius: 12px;
+}
+.catalog-head {
+	font-size: 12px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: #93a1b5;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+.panel .search {
+	background: linear-gradient(180deg, rgba(23,26,33,0.9), rgba(20,23,30,0.9));
+	border: 1px solid var(--border);
+	border-radius: 12px;
+	padding: 8px;
+	box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+.panel .search:focus-within {
+	border-color: rgba(96,165,250,0.5);
+	box-shadow: 0 0 0 3px rgba(96,165,250,0.18), 0 8px 28px rgba(0,0,0,0.35);
+}
 .list { position: relative; display: flex; flex-direction: column; gap: 8px; max-height: 72vh; overflow: auto }
 @supports (height: 100dvh) {
 	/* Use dynamic viewport on capable browsers to avoid resize jumps while scrolling. */
@@ -103,7 +150,7 @@ a { color: inherit; text-decoration: none }
 .badges { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px }
 .badge { font-size: 11px; color: #cbd5e1; background: #0e1320; border: 1px solid var(--border); padding: 2px 8px; border-radius: 999px }
 /* Subtle focus/hover for search input */
-.search input:focus { border-color: rgba(96,165,250,0.5); box-shadow: 0 0 0 3px rgba(96,165,250,0.15) }
+.search input:focus { border-color: rgba(96,165,250,0.6); box-shadow: 0 0 0 3px rgba(96,165,250,0.22) }
 .search input::placeholder { color: #90a0b5 }
 
 /* Utilities */

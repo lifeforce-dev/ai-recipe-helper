@@ -195,17 +195,5 @@ watch(
   font-size: 18px; /* + compared to step text */
   color: #eaf0f7;
 }
-/* Wayfinder underline keyed to the row accent for quick scanning. */
-.row-band.even .panel-name::after,
-.row-band.odd .panel-name::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  height: 3px;
-  width: 100%;
-  border-radius: 3px;
-}
-.row-band.even .panel-name::after { background: var(--rowband-even-accent) }
-.row-band.odd .panel-name::after { background: var(--rowband-odd-accent) }
+
 </style>
