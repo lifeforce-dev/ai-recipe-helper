@@ -1,5 +1,7 @@
 DISCLAIMER: Code directed by me, written almost entirely by AI
+
 Page is live here: http://lifeforce-dev.github.io/ai-recipe-helper/#/recipe/pork_stir_fry
+
 Recipe Planner Workspace
 ========================
 This folder is ready for VS Code + Copilot (ChatGPT 5) agents.
