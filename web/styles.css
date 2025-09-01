@@ -18,6 +18,13 @@
 	/* Leader line colors: odd/even rows for readability */
 	--leader-odd: #4a5266;
 	--leader-even: #1f2531;
+	/* Instruction row-band theming (distinct left-to-right bands) */
+	--rowband-even-bg: rgba(96, 165, 250, 0.14);
+	--rowband-even-border: rgba(96, 165, 250, 0.38);
+	--rowband-even-accent: #60a5fa;
+	--rowband-odd-bg: rgba(110, 231, 183, 0.14);
+	--rowband-odd-border: rgba(110, 231, 183, 0.38);
+	--rowband-odd-accent: #34d399;
 }
 
 /* Resets & layout */
