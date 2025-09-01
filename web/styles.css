@@ -22,7 +22,10 @@
 
 /* Resets & layout */
 * { box-sizing: border-box }
-html, body, #root { height: 100% }
+/* Allow page to grow beyond viewport height to avoid white tail on mobile. */
+html, body, #root { min-height: 100% }
+/* Apply background to both html and body so overscroll never shows white. */
+html { background: linear-gradient(180deg, #0f1115, #0c0d11) }
 body {
 	margin: 0;
 	font-family: Inter, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
