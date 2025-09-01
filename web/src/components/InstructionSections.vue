@@ -113,6 +113,14 @@ function toggleSelected(s: number, j: number): void {
 .step { flex: 1; line-height: 1.4; font-size: 16px; color: #f1f5f9 }
 
 /* Persistent selection state mirrors hover but a bit stronger. */
+/* Local hover: tone down saturation vs. global rule to keep text as star. */
+.steps .stepRow:hover {
+  background: rgba(255,255,255,0.04);
+  border-color: rgba(148,163,184,0.30);
+  box-shadow: inset 0 0 0 1px rgba(148,163,184,0.10);
+}
+
+/* Selected: vibrant wayfinder state (brighter than hover). */
 .stepRow.selected {
   background: rgba(96,165,250,0.12);
   border-color: rgba(96,165,250,0.55);
