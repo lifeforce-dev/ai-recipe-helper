@@ -1,8 +1,7 @@
 <template>
   <div class="container">
-
-    <div class="layout">
-      <div class="panel">
+    <div class="layout" ref="layoutEl" :class="{ 'mobile-snap': isMobile }">
+      <div class="panel" ref="leftPanel">
         <div class="panel-head-section">
           <div class="catalog-head">Recipe Catalog</div>
           <div class="panel-search">
@@ -17,7 +16,7 @@
         </div>
         <div class="panel-divider"></div>
         <div class="kv" style="margin-bottom:10px">{{ filtered.length }} recipe{{ filtered.length === 1 ? '' : 's' }}</div>
-  <div class="list" ref="primaryList">
+        <div class="list" ref="primaryList">
           <div
             v-for="entry in filtered"
             :key="entry.recipe.recipe_id"
@@ -32,10 +31,10 @@
           </div>
         </div>
 
-  <div v-if="suggestions.length" class="suggestions-title">Suggestions</div>
-  <div v-if="suggestions.length" class="panel-divider"></div>
-  <div v-if="suggestions.length" class="kv" style="margin-bottom:10px">{{ suggestions.length }} recipe{{ suggestions.length === 1 ? '' : 's' }}</div>
-  <div v-if="suggestions.length" class="list" ref="suggestionsList">
+        <div v-if="suggestions.length" class="suggestions-title">Suggestions</div>
+        <div v-if="suggestions.length" class="panel-divider"></div>
+        <div v-if="suggestions.length" class="kv" style="margin-bottom:10px">{{ suggestions.length }} recipe{{ suggestions.length === 1 ? '' : 's' }}</div>
+        <div v-if="suggestions.length" class="list" ref="suggestionsList">
           <div
             v-for="entry in suggestions"
             :key="entry.recipe.recipe_id + '-sugg'"
@@ -51,7 +50,7 @@
         </div>
       </div>
 
-      <div class="panel">
+      <div class="panel" ref="rightPanel">
         <RecipeView
           v-if="activeEntry"
           :recipe="activeEntry.recipe"
@@ -76,6 +75,9 @@ const activeId = ref<string | null>(null)
 const searchInput = ref<HTMLInputElement | null>(null)
 const primaryList = ref<HTMLDivElement | null>(null)
 const suggestionsList = ref<HTMLDivElement | null>(null)
+const layoutEl = ref<HTMLDivElement | null>(null)
+const leftPanel = ref<HTMLDivElement | null>(null)
+const rightPanel = ref<HTMLDivElement | null>(null)
 
 onMounted(async () => {
   entries.value = await loadCatalogs()
@@ -110,10 +112,14 @@ onMounted(async () => {
   })
 
   // Observe resize to update gradient visibility on lists.
-  const onResize = () => updateListScrollStates()
+  const onResize = () => {
+    updateListScrollStates()
+    ensureInitialPanel()
+  }
   window.addEventListener("resize", onResize)
   await nextTick()
   updateListScrollStates()
+  ensureInitialPanel()
 })
 
 const fuse = computed(() =>
@@ -156,6 +162,10 @@ const activeEntry = computed<DisplayEntry | null>(() =>
 function openRecipe(id: string) {
   location.hash = `#/recipe/${id}`
   activeId.value = id
+  // On mobile, snap to recipe panel on selection.
+  if (isMobile) {
+    nextTick().then(() => scrollToPanel("right"))
+  }
 }
 
 function updateListScroll(el: HTMLElement | null): void {
@@ -173,4 +183,32 @@ watch([filtered, suggestions], async () => {
   await nextTick()
   updateListScrollStates()
 })
+
+// Mobile snap UX -----------------------------------------------------------
+let mql: MediaQueryList | null = null
+const isMobile = ref(false)
+function setupMedia() {
+  mql = window.matchMedia("(max-width: 820px)")
+  const apply = () => (isMobile.value = !!mql && mql.matches)
+  apply()
+  mql.addEventListener("change", () => {
+    apply()
+    // When switching breakpoints, make sure the correct panel is in view.
+    nextTick().then(() => ensureInitialPanel())
+  })
+}
+setupMedia()
+
+function scrollToPanel(which: "left" | "right") {
+  const el = layoutEl.value
+  if (!el) return
+  const target = which === "left" ? leftPanel.value : rightPanel.value
+  if (!target) return
+  el.scrollTo({ left: target.offsetLeft, behavior: "smooth" })
+}
+function ensureInitialPanel() {
+  if (!isMobile.value) return
+  const hasRecipe = !!activeEntry.value
+  scrollToPanel(hasRecipe ? "right" : "left")
+}
 </script>
