@@ -176,6 +176,27 @@ a { color: inherit; text-decoration: none }
 		overflow: hidden;        /* prevent body scrolling at deep positions */
 	}
 }
+
+/* Desktop: pin the left panel (catalog) so it stays visible while the recipe panel scrolls */
+@media (min-width: 821px) {
+	/* Ensure grid items align from the top so sticky works predictably */
+	.layout { align-items: start }
+	/* Target the first panel in the layout as the sidebar */
+	.layout > .panel:first-child {
+		position: sticky;
+		top: 24px; /* match .container top padding so it hugs the container */
+		align-self: start;
+		/* Keep the panel within the viewport; internal lists manage their own scroll */
+		max-height: calc(100dvh - 48px); /* container has 24px top/bottom padding */
+		overflow: hidden; /* avoid double scrollbars; lists inside already scroll */
+	}
+	/* Make the recipe panel scroll independently within the viewport */
+	.layout > .panel:nth-child(2) {
+		align-self: start;
+		max-height: calc(100dvh - 48px);
+		overflow: auto;
+	}
+}
 .list::-webkit-scrollbar { width: 10px }
 .list::-webkit-scrollbar-track { background: rgba(17,20,26,0.6); border-radius: 10px }
 .list::-webkit-scrollbar-thumb {
@@ -184,6 +205,20 @@ a { color: inherit; text-decoration: none }
 	border: 2px solid rgba(17,20,26,0.6);
 }
 .list::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, rgba(148,163,184,0.65), rgba(96,120,156,0.75)) }
+
+/* Match recipe panel scrollbar to catalog list styling */
+.panel {
+	scrollbar-width: thin; /* Firefox */
+	scrollbar-color: rgba(148,163,184,0.35) rgba(17,20,26,0.6);
+}
+.panel::-webkit-scrollbar { width: 10px }
+.panel::-webkit-scrollbar-track { background: rgba(17,20,26,0.6); border-radius: 10px }
+.panel::-webkit-scrollbar-thumb {
+	background: linear-gradient(180deg, rgba(148,163,184,0.45), rgba(96,120,156,0.55));
+	border-radius: 10px;
+	border: 2px solid rgba(17,20,26,0.6);
+}
+.panel::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, rgba(148,163,184,0.65), rgba(96,120,156,0.75)) }
 .card {
 	padding: 12px; border: 1px solid transparent; border-radius: 10px; cursor: pointer; transition: border .15s, background .15s;
 	margin: 0 12px; /* align with header input left/right edges */
