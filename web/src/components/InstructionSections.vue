@@ -3,22 +3,23 @@
     <h2>Cooking</h2>
     <div class="section-hint">Do these groups in order.</div>
 
-    <!-- Row bands: each band spans two columns to encourage left-to-right flow per row. -->
-    <div class="rows-outer">
+    <!-- Single centered column using original panel/step colors. -->
+    <div class="single-col">
       <div
-        v-for="(row, r) in rows"
-        :key="r"
+        v-for="(sec, i) in sections"
+        :key="i"
         class="row-band"
-        :class="{ even: r % 2 === 0, odd: r % 2 === 1 }"
+        :class="{ even: i % 2 === 0, odd: i % 2 === 1 }"
       >
-        <div class="grid-two">
-          <div v-for="(sec, j) in row.items" :key="j" class="panel">
-            <div class="kv" style="margin-bottom:8px">{{ row.startIndex + j + 1 }}. {{ sec.name }}</div>
-            <div class="steps">
-              <div v-for="(s, k) in sec.steps" :key="k" class="stepRow">
-                <div class="num">{{ k + 1 }}</div>
-                <div class="step">{{ s }}</div>
-              </div>
+        <div class="panel">
+          <div class="panel-title" role="heading" aria-level="3">
+            <span class="panel-index">{{ i + 1 }}</span>
+            <span class="panel-name">{{ sec.name }}</span>
+          </div>
+          <div class="steps">
+            <div v-for="(s, j) in sec.steps" :key="j" class="stepRow">
+              <div class="num">{{ j + 1 }}</div>
+              <div class="step">{{ s }}</div>
             </div>
           </div>
         </div>
@@ -30,38 +31,23 @@
 
 <script setup lang="ts">
 import type { InstructionSection } from "../types"
-import { computed } from "vue"
 
-const props = defineProps<{ sections: InstructionSection[] }>()
-
-// Group instruction sections into visual rows of two.
-const rows = computed(() => {
-  const out: { startIndex: number; items: InstructionSection[] }[] = []
-  for (let i = 0; i < props.sections.length; i += 2) {
-    out.push({ startIndex: i, items: props.sections.slice(i, i + 2) })
-  }
-  return out
-})
+defineProps<{ sections: InstructionSection[] }>()
 </script>
 
 <style scoped>
-.rows-outer { display: flex; flex-direction: column; gap: 12px }
+.single-col { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px }
 
-/* Subtle colored band behind each pair of panels. */
+/* Alternating row backgrounds and accent rail (same scheme as two-column version). */
 .row-band {
   position: relative;
   border: 1px solid var(--border);
   border-radius: 16px;
-  padding: 10px 10px 10px 14px; /* a bit more left padding for accent rail */
+  padding: 10px 10px 10px 14px;
   background: var(--rowband-even-bg);
 }
 .row-band.even { border-color: var(--rowband-even-border) }
-.row-band.odd {
-  background: var(--rowband-odd-bg);
-  border-color: var(--rowband-odd-border);
-}
-
-/* Left accent rail to strengthen row identity. */
+.row-band.odd { background: var(--rowband-odd-bg); border-color: var(--rowband-odd-border) }
 .row-band::before {
   content: "";
   position: absolute;
@@ -77,8 +63,6 @@ const rows = computed(() => {
 
 .steps { display: flex; flex-direction: column; gap: 8px; }
 .stepRow { display: flex; align-items: flex-start; gap: 10px; }
-.steps { display: flex; flex-direction: column; gap: 8px; }
-.stepRow { display: flex; align-items: flex-start; gap: 10px; }
 .num {
   width: 24px; height: 24px; border-radius: 50%;
   background: var(--step-badge-bg);
@@ -88,4 +72,28 @@ const rows = computed(() => {
   font-weight: 700; font-size: 12px; margin-top: 2px;
 }
 .step { flex: 1; }
+
+/* Prominent panel header with index badge; color harmonizes with row theme. */
+.panel-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 10px;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.12);
+}
+.row-band.even .panel-title { border-color: var(--rowband-even-border); box-shadow: inset 0 0 0 1px rgba(96,165,250,0.12) }
+.row-band.odd .panel-title { border-color: var(--rowband-odd-border); box-shadow: inset 0 0 0 1px rgba(52,211,153,0.12) }
+.panel-index {
+  width: 22px; height: 22px; min-width: 22px; border-radius: 999px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 12px; color: #fff;
+  background: var(--rowband-even-accent);
+  border: 1px solid rgba(0,0,0,0.35);
+}
+.row-band.odd .panel-index { background: var(--rowband-odd-accent) }
+.panel-name { font-weight: 600; letter-spacing: .2px }
 </style>
