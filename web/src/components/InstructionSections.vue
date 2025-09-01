@@ -15,7 +15,6 @@
       >
         <div class="panel">
           <div class="panel-title" role="heading" aria-level="3">
-            <span class="panel-index">{{ i + 1 }}</span>
             <span class="panel-name">{{ sec.name }}</span>
           </div>
           <div class="steps">
@@ -66,20 +65,18 @@ defineProps<{ sections: InstructionSection[] }>()
 .steps { display: flex; flex-direction: column; gap: 8px; }
 .stepRow { display: flex; align-items: flex-start; gap: 10px; }
 .num {
-  width: 24px; height: 24px; border-radius: 50%;
+  width: 20px; height: 20px; border-radius: 50%;
   background: var(--step-badge-bg);
   border: 1px solid var(--step-badge-border);
   color: var(--step-badge-text);
   display: flex; align-items: center; justify-content: center;
-  font-weight: 700; font-size: 12px; margin-top: 2px;
+  font-weight: 700; font-size: 11px; margin-top: 2px;
 }
 .step { flex: 1; }
 
 /* Prominent panel header with index badge; color harmonizes with row theme. */
-.panel-title { display: flex; align-items: center; gap: 10px; margin-bottom: 10px }
-.panel-index { width: 22px; height: 22px; min-width: 22px; border-radius: 999px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 12px; color: #fff; background: var(--step-badge-bg); border: 1px solid var(--step-badge-border) }
-.row-band.odd .panel-index { background: var(--step-badge-bg) }
-.panel-name { font-weight: 600; letter-spacing: .2px }
+.panel-title { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; padding: 4px 0 6px; border-bottom: 1px solid rgba(255,255,255,0.06) }
+.panel-name { font-weight: 700; font-size: 17px; letter-spacing: .2px }
 
 /* Section scaffold (non-sticky) with a soft badge background. */
 .section-head {

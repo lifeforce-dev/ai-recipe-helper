@@ -12,8 +12,8 @@
 	--panel-alt-odd: #141a22; /* subtle alt background for panels */
 	--panel-alt-even: #171a21;
 	/* Step badge theme */
-	--step-badge-bg: rgba(56, 189, 248, 0.36); /* a touch brighter to anchor reading */
-	--step-badge-border: rgba(30, 64, 175, 0.85); /* darker outline */
+	--step-badge-bg: rgba(96, 165, 250, 0.22); /* softer fill */
+	--step-badge-border: rgba(30, 64, 175, 0.55); /* softer outline */
 	--step-badge-text: #ffffff; /* white numbers */
 	/* Leader line colors: odd/even rows for readability */
 	--leader-odd: #4a5266;
@@ -138,3 +138,5 @@ a { color: inherit; text-decoration: none }
 }
 .step { line-height: 1.45 }
 .step::before { content: none }
+/* Improve legibility rhythm for step content */
+.steps .step { line-height: 1.5 }
