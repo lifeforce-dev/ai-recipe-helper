@@ -1,3 +1,4 @@
+DISCLAIMER: Code directed by me, written almost entirely by AI
 
 Recipe Planner Workspace
 ========================
