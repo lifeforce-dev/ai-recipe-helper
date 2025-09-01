@@ -9,7 +9,11 @@
 
     <IngredientOverview :ingredients="recipe.ingredients" />
 
-    <IngredientSections v-if="view?.ingredient_sections" :sections="view.ingredient_sections" />
+    <IngredientSections
+      v-if="view?.ingredient_sections"
+      :sections="view.ingredient_sections"
+      :ingredients="recipe.ingredients"
+    />
     <InstructionSections v-if="view?.instruction_sections" :sections="view.instruction_sections" />
   </div>
   <div v-else class="kv">Select a recipe to view details.</div>

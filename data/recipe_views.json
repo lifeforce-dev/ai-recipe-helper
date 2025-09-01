@@ -11,21 +11,21 @@
         {
           "name": "Group 1 – Main",
           "items": [
-            { "item": "broccoli", "quantity": 1, "unit": "lb" },
-            { "item": "garlic", "quantity": 5, "unit": "clove" },
-            { "item": "ginger", "quantity": 0.5, "unit": "oz" }
+            { "item": "broccoli" },
+            { "item": "garlic" },
+            { "item": "ginger" }
           ]
         },
         {
           "name": "Group 2 – Sauce",
           "items": [
-            { "item": "salt", "quantity": 0.5, "unit": "tsp" },
-            { "item": "sugar", "quantity": 1, "unit": "tsp" },
-            { "item": "shaoxing_wine", "quantity": 1, "unit": "tbsp" },
-            { "item": "chicken_bouillon_powder", "quantity": 1, "unit": "tsp" },
-            { "item": "cornstarch", "quantity": 2, "unit": "tsp" },
-            { "item": "water", "quantity": 2, "unit": "tbsp" },
-            { "item": "oyster_sauce", "quantity": 1, "unit": "tsp" }
+            { "item": "salt" },
+            { "item": "sugar" },
+            { "item": "shaoxing_wine", "from_index": 1 },
+            { "item": "chicken_bouillon_powder" },
+            { "item": "cornstarch" },
+            { "item": "water" },
+            { "item": "oyster_sauce" }
           ]
         },
         {
@@ -39,8 +39,8 @@
         {
           "name": "Group 4 – For Stir Fry",
           "items": [
-            { "item": "neutral_oil", "quantity": 2, "unit": "tbsp" },
-            { "item": "shaoxing_wine", "quantity": 1, "unit": "tsp" }
+            { "item": "neutral_oil" },
+            { "item": "shaoxing_wine", "from_index": 0 }
           ]
         }
       ],
@@ -83,13 +83,13 @@
         {
           "name": "Marinade",
           "items": [
-            { "item": "chicken_thigh", "quantity": 1.5, "unit": "lb" },
-            { "item": "greek_yogurt", "quantity": 0.75, "unit": "cup" },
-            { "item": "lemon_juice", "quantity": 2, "unit": "tsp" },
+            { "item": "chicken_thigh" },
+            { "item": "greek_yogurt" },
+            { "item": "lemon_juice" },
             { "label": "ginger grated", "note": "2-inch knob" },
             { "item": "kashmiri_chili_powder", "quantity": 2.5, "unit": "tsp" },
             { "item": "turmeric", "quantity": 1, "unit": "tsp" },
-            { "item": "ground_cumin", "quantity": 1, "unit": "tsp" },
+            { "item": "ground_cumin" },
             { "item": "garam_masala", "quantity": 1, "unit": "tbsp" },
             { "item": "salt", "quantity": 2, "unit": "tsp" }
           ]
@@ -97,13 +97,13 @@
         {
           "name": "Prep – Bowl 1",
           "items": [
-            { "item": "onion", "quantity": 1, "unit": "count", "note": "thinly sliced" }
+            { "item": "onion", "note": "thinly sliced" }
           ]
         },
         {
           "name": "Prep – Bowl 2",
           "items": [
-            { "item": "garlic", "quantity": 5, "unit": "clove", "note": "finely chopped" },
+            { "item": "garlic", "note": "finely chopped" },
             { "item": "ginger", "quantity": 1, "unit": "tbsp", "note": "grated (15g)" },
             { "item": "salt", "quantity": 0.5, "unit": "tsp" }
           ]
@@ -114,17 +114,17 @@
             { "item": "garam_masala", "quantity": 1, "unit": "tsp" },
             { "item": "kashmiri_chili_powder", "quantity": 1, "unit": "tsp" },
             { "item": "turmeric", "quantity": 0.5, "unit": "tsp" },
-            { "item": "fenugreek_powder", "quantity": 0.5, "unit": "tsp" },
-            { "item": "sugar", "quantity": 1, "unit": "tbsp" }
+            { "item": "fenugreek_powder" },
+            { "item": "sugar" }
           ]
         },
         {
           "name": "Have Ready",
           "items": [
-            { "item": "ghee", "quantity": 2, "unit": "tbsp" },
-            { "item": "crushed_tomatoes", "quantity": 14, "unit": "oz" },
-            { "item": "heavy_cream", "quantity": 0.75, "unit": "cup" },
-            { "item": "unsalted_butter", "quantity": 2, "unit": "tbsp" }
+            { "item": "ghee" },
+            { "item": "crushed_tomatoes" },
+            { "item": "heavy_cream" },
+            { "item": "unsalted_butter" }
           ]
         }
       ],
@@ -154,53 +154,53 @@
         {
           "name": "Prep – Vegetables (Simmer)",
           "items": [
-            { "item": "radish", "quantity": 1, "unit": "handful" },
-            { "item": "onion", "quantity": 0.5, "unit": "count" },
-            { "item": "shiitake_mushroom", "quantity": 2, "unit": "count" },
-            { "item": "yellow_potato", "quantity": 1, "unit": "count" }
+            { "item": "radish" },
+            { "item": "onion" },
+            { "item": "shiitake_mushroom" },
+            { "item": "yellow_potato" }
           ]
         },
         {
           "name": "Finish – Zucchini & Chili",
           "items": [
-            { "item": "zucchini", "quantity": 1, "unit": "count" },
-            { "item": "cheongyang_chili_pepper", "quantity": 2, "unit": "count" }
+            { "item": "zucchini" },
+            { "item": "cheongyang_chili_pepper" }
           ]
         },
         {
           "name": "Finish – Green Onion",
           "items": [
-            { "item": "green_onion", "quantity": 1, "unit": "count" }
+            { "item": "green_onion" }
           ]
         },
         {
           "name": "Pork & Oil",
           "items": [
-            { "item": "pork", "quantity": 6.3, "unit": "oz" },
+            { "item": "pork" },
             { "label": "black pepper", "note": "generously" },
-            { "item": "neutral_oil", "quantity": 0.33, "unit": "cup" }
+            { "item": "neutral_oil" }
           ]
         },
         {
           "name": "Chili Oil",
           "items": [
-            { "item": "red_chili_powder", "quantity": 4, "unit": "tbsp" }
+            { "item": "red_chili_powder" }
           ]
         },
         {
           "name": "Broth Base",
           "items": [
-            { "item": "water", "quantity": 2.5, "unit": "cup" },
-            { "item": "gochujang", "quantity": 2, "unit": "tbsp" }
+            { "item": "water" },
+            { "item": "gochujang" }
           ]
         },
         {
           "name": "Seasoning",
           "items": [
-            { "item": "soup_soy_sauce", "quantity": 2, "unit": "tbsp" },
-            { "item": "tuna_extract", "quantity": 1, "unit": "tbsp" },
-            { "item": "sugar", "quantity": 1, "unit": "tbsp" },
-            { "item": "garlic", "quantity": 1, "unit": "tbsp" }
+            { "item": "soup_soy_sauce" },
+            { "item": "tuna_extract" },
+            { "item": "sugar" },
+            { "item": "garlic" }
           ]
         }
       ],
@@ -260,27 +260,27 @@
         {
           "name": "Main",
           "items": [
-            { "item": "chicken_thigh", "quantity": 1.1, "unit": "lb", "note": "bite‑size pieces" },
-            { "item": "sweet_potato", "quantity": 0.5, "unit": "count", "note": "thick sticks" },
-            { "item": "carrot", "quantity": 0.5, "unit": "count", "note": "diagonal" },
-            { "item": "cabbage", "quantity": 0.25, "unit": "count", "note": "shredded" },
-            { "item": "perilla_leaf", "quantity": 10, "unit": "count", "note": "thinly sliced" },
-            { "item": "rice_cake", "quantity": 18, "unit": "count", "note": "separate; soak if packaged" },
-            { "item": "neutral_oil", "quantity": 2, "unit": "tbsp" }
+            { "item": "chicken_thigh", "note": "bite‑size pieces" },
+            { "item": "sweet_potato", "note": "thick sticks" },
+            { "item": "carrot", "note": "diagonal" },
+            { "item": "cabbage", "note": "shredded" },
+            { "item": "perilla_leaf", "note": "thinly sliced" },
+            { "item": "rice_cake", "note": "separate; soak if packaged" },
+            { "item": "neutral_oil" }
           ]
         },
         {
           "name": "Marinade",
           "items": [
-            { "item": "gochujang", "quantity": 3, "unit": "tbsp" },
-            { "item": "rice_wine", "quantity": 2, "unit": "tbsp" },
-            { "item": "gochugaru", "quantity": 1, "unit": "tbsp" },
-            { "item": "soy_sauce", "quantity": 1, "unit": "tbsp" },
-            { "item": "sugar", "quantity": 1, "unit": "tbsp" },
-            { "item": "garlic", "quantity": 1, "unit": "tbsp" },
-            { "item": "ginger", "quantity": 1, "unit": "tsp" },
-            { "item": "korean_curry_powder", "quantity": 1, "unit": "tsp" },
-            { "item": "onion", "quantity": 0.5, "unit": "count", "note": "grated or minced" },
+            { "item": "gochujang" },
+            { "item": "rice_wine" },
+            { "item": "gochugaru" },
+            { "item": "soy_sauce" },
+            { "item": "sugar" },
+            { "item": "garlic" },
+            { "item": "ginger" },
+            { "item": "korean_curry_powder" },
+            { "item": "onion", "note": "grated or minced" },
             { "label": "black pepper", "note": "few sprinkles" }
           ]
         }
@@ -316,41 +316,41 @@
         {
           "name": "Marinade",
           "items": [
-            { "item": "gochujang", "quantity": 2, "unit": "tbsp" },
-            { "item": "gochugaru", "quantity": 1, "unit": "tbsp" },
-            { "item": "soy_sauce", "quantity": 2, "unit": "tbsp" },
-            { "item": "sugar", "quantity": 1, "unit": "tbsp" },
-            { "item": "honey", "quantity": 1, "unit": "tbsp" },
-            { "item": "sesame_oil", "quantity": 1, "unit": "tbsp" },
+            { "item": "gochujang" },
+            { "item": "gochugaru" },
+            { "item": "soy_sauce" },
+            { "item": "sugar" },
+            { "item": "honey" },
+            { "item": "sesame_oil" },
             { "item": "garlic", "quantity": 1, "unit": "tbsp" },
-            { "item": "ginger", "quantity": 1, "unit": "tbsp" },
-            { "item": "mirin", "quantity": 1, "unit": "tbsp" }
+            { "item": "ginger" },
+            { "item": "mirin" }
           ]
         },
         {
           "name": "Pork",
           "items": [
-            { "item": "pork", "quantity": 1.1, "unit": "lb" }
+            { "item": "pork" }
           ]
         },
         {
           "name": "For Stir Fry",
           "items": [
-            { "item": "neutral_oil", "quantity": 1, "unit": "tbsp" }
+            { "item": "neutral_oil" }
           ]
         },
         {
           "name": "Veg – Add Later",
           "items": [
-            { "item": "onion", "quantity": 1, "unit": "count" },
-            { "item": "carrot", "quantity": 1, "unit": "count", "note": "optional" },
+            { "item": "onion" },
+            { "item": "carrot", "note": "optional" },
             { "item": "garlic", "quantity": 3, "unit": "clove" }
           ]
         },
         {
           "name": "Finish – Green Onion",
           "items": [
-            { "item": "green_onion", "quantity": 2, "unit": "count" }
+            { "item": "green_onion" }
           ]
         },
         {
@@ -399,36 +399,36 @@
       ],
       "ingredient_sections": [
         { "name": "Prep – Bowl 1", "items": [
-          { "item": "cornstarch", "quantity": 0.25, "unit": "cup" },
-          { "item": "ground_white_pepper", "quantity": 0.5, "unit": "tsp" },
+          { "item": "cornstarch" },
+          { "item": "ground_white_pepper" },
           { "label": "salt", "note": "pinch" }
         ]},
         { "name": "Prep – Bowl 2", "items": [
-          { "item": "ginger", "quantity": 1, "unit": "tbsp" },
-          { "item": "fresno_chili", "quantity": 2, "unit": "count" },
-          { "item": "gochugaru", "quantity": 2, "unit": "tsp" }
+          { "item": "ginger" },
+          { "item": "fresno_chili" },
+          { "item": "gochugaru" }
         ]},
         { "name": "Prep – Bowl 3", "items": [
-          { "item": "brown_sugar", "quantity": 0.5, "unit": "cup" }
+          { "item": "brown_sugar" }
         ]},
         { "name": "Prep – Bowl 4 (Sauce)", "items": [
-          { "item": "dark_soy_sauce", "quantity": 0.25, "unit": "cup" },
-          { "item": "soy_sauce", "quantity": 0.25, "unit": "cup" },
+          { "item": "dark_soy_sauce" },
+          { "item": "soy_sauce" },
           { "label": "water", "note": "splash" },
           { "label": "rice vinegar", "note": "to taste" }
         ]},
         { "name": "Prep – Bowl 5", "items": [
-          { "item": "thai_basil", "quantity": 1, "unit": "handful" },
-          { "item": "garlic", "quantity": 5, "unit": "clove" }
+          { "item": "thai_basil" },
+          { "item": "garlic" }
         ]},
         { "name": "Beef", "items": [
-          { "item": "flank_steak", "quantity": 1, "unit": "lb" }
+          { "item": "flank_steak" }
         ]},
         { "name": "For Wok", "items": [
-          { "item": "peanut_oil", "quantity": 3, "unit": "tbsp" }
+          { "item": "peanut_oil" }
         ]},
         { "name": "Veg – Add Early", "items": [
-          { "item": "green_onion", "quantity": 1, "unit": "bunch" }
+          { "item": "green_onion" }
         ]}
       ],
       "instruction_sections": [
@@ -456,33 +456,33 @@
       "aliases": ["chili", "perfect chili", "simple chili"],
       "ingredient_sections": [
         { "name": "Meat", "items": [
-          { "item": "ground_beef", "quantity": 2, "unit": "lb" }
+          { "item": "ground_beef" }
         ]},
         { "name": "Aromatics", "items": [
-          { "item": "onion", "quantity": 1, "unit": "count" },
-          { "item": "garlic", "quantity": 5, "unit": "clove" }
+          { "item": "onion" },
+          { "item": "garlic" }
         ]},
         { "name": "Spices", "items": [
-          { "item": "chili_powder", "quantity": 2, "unit": "tbsp", "note": "Gebhardt if possible" },
-          { "item": "ground_cumin", "quantity": 1, "unit": "tsp" },
-          { "item": "ground_oregano", "quantity": 1, "unit": "tsp" },
-          { "item": "cayenne_pepper", "quantity": 0.25, "unit": "tsp" },
-          { "item": "salt", "quantity": 1, "unit": "tsp" }
+          { "item": "chili_powder", "note": "Gebhardt if possible" },
+          { "item": "ground_cumin" },
+          { "item": "ground_oregano" },
+          { "item": "cayenne_pepper" },
+          { "item": "salt" }
         ]},
         { "name": "Liquids & Base", "items": [
-          { "item": "tomato_sauce", "quantity": 8, "unit": "oz" },
-          { "item": "red_wine", "quantity": 0.25, "unit": "cup" },
-          { "item": "beef_broth", "quantity": 4, "unit": "cup", "note": "start with 3 cups" }
+          { "item": "tomato_sauce" },
+          { "item": "red_wine" },
+          { "item": "beef_broth", "note": "start with 3 cups" }
         ]},
         { "name": "Beans & Chocolate", "items": [
-          { "item": "kidney_beans", "quantity": 15, "unit": "oz" },
-          { "item": "pinto_beans", "quantity": 15, "unit": "oz" },
-          { "item": "bakers_chocolate", "quantity": 0.5, "unit": "square" }
+          { "item": "kidney_beans" },
+          { "item": "pinto_beans" },
+          { "item": "bakers_chocolate" }
         ]},
         { "name": "Finishers", "items": [
-          { "item": "masa_harina", "quantity": 0.25, "unit": "cup" },
-          { "item": "water", "quantity": 0.5, "unit": "cup", "note": "for slurry" },
-          { "item": "msg", "quantity": 0.25, "unit": "tsp" }
+          { "item": "masa_harina" },
+          { "item": "water", "note": "for slurry" },
+          { "item": "msg" }
         ]}
       ],
       "instruction_sections": [
@@ -518,13 +518,13 @@
       "aliases": ["candied bacon", "caramelized bacon"],
       "ingredient_sections": [
         { "name": "Glaze", "items": [
-          { "item": "brown_sugar", "quantity": 0.25, "unit": "cup" },
-          { "item": "rice_vinegar", "quantity": 2, "unit": "tbsp" },
-          { "item": "maple_syrup", "quantity": 2, "unit": "tbsp" },
+          { "item": "brown_sugar" },
+          { "item": "rice_vinegar" },
+          { "item": "maple_syrup" },
           { "label": "black pepper", "note": "to taste" }
         ]},
         { "name": "Bacon", "items": [
-          { "item": "bacon", "quantity": 1, "unit": "lb" }
+          { "item": "bacon" }
         ]}
       ],
       "instruction_sections": [
@@ -553,33 +553,33 @@
         {
           "name": "Main",
           "items": [
-            { "item": "chicken_thigh", "quantity": 1.1, "unit": "lb" },
-            { "item": "sweet_potato", "quantity": 0.5, "unit": "count", "note": "cut into thick sticks" },
-            { "item": "carrot", "quantity": 0.5, "unit": "count", "note": "diagonal slices" },
-            { "item": "cabbage", "quantity": 0.25, "unit": "count", "note": "shredded" },
-            { "item": "perilla_leaf", "quantity": 10, "unit": "count", "note": "thinly sliced" },
-            { "item": "rice_cake", "quantity": 18, "unit": "count", "note": "separate; soak if packaged" }
+            { "item": "chicken_thigh" },
+            { "item": "sweet_potato", "note": "cut into thick sticks" },
+            { "item": "carrot", "note": "diagonal slices" },
+            { "item": "cabbage", "note": "shredded" },
+            { "item": "perilla_leaf", "note": "thinly sliced" },
+            { "item": "rice_cake", "note": "separate; soak if packaged" }
           ]
         },
         {
           "name": "Marinade",
           "items": [
-            { "item": "gochujang", "quantity": 3, "unit": "tbsp" },
-            { "item": "rice_wine", "quantity": 2, "unit": "tbsp" },
-            { "item": "gochugaru", "quantity": 1, "unit": "tbsp" },
-            { "item": "soy_sauce", "quantity": 1, "unit": "tbsp" },
-            { "item": "sugar", "quantity": 1, "unit": "tbsp" },
-            { "item": "garlic", "quantity": 1, "unit": "tbsp" },
-            { "item": "ginger", "quantity": 1, "unit": "tsp" },
-            { "item": "korean_curry_powder", "quantity": 1, "unit": "tsp" },
-            { "item": "onion", "quantity": 0.5, "unit": "count", "note": "grated or minced" },
+            { "item": "gochujang" },
+            { "item": "rice_wine" },
+            { "item": "gochugaru" },
+            { "item": "soy_sauce" },
+            { "item": "sugar" },
+            { "item": "garlic" },
+            { "item": "ginger" },
+            { "item": "korean_curry_powder" },
+            { "item": "onion", "note": "grated or minced" },
             { "label": "black pepper", "note": "few sprinkles" }
           ]
         },
         {
           "name": "For Stir Fry",
           "items": [
-            { "item": "neutral_oil", "quantity": 2, "unit": "tbsp" }
+            { "item": "neutral_oil" }
           ]
         }
       ],

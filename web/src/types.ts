@@ -17,7 +17,7 @@ export type Recipe = {
 export type RecipeCatalog = { recipes: Recipe[] }
 
 export type ViewItem =
-	| { item: string; quantity?: number; unit?: string; note?: string }
+	| { item: string; quantity?: number; unit?: string; note?: string; from_index?: number; portion?: number }
 	| { label: string; note?: string }
 
 export type IngredientSection = {
