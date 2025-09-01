@@ -393,5 +393,67 @@
         ]}
       ]
     }
+    ,
+    {
+      "recipe_id": "simple_perfect_chili",
+      "aliases": ["chili", "perfect chili", "simple chili"],
+      "ingredient_sections": [
+        { "name": "Meat", "items": [
+          { "item": "ground_beef", "quantity": 2, "unit": "lb" }
+        ]},
+        { "name": "Aromatics", "items": [
+          { "item": "onion", "quantity": 1, "unit": "count" },
+          { "item": "garlic", "quantity": 5, "unit": "clove" }
+        ]},
+        { "name": "Spices", "items": [
+          { "item": "chili_powder", "quantity": 2, "unit": "tbsp", "note": "Gebhardt if possible" },
+          { "item": "ground_cumin", "quantity": 1, "unit": "tsp" },
+          { "item": "ground_oregano", "quantity": 1, "unit": "tsp" },
+          { "item": "cayenne_pepper", "quantity": 0.25, "unit": "tsp" },
+          { "item": "salt", "quantity": 1, "unit": "tsp" }
+        ]},
+        { "name": "Liquids & Base", "items": [
+          { "item": "tomato_sauce", "quantity": 8, "unit": "oz" },
+          { "item": "red_wine", "quantity": 0.25, "unit": "cup" },
+          { "item": "beef_broth", "quantity": 4, "unit": "cup", "note": "start with 3 cups" }
+        ]},
+        { "name": "Beans & Chocolate", "items": [
+          { "item": "kidney_beans", "quantity": 15, "unit": "oz" },
+          { "item": "pinto_beans", "quantity": 15, "unit": "oz" },
+          { "item": "bakers_chocolate", "quantity": 0.5, "unit": "square" }
+        ]},
+        { "name": "Finishers", "items": [
+          { "item": "masa_harina", "quantity": 0.25, "unit": "cup" },
+          { "item": "water", "quantity": 0.5, "unit": "cup", "note": "for slurry" },
+          { "item": "msg", "quantity": 0.25, "unit": "tsp" }
+        ]}
+      ],
+      "instruction_sections": [
+        { "name": "Prep", "steps": [
+          "Drain and rinse beans; chop onion; rough‑chop garlic.",
+          "Have salt handy."
+        ]},
+        { "name": "Brown Beef", "steps": [
+          "Heat stainless pan very hot; oil lightly.",
+          "Press 1 lb beef into thin slab; sear 2–3 min per side to very brown; remove and repeat.",
+          "Reserve some beef fat in pan."
+        ]},
+        { "name": "Build Flavor", "steps": [
+          "Sweat onions in beef fat until soft; remove.",
+          "Toast garlic 30 sec; return onions.",
+          "Add spices and salt; toast 1 min (dry).",
+          "Add tomato sauce; cook to deep red, scraping fond; remove from heat."
+        ]},
+        { "name": "Combine & Simmer", "steps": [
+          "Heat pot very hot; deglaze with red wine ~30 sec.",
+          "Add browned beef, onion/spice/tomato mix, 3 cups beef broth, beans, and chocolate.",
+          "Cover and simmer 1 hour, stirring every 15 min to lift fond; add more broth if too thick."
+        ]},
+        { "name": "Finish", "steps": [
+          "Whisk masa harina with cold water; pour slurry into chili (never add dry).",
+          "Stir in 1/4 tsp MSG; salt to taste (slightly over what seems right when hot)."
+        ]}
+      ]
+    }
   ]
 }

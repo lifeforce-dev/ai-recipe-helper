@@ -129,5 +129,36 @@
       ],
       "instructions": "Prep bowls: B1 cornstarch + white pepper + salt; B2 ginger + fresno chiles + gochugaru; B3 brown sugar; B4 dark soy + soy sauce + water + rice vinegar; B5 Thai basil + garlic; B6 flank steak sliced 1/2 inch. Heat peanut oil in wok. Toss beef in B1; shallow‑fry until browned; set aside. Sear green onions ~1 minute until caramelized. Add B2; stir‑fry 45 seconds. Add B3, then B4; boil and reduce ~3 minutes. Return beef; toss until glazed. Cut heat; add Thai basil and garlic; toss to combine."
     }
+    ,
+    {
+      "recipe_id": "simple_perfect_chili",
+      "title": "Simple, Perfect Chili",
+      "servings": 6,
+      "theme_tags": ["american", "beef", "chili", "stew"],
+      "source": "https://www.foodnetwork.com/recipes/ree-drummond/simple-perfect-chili-recipe-2107099",
+      "ingredients": [
+        { "item": "ground_beef", "quantity": 2, "unit": "lb", "category": "meat", "storage": "refrigerated" },
+        { "item": "onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
+        { "item": "garlic", "quantity": 5, "unit": "clove", "category": "produce", "storage": "pantry" },
+
+        { "item": "tomato_sauce", "quantity": 8, "unit": "oz", "category": "condiment", "storage": "pantry" },
+        { "item": "chili_powder", "quantity": 2, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "ground_cumin", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "ground_oregano", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "salt", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "cayenne_pepper", "quantity": 0.25, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+
+        { "item": "beef_broth", "quantity": 4, "unit": "cup", "category": "other", "storage": "pantry" },
+        { "item": "red_wine", "quantity": 0.25, "unit": "cup", "category": "other", "storage": "pantry" },
+        { "item": "kidney_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
+        { "item": "pinto_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
+        { "item": "bakers_chocolate", "quantity": 0.5, "unit": "square", "category": "other", "storage": "pantry" },
+
+        { "item": "masa_harina", "quantity": 0.25, "unit": "cup", "category": "grain_legume", "storage": "pantry" },
+        { "item": "water", "quantity": 0.5, "unit": "cup", "category": "other", "storage": "pantry" },
+        { "item": "msg", "quantity": 0.25, "unit": "tsp", "category": "other", "storage": "pantry" }
+      ],
+      "instructions": "Brown beef in two pressed batches for deep crust; reserve fat. Sweat onions; toast garlic and spices in beef fat, then add tomato sauce and cook to deep red. Deglaze pot with red wine; add beef, onion/spice mix, 3 cups beef broth, beans, and chocolate. Cover and simmer 1 hour, stirring every 15 minutes to lift fond; add more broth as needed. Finish with masa harina slurry, 1/4 tsp MSG, and salt to taste."
+    }
   ]
 }
