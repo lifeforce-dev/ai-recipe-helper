@@ -118,6 +118,8 @@ watch(
   font-weight: 700; font-size: 11px; margin-top: 2px;
 }
 .step { flex: 1; line-height: 1.4; font-size: 16px; color: #f1f5f9 }
+/* Prevent horizontal overflow; allow long words/URLs to break */
+.step { overflow-wrap: anywhere; word-break: break-word; }
 
 /* Persistent selection state mirrors hover but a bit stronger. */
 /* Local hover: tone down saturation vs. global rule to keep text as star. */

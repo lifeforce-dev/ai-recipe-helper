@@ -224,10 +224,17 @@ a { color: inherit; text-decoration: none }
 
 /* Dot leader rows (label left, qty right, leader between) */
 .row { display: flex; align-items: baseline; gap: .5rem }
-.row .left { white-space: nowrap }
+.row .left { white-space: normal; overflow-wrap: anywhere }
 .row .right { white-space: nowrap }
 .row .fill { flex: 1 1 auto; height: 2px; align-self: center; background-color: var(--leader-odd); opacity: .7 }
 .rows .row:nth-child(even) .fill { background-color: var(--leader-even); opacity: .9 }
+/* On narrow screens, stack label/qty so text never clips */
+@media (max-width: 480px) {
+	.row { flex-wrap: wrap; gap: 6px }
+	.row .fill { display: none }
+	.row .left { flex-basis: 100% }
+	.row .right { font-weight: 600 }
+}
 
 /* Step lists */
 .steps { display: flex; flex-direction: column; gap: 6px }

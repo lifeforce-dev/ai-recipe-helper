@@ -156,7 +156,7 @@ const suggestions = computed<DisplayEntry[]>(() => {
   )
 })
 const activeEntry = computed<DisplayEntry | null>(() =>
-  entries.value.find((e: DisplayEntry) => e.recipe.recipe_id === activeId.value) ?? filtered.value[0] ?? null
+  entries.value.find((e: DisplayEntry) => e.recipe.recipe_id === activeId.value) ?? null
 )
 
 function openRecipe(id: string) {
