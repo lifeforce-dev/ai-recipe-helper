@@ -6,7 +6,7 @@
     </div>
 
     <!-- Single centered column using original panel/step colors. -->
-    <div class="single-col">
+  <div class="single-col" data-num-style="sup">
       <div
         v-for="(sec, i) in sections"
         :key="i"
@@ -139,12 +139,41 @@ watch(
   border-color: rgba(96,165,250,0.55);
   box-shadow: inset 0 0 0 1px rgba(96,165,250,0.20);
 }
-/* When selected, the number earns the accent so the text still leads at rest. */
-.stepRow.selected .num {
-  background: var(--step-badge-bg);
-  border-color: var(--step-badge-border);
-  color: #fff;
+/* Selected number stays minimal for metadata-first styles (handled per variant). */
+
+/* Number style variants --------------------------------------------------- */
+/* 1) Superscript-ish index: tiny, inline, no container. Words lead. */
+[data-num-style="sup"] .num {
+  background: transparent;
+  border: none;
+  width: auto; height: auto; min-width: 0;
+  padding: 0;
+  display: inline-block;
+  color: #9aa6b2;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1;
+  transform: translateY(-1px);
 }
+[data-num-style="sup"] .num::after { content: "."; margin-left: 2px; opacity: .5 }
+[data-num-style="sup"] .stepRow { gap: 10px }
+[data-num-style="sup"] .stepRow .step { line-height: 1.45 }
+[data-num-style="sup"] .stepRow.selected .num { color: #eaf0f7 }
+
+/* 2) Inline mono index: muted "1." with tabular figures for quick scanning. */
+[data-num-style="inline"] .num {
+  background: transparent;
+  border: none;
+  width: auto; height: auto; min-width: 0;
+  padding: 0 0 0 2px;
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+[data-num-style="inline"] .num::after { content: "."; margin-left: 2px; opacity: .45 }
+[data-num-style="inline"] .stepRow { gap: 12px }
+[data-num-style="inline"] .stepRow.selected .num { color: #eaf0f7 }
 
 /* Prominent panel header with index badge; color harmonizes with row theme. */
 .panel-title {
