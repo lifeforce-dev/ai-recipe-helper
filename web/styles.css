@@ -169,6 +169,8 @@ a { color: inherit; text-decoration: none }
 		/* Make each panel manage its own vertical scroll within the viewport */
 		height: calc(100dvh - 24px); /* subtract container vertical padding (12*2) */
 		overflow-y: auto;
+		overflow-x: hidden; /* prevent content from widening the panel and causing extra horizontal scroll */
+		max-width: 100%; /* ensure panel never exceeds the viewport width */
 	}
 	.container {
 		padding: 12px;
