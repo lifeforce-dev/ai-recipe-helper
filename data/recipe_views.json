@@ -249,6 +249,63 @@
     }
     ,
     {
+      "recipe_id": "dak_galbi",
+      "aliases": [
+        "dak galbi",
+        "dakgalbi",
+        "spicy chicken stir fry",
+        "korean spicy chicken stir fry"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Main",
+          "items": [
+            { "item": "chicken_thigh", "quantity": 1.1, "unit": "lb", "note": "bite‑size pieces" },
+            { "item": "sweet_potato", "quantity": 0.5, "unit": "count", "note": "thick sticks" },
+            { "item": "carrot", "quantity": 0.5, "unit": "count", "note": "diagonal" },
+            { "item": "cabbage", "quantity": 0.25, "unit": "count", "note": "shredded" },
+            { "item": "perilla_leaf", "quantity": 10, "unit": "count", "note": "thinly sliced" },
+            { "item": "rice_cake", "quantity": 18, "unit": "count", "note": "separate; soak if packaged" },
+            { "item": "neutral_oil", "quantity": 2, "unit": "tbsp" }
+          ]
+        },
+        {
+          "name": "Marinade",
+          "items": [
+            { "item": "gochujang", "quantity": 3, "unit": "tbsp" },
+            { "item": "rice_wine", "quantity": 2, "unit": "tbsp" },
+            { "item": "gochugaru", "quantity": 1, "unit": "tbsp" },
+            { "item": "soy_sauce", "quantity": 1, "unit": "tbsp" },
+            { "item": "sugar", "quantity": 1, "unit": "tbsp" },
+            { "item": "garlic", "quantity": 1, "unit": "tbsp" },
+            { "item": "ginger", "quantity": 1, "unit": "tsp" },
+            { "item": "korean_curry_powder", "quantity": 1, "unit": "tsp" },
+            { "item": "onion", "quantity": 0.5, "unit": "count", "note": "grated or minced" },
+            { "label": "black pepper", "note": "few sprinkles" }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Marinate",
+          "steps": [
+            "Mix marinade until smooth.",
+            "Toss with chicken; marinate at least 30 min (4 hrs to overnight preferred)."
+          ]
+        },
+        {
+          "name": "Cook",
+          "steps": [
+            "Preheat large skillet over medium‑high; add oil.",
+            "Add vegetables and rice cakes; place chicken on top.",
+            "Cook 3–4 min, then reduce to medium/low and stir often until chicken is cooked and veg tender (10–15 min).",
+            "Cover as needed to speed cooking. Serve with rice."
+          ]
+        }
+      ]
+    }
+    ,
+    {
       "recipe_id": "pork_stir_fry",
       "aliases": [
         "pork stir fry",
@@ -481,6 +538,68 @@
           "Brush both sides with glaze; bake 5 min.",
           "Repeat glazing every 5 min until browned and crisp, ~35 min total."
         ]}
+      ]
+    }
+    ,
+    {
+      "recipe_id": "dak_galbi",
+      "aliases": [
+        "dak galbi",
+        "dakgalbi",
+        "korean spicy chicken stir fry",
+        "닭갈비"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Main",
+          "items": [
+            { "item": "chicken_thigh", "quantity": 1.1, "unit": "lb" },
+            { "item": "sweet_potato", "quantity": 0.5, "unit": "count", "note": "cut into thick sticks" },
+            { "item": "carrot", "quantity": 0.5, "unit": "count", "note": "diagonal slices" },
+            { "item": "cabbage", "quantity": 0.25, "unit": "count", "note": "shredded" },
+            { "item": "perilla_leaf", "quantity": 10, "unit": "count", "note": "thinly sliced" },
+            { "item": "rice_cake", "quantity": 18, "unit": "count", "note": "separate; soak if packaged" }
+          ]
+        },
+        {
+          "name": "Marinade",
+          "items": [
+            { "item": "gochujang", "quantity": 3, "unit": "tbsp" },
+            { "item": "rice_wine", "quantity": 2, "unit": "tbsp" },
+            { "item": "gochugaru", "quantity": 1, "unit": "tbsp" },
+            { "item": "soy_sauce", "quantity": 1, "unit": "tbsp" },
+            { "item": "sugar", "quantity": 1, "unit": "tbsp" },
+            { "item": "garlic", "quantity": 1, "unit": "tbsp" },
+            { "item": "ginger", "quantity": 1, "unit": "tsp" },
+            { "item": "korean_curry_powder", "quantity": 1, "unit": "tsp" },
+            { "item": "onion", "quantity": 0.5, "unit": "count", "note": "grated or minced" },
+            { "label": "black pepper", "note": "few sprinkles" }
+          ]
+        },
+        {
+          "name": "For Stir Fry",
+          "items": [
+            { "item": "neutral_oil", "quantity": 2, "unit": "tbsp" }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Marinate",
+          "steps": [
+            "Mix marinade ingredients until smooth.",
+            "Toss with chicken; marinate 30 minutes to overnight."
+          ]
+        },
+        {
+          "name": "Cook",
+          "steps": [
+            "Heat large skillet over medium‑high; add oil.",
+            "Add cabbage, sweet potato, carrot, perilla, and rice cakes; place chicken on top.",
+            "Cook 3–4 minutes, then reduce to medium/low; stir often until chicken is cooked and veg tender (10–15 minutes).",
+            "Cover if needed to speed cooking; serve with rice."
+          ]
+        }
       ]
     }
   ]

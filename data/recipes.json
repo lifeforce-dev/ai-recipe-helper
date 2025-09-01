@@ -174,6 +174,33 @@
         { "item": "bacon", "quantity": 1, "unit": "lb", "category": "meat", "storage": "refrigerated" }
       ],
       "instructions": "Preheat oven to 350°F (175°C). Mix brown sugar, rice vinegar, maple syrup, and black pepper to taste. Arrange thick‑cut bacon on a rack over a sheet pan. Bake 10 minutes, flip and bake 5 more. Brush both sides with glaze and return to oven; continue baking and brushing every 5 minutes until browned and crisp, about 35 minutes total."
+    },
+    {
+      "recipe_id": "dak_galbi",
+      "title": "Dak Galbi (Korean Spicy Chicken Stir Fry)",
+      "servings": 3,
+      "theme_tags": ["korean", "chicken", "stir_fry", "spicy", "weeknight"],
+      "source": "https://mykoreankitchen.com/dak-galbi/",
+      "ingredients": [
+        { "item": "chicken_thigh", "quantity": 1.1, "unit": "lb", "category": "meat", "storage": "refrigerated" },
+        { "item": "sweet_potato", "quantity": 0.5, "unit": "count", "category": "produce", "storage": "pantry" },
+        { "item": "carrot", "quantity": 0.5, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "cabbage", "quantity": 0.25, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "perilla_leaf", "quantity": 10, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "rice_cake", "quantity": 18, "unit": "count", "category": "grain_legume", "storage": "refrigerated" },
+        { "item": "neutral_oil", "quantity": 2, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
+
+        { "item": "gochujang", "quantity": 3, "unit": "tbsp", "category": "condiment", "storage": "refrigerated" },
+        { "item": "rice_wine", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
+        { "item": "gochugaru", "quantity": 1, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "soy_sauce", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
+        { "item": "sugar", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
+        { "item": "garlic", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "pantry" },
+        { "item": "ginger", "quantity": 1, "unit": "tsp", "category": "produce", "storage": "refrigerated" },
+        { "item": "korean_curry_powder", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "onion", "quantity": 0.5, "unit": "count", "category": "produce", "storage": "pantry" }
+      ],
+      "instructions": "Mix marinade (gochujang, rice wine, gochugaru, soy sauce, sugar, garlic, ginger, Korean curry powder, grated onion). Toss with chicken; marinate 30 minutes to overnight. Heat large skillet over medium‑high; add oil. Add cabbage, sweet potato, carrot, perilla, and rice cakes; place chicken on top. Cook 3–4 minutes, then reduce to medium/low and stir often until chicken is cooked and vegetables tender, 10–15 minutes. Cover to speed cooking. Serve with rice."
     }
   ]
 }
