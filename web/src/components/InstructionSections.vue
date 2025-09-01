@@ -44,10 +44,10 @@
 <script setup lang="ts">
 import type { InstructionSection } from "../types"
 
-defineProps<{ sections: InstructionSection[] }>()
+const props = defineProps<{ sections: InstructionSection[] }>()
 
 // Track a single selected step as [section, step].
-import { ref } from "vue"
+import { ref, watch } from "vue"
 const selected = ref<{ s: number; j: number } | null>(null)
 function isSelected(s: number, j: number): boolean {
   return !!selected.value && selected.value.s === s && selected.value.j === j
@@ -59,6 +59,13 @@ function toggleSelected(s: number, j: number): void {
     selected.value = { s, j }
   }
 }
+
+// Bugfix: when the recipe/sections change, clear any prior selection.
+watch(
+  () => props.sections,
+  () => { selected.value = null },
+  { deep: false }
+)
 </script>
 
 <style scoped>
@@ -114,7 +121,7 @@ function toggleSelected(s: number, j: number): void {
 
 /* Persistent selection state mirrors hover but a bit stronger. */
 /* Local hover: tone down saturation vs. global rule to keep text as star. */
-.steps .stepRow:hover {
+.steps .stepRow:not(.selected):hover {
   background: rgba(255,255,255,0.04);
   border-color: rgba(148,163,184,0.30);
   box-shadow: inset 0 0 0 1px rgba(148,163,184,0.10);
@@ -122,6 +129,12 @@ function toggleSelected(s: number, j: number): void {
 
 /* Selected: vibrant wayfinder state (brighter than hover). */
 .stepRow.selected {
+  background: rgba(96,165,250,0.12);
+  border-color: rgba(96,165,250,0.55);
+  box-shadow: inset 0 0 0 1px rgba(96,165,250,0.20);
+}
+/* Ensure selected always wins, even when hovered (overrides global hover styles). */
+.steps .stepRow.selected:hover {
   background: rgba(96,165,250,0.12);
   border-color: rgba(96,165,250,0.55);
   box-shadow: inset 0 0 0 1px rgba(96,165,250,0.20);
