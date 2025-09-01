@@ -37,3 +37,39 @@ Notes
 - Units must match between inventory and recipe ingredients to subtract stock correctly.
 - You can extend the schema with cost, macros, prep time, cuisines, etc.
 - If you want automated 4‑day cycles, we can add a scheduler later.
+
+
+Local development (web UI)
+-------------------------
+First time running the app locally (no prior Node/Vue needed):
+
+Prerequisites
+- Install Node.js LTS (includes npm): https://nodejs.org/
+
+Run the dev server
+```powershell
+# From the repo root
+cd web
+npm ci   # or: npm install
+npm run dev
+```
+Then open the printed URL (usually http://localhost:5173/).
+
+Notes
+- The predev script automatically copies data/*.json into web/public/data so the UI can load them.
+- Edit JSON in data/ and refresh; the dev server will pick up changes.
+
+Build a production bundle
+```powershell
+cd web
+npm run build
+npm run preview  # serve the built app locally
+```
+
+Share a public URL (free)
+- We ship a GitHub Actions workflow that deploys to GitHub Pages from the release branch.
+- See web/README-PAGES.md for one‑time setup and the live URL format.
+
+Troubleshooting
+- "vite: command not found" or similar: ensure Node.js is installed and in PATH; restart your terminal.
+- Port in use: run `npm run dev -- --port 5174`.
