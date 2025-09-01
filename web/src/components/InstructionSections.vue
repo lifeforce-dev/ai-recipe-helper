@@ -128,11 +128,13 @@ watch(
 }
 
 /* Persistent selection state mirrors hover but a bit stronger. */
-/* Local hover: tone down saturation vs. global rule to keep text as star. */
-.steps .stepRow:not(.selected):hover {
-  background: rgba(255,255,255,0.04);
-  border-color: rgba(148,163,184,0.30);
-  box-shadow: inset 0 0 0 1px rgba(148,163,184,0.10);
+/* Apply hover visuals only on devices that actually support hover (desktop). */
+@media (hover: hover) and (pointer: fine) {
+  .steps .stepRow:not(.selected):hover {
+    background: rgba(255,255,255,0.04);
+    border-color: rgba(148,163,184,0.30);
+    box-shadow: inset 0 0 0 1px rgba(148,163,184,0.10);
+  }
 }
 
 /* Selected: vibrant wayfinder state (brighter than hover). */
@@ -141,11 +143,13 @@ watch(
   border-color: rgba(96,165,250,0.55);
   box-shadow: inset 0 0 0 1px rgba(96,165,250,0.20);
 }
-/* Ensure selected always wins, even when hovered (overrides global hover styles). */
-.steps .stepRow.selected:hover {
-  background: rgba(96,165,250,0.12);
-  border-color: rgba(96,165,250,0.55);
-  box-shadow: inset 0 0 0 1px rgba(96,165,250,0.20);
+/* Ensure selected always wins when hover exists on desktop. */
+@media (hover: hover) and (pointer: fine) {
+  .steps .stepRow.selected:hover {
+    background: rgba(96,165,250,0.12);
+    border-color: rgba(96,165,250,0.55);
+    box-shadow: inset 0 0 0 1px rgba(96,165,250,0.20);
+  }
 }
 /* Selected number stays minimal for metadata-first styles (handled per variant). */
 
