@@ -3,6 +3,7 @@
   "title": "My Delicious Thing",
   "servings": 2,
   "theme_tags": ["korean", "weeknight"],
+  "source": "https://example.com/video-or-recipe",
   "ingredients": [
     {
       "item": "chicken_thigh",

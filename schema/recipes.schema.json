@@ -86,6 +86,10 @@
               "additionalProperties": false
             }
           },
+          "source": {
+            "type": "string",
+            "format": "uri"
+          },
           "instructions": {
             "type": "string"
           }

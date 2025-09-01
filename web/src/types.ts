@@ -11,6 +11,7 @@ export type Recipe = {
 	servings: number
 	theme_tags: string[]
 	ingredients: Ingredient[]
+	source?: string
 	instructions: string
 }
 export type RecipeCatalog = { recipes: Recipe[] }

@@ -1,6 +1,9 @@
 <template>
   <div v-if="recipe" class="recipe">
     <h1>{{ recipe.title }}</h1>
+    <div v-if="recipe.source" class="kv" style="margin:4px 0 8px 0">
+      Source: <a :href="recipe.source" target="_blank" rel="noopener noreferrer">{{ recipe.source }}</a>
+    </div>
     <div class="kv">Servings: {{ recipe.servings }}</div>
     <div class="kv" style="margin-top:6px">Tags: {{ recipe.theme_tags.join(", ") }}</div>
 
