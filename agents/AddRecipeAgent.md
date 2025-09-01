@@ -14,11 +14,15 @@ This json file will be used by another agent to select recipes from the json lis
  - Set `theme_tags` to something reasonable for each recipe. Prefer existing tags; add new tags only when necessary.
  - Set `category` to one of: meat | produce | dairy | grain_legume | spice_herb | condiment | oil_fat | other (matches schema).
  - Set `storage` to one of: pantry | refrigerated | frozen (matches schema).
- - Keep `instructions` concise; omit fluff.
+ - Keep `instructions` clear; concision is fine only when it does NOT remove sequencing, dependencies, or safety context. If in doubt, preserve the original wording.
  - Validate against `schema/recipes.schema.json`.
  - Merge directly into `data/recipes.json` without external scripts:
    - If `data/recipes.json` does not exist, create it with `{ "recipes": [] }`.
    - If an entry with the same `recipe_id` exists, update it in place; otherwise append.
+
+### Non‑simplification principle
+- Always maintain functional identity and ordering of the original recipe. Never compress multiple operational steps into one if it obscures sequence or timing.
+- Do not drop critical cues (e.g., heat levels, durations, texture checks) in the name of brevity.
 
 ## Input Format (from user)
 - Arbitrary text blocks or bullet lists that include ingredients and rough steps.
@@ -45,6 +49,7 @@ This json file will be used by another agent to select recipes from the json lis
 - Quantities in ingredient_sections must match the base recipe amounts; copy over exact `quantity` and `unit`. If an item is a note (e.g., “black pepper generously” or “ice water”), use `{ label, note }` entries instead of fabricating measurements.
 - When groups do exist in the user paste, respect them and don’t re-cluster—only normalize naming/units.
 - Instruction sections should be short, named, and segmented in the same order as the original steps (e.g., “Prep”, “Pork & Chili Oil”, “Broth & Season”, “Finish”). Each section’s `steps` are concise, declarative sentences.
+  - Be concise but functionally identical: retain explicit sequencing, dependencies, and critical cues. When unsure, prefer near‑verbatim phrasing from the source.
 - Duplicate ingredient entries in the base recipe that appear at different times (like shaoxing_wine twice) remain as-is in the base array and should be placed in the appropriate view groups by context.
 
 ### View merge rules
@@ -57,6 +62,7 @@ This json file will be used by another agent to select recipes from the json lis
 - ingredients use snake_case item names and standard units.
 - View ingredient_sections include quantities for real items; labels carry no fabricated numbers.
 - Instruction order matches the source; no new steps were invented.
+ - Functional identity preserved: no context loss from oversimplification; original sequencing and intent are intact.
 
 ## Additional guidance: How to infer prep groupings when there are none provided
 
