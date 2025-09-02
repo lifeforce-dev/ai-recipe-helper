@@ -13,28 +13,13 @@
           "rank": 2,
           "items": [
             {
-              "item": "broccoli",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "broccoli"
             },
             {
-              "item": "garlic",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "garlic"
             },
             {
-              "item": "ginger",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ginger"
             }
           ]
         },
@@ -43,60 +28,26 @@
           "rank": 3,
           "items": [
             {
-              "item": "salt",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "salt"
             },
             {
-              "item": "sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sugar"
             },
             {
               "item": "shaoxing_wine",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
               "from_index": 1
             },
             {
-              "item": "chicken_bouillon_powder",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "chicken_bouillon_powder"
             },
             {
-              "item": "cornstarch",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "cornstarch"
             },
             {
-              "item": "water",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "water"
             },
             {
-              "item": "oyster_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "oyster_sauce"
             }
           ]
         },
@@ -105,28 +56,18 @@
           "rank": 0,
           "items": [
             {
-              "item": null,
               "label": "Ice Cold Water",
-              "quantity": null,
-              "unit": null,
-              "note": "enough to fully submerge broccoli",
-              "from_index": null
+              "note": "enough to fully submerge broccoli"
             },
             {
               "item": "salt",
-              "label": null,
               "quantity": 1.0,
-              "unit": "tbsp",
-              "note": null,
-              "from_index": null
+              "unit": "tbsp"
             },
             {
               "item": "neutral_oil",
-              "label": null,
               "quantity": 1.0,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             }
           ]
         },
@@ -135,19 +76,10 @@
           "rank": 1,
           "items": [
             {
-              "item": "neutral_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "neutral_oil"
             },
             {
               "item": "shaoxing_wine",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
               "from_index": 0
             }
           ]
@@ -194,76 +126,40 @@
           "rank": 0,
           "items": [
             {
-              "item": "chicken_thigh",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "chicken_thigh"
             },
             {
-              "item": "greek_yogurt",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "greek_yogurt"
             },
             {
-              "item": "lemon_juice",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "lemon_juice"
             },
             {
-              "item": null,
               "label": "ginger grated",
-              "quantity": null,
-              "unit": null,
-              "note": "2-inch knob",
-              "from_index": null
+              "note": "2-inch knob"
             },
             {
               "item": "kashmiri_chili_powder",
-              "label": null,
               "quantity": 2.5,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             },
             {
               "item": "turmeric",
-              "label": null,
               "quantity": 1.0,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             },
             {
-              "item": "ground_cumin",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ground_cumin"
             },
             {
               "item": "garam_masala",
-              "label": null,
               "quantity": 1.0,
-              "unit": "tbsp",
-              "note": null,
-              "from_index": null
+              "unit": "tbsp"
             },
             {
               "item": "salt",
-              "label": null,
               "quantity": 2.0,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             }
           ]
         },
@@ -273,11 +169,7 @@
           "items": [
             {
               "item": "onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "thinly sliced",
-              "from_index": null
+              "note": "thinly sliced"
             }
           ]
         },
@@ -287,27 +179,18 @@
           "items": [
             {
               "item": "garlic",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "finely chopped",
-              "from_index": null
+              "note": "finely chopped"
             },
             {
               "item": "ginger",
-              "label": null,
               "quantity": 1.0,
               "unit": "tbsp",
-              "note": "grated (15g)",
-              "from_index": null
+              "note": "grated (15g)"
             },
             {
               "item": "salt",
-              "label": null,
               "quantity": 0.5,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             }
           ]
         },
@@ -317,43 +200,24 @@
           "items": [
             {
               "item": "garam_masala",
-              "label": null,
               "quantity": 1.0,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             },
             {
               "item": "kashmiri_chili_powder",
-              "label": null,
               "quantity": 1.0,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             },
             {
               "item": "turmeric",
-              "label": null,
               "quantity": 0.5,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             },
             {
-              "item": "fenugreek_powder",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "fenugreek_powder"
             },
             {
-              "item": "sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sugar"
             }
           ]
         },
@@ -362,36 +226,16 @@
           "rank": 1,
           "items": [
             {
-              "item": "ghee",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ghee"
             },
             {
-              "item": "crushed_tomatoes",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "crushed_tomatoes"
             },
             {
-              "item": "heavy_cream",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "heavy_cream"
             },
             {
-              "item": "unsalted_butter",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "unsalted_butter"
             }
           ]
         }
@@ -424,36 +268,16 @@
           "rank": 4,
           "items": [
             {
-              "item": "radish",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "radish"
             },
             {
-              "item": "onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "onion"
             },
             {
-              "item": "shiitake_mushroom",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "shiitake_mushroom"
             },
             {
-              "item": "yellow_potato",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "yellow_potato"
             }
           ]
         },
@@ -462,20 +286,10 @@
           "rank": 5,
           "items": [
             {
-              "item": "zucchini",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "zucchini"
             },
             {
-              "item": "cheongyang_chili_pepper",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "cheongyang_chili_pepper"
             }
           ]
         },
@@ -484,12 +298,7 @@
           "rank": 6,
           "items": [
             {
-              "item": "green_onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "green_onion"
             }
           ]
         },
@@ -498,28 +307,14 @@
           "rank": 0,
           "items": [
             {
-              "item": "pork",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "pork"
             },
             {
-              "item": null,
               "label": "black pepper",
-              "quantity": null,
-              "unit": null,
-              "note": "generously",
-              "from_index": null
+              "note": "generously"
             },
             {
-              "item": "neutral_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "neutral_oil"
             }
           ]
         },
@@ -528,12 +323,7 @@
           "rank": 1,
           "items": [
             {
-              "item": "red_chili_powder",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "red_chili_powder"
             }
           ]
         },
@@ -542,20 +332,10 @@
           "rank": 2,
           "items": [
             {
-              "item": "water",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "water"
             },
             {
-              "item": "gochujang",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochujang"
             }
           ]
         },
@@ -564,36 +344,16 @@
           "rank": 3,
           "items": [
             {
-              "item": "soup_soy_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "soup_soy_sauce"
             },
             {
-              "item": "tuna_extract",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "tuna_extract"
             },
             {
-              "item": "sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sugar"
             },
             {
-              "item": "garlic",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "garlic"
             }
           ]
         }
@@ -655,52 +415,27 @@
           "rank": 2,
           "items": [
             {
-              "item": "chicken_thigh",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "chicken_thigh"
             },
             {
               "item": "sweet_potato",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "cut into thick sticks",
-              "from_index": null
+              "note": "cut into thick sticks"
             },
             {
               "item": "carrot",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "diagonal slices",
-              "from_index": null
+              "note": "diagonal slices"
             },
             {
               "item": "cabbage",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "shredded",
-              "from_index": null
+              "note": "shredded"
             },
             {
               "item": "perilla_leaf",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "thinly sliced",
-              "from_index": null
+              "note": "thinly sliced"
             },
             {
               "item": "rice_cake",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "separate; soak if packaged",
-              "from_index": null
+              "note": "separate; soak if packaged"
             }
           ]
         },
@@ -709,84 +444,36 @@
           "rank": 0,
           "items": [
             {
-              "item": "gochujang",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochujang"
             },
             {
-              "item": "rice_wine",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "rice_wine"
             },
             {
-              "item": "gochugaru",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochugaru"
             },
             {
-              "item": "soy_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "soy_sauce"
             },
             {
-              "item": "sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sugar"
             },
             {
-              "item": "garlic",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "garlic"
             },
             {
-              "item": "ginger",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ginger"
             },
             {
-              "item": "korean_curry_powder",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "korean_curry_powder"
             },
             {
               "item": "onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "grated or minced",
-              "from_index": null
+              "note": "grated or minced"
             },
             {
-              "item": null,
               "label": "black pepper",
-              "quantity": null,
-              "unit": null,
-              "note": "few sprinkles",
-              "from_index": null
+              "note": "few sprinkles"
             }
           ]
         },
@@ -795,12 +482,7 @@
           "rank": 1,
           "items": [
             {
-              "item": "neutral_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "neutral_oil"
             }
           ]
         }
@@ -837,76 +519,33 @@
           "rank": 0,
           "items": [
             {
-              "item": "gochujang",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochujang"
             },
             {
-              "item": "gochugaru",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochugaru"
             },
             {
-              "item": "soy_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "soy_sauce"
             },
             {
-              "item": "sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sugar"
             },
             {
-              "item": "honey",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "honey"
             },
             {
-              "item": "sesame_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sesame_oil"
             },
             {
               "item": "garlic",
-              "label": null,
               "quantity": 1.0,
-              "unit": "tbsp",
-              "note": null,
-              "from_index": null
+              "unit": "tbsp"
             },
             {
-              "item": "ginger",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ginger"
             },
             {
-              "item": "mirin",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "mirin"
             }
           ]
         },
@@ -915,12 +554,7 @@
           "rank": 2,
           "items": [
             {
-              "item": "pork",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "pork"
             }
           ]
         },
@@ -929,12 +563,7 @@
           "rank": 1,
           "items": [
             {
-              "item": "neutral_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "neutral_oil"
             }
           ]
         },
@@ -943,28 +572,16 @@
           "rank": 3,
           "items": [
             {
-              "item": "onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "onion"
             },
             {
               "item": "carrot",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "optional",
-              "from_index": null
+              "note": "optional"
             },
             {
               "item": "garlic",
-              "label": null,
               "quantity": 3.0,
-              "unit": "clove",
-              "note": null,
-              "from_index": null
+              "unit": "clove"
             }
           ]
         },
@@ -973,12 +590,7 @@
           "rank": 4,
           "items": [
             {
-              "item": "green_onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "green_onion"
             }
           ]
         },
@@ -987,20 +599,12 @@
           "rank": 5,
           "items": [
             {
-              "item": null,
               "label": "sesame oil",
-              "quantity": null,
-              "unit": null,
-              "note": "drizzle to taste",
-              "from_index": null
+              "note": "drizzle to taste"
             },
             {
-              "item": null,
               "label": "black pepper",
-              "quantity": null,
-              "unit": null,
-              "note": "to taste",
-              "from_index": null
+              "note": "to taste"
             }
           ]
         }
@@ -1046,28 +650,14 @@
           "rank": 2,
           "items": [
             {
-              "item": "cornstarch",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "cornstarch"
             },
             {
-              "item": "ground_white_pepper",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ground_white_pepper"
             },
             {
-              "item": null,
               "label": "salt",
-              "quantity": null,
-              "unit": null,
-              "note": "pinch",
-              "from_index": null
+              "note": "pinch"
             }
           ]
         },
@@ -1076,28 +666,13 @@
           "rank": 4,
           "items": [
             {
-              "item": "ginger",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ginger"
             },
             {
-              "item": "fresno_chili",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "fresno_chili"
             },
             {
-              "item": "gochugaru",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochugaru"
             }
           ]
         },
@@ -1106,12 +681,7 @@
           "rank": 5,
           "items": [
             {
-              "item": "brown_sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "brown_sugar"
             }
           ]
         },
@@ -1120,36 +690,18 @@
           "rank": 6,
           "items": [
             {
-              "item": "dark_soy_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "dark_soy_sauce"
             },
             {
-              "item": "soy_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "soy_sauce"
             },
             {
-              "item": null,
               "label": "water",
-              "quantity": null,
-              "unit": null,
-              "note": "splash",
-              "from_index": null
+              "note": "splash"
             },
             {
-              "item": null,
               "label": "rice vinegar",
-              "quantity": null,
-              "unit": null,
-              "note": "to taste",
-              "from_index": null
+              "note": "to taste"
             }
           ]
         },
@@ -1158,20 +710,10 @@
           "rank": 7,
           "items": [
             {
-              "item": "thai_basil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "thai_basil"
             },
             {
-              "item": "garlic",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "garlic"
             }
           ]
         },
@@ -1180,12 +722,7 @@
           "rank": 1,
           "items": [
             {
-              "item": "flank_steak",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "flank_steak"
             }
           ]
         },
@@ -1194,12 +731,7 @@
           "rank": 0,
           "items": [
             {
-              "item": "peanut_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "peanut_oil"
             }
           ]
         },
@@ -1208,12 +740,7 @@
           "rank": 3,
           "items": [
             {
-              "item": "green_onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "green_onion"
             }
           ]
         }
@@ -1262,12 +789,7 @@
           "rank": 1,
           "items": [
             {
-              "item": "ground_beef",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ground_beef"
             }
           ]
         },
@@ -1276,20 +798,10 @@
           "rank": 0,
           "items": [
             {
-              "item": "onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "onion"
             },
             {
-              "item": "garlic",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "garlic"
             }
           ]
         },
@@ -1299,43 +811,19 @@
           "items": [
             {
               "item": "chili_powder",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "Gebhardt if possible",
-              "from_index": null
+              "note": "Gebhardt if possible"
             },
             {
-              "item": "ground_cumin",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ground_cumin"
             },
             {
-              "item": "ground_oregano",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ground_oregano"
             },
             {
-              "item": "cayenne_pepper",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "cayenne_pepper"
             },
             {
-              "item": "salt",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "salt"
             }
           ]
         },
@@ -1344,28 +832,14 @@
           "rank": 3,
           "items": [
             {
-              "item": "tomato_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "tomato_sauce"
             },
             {
-              "item": "red_wine",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "red_wine"
             },
             {
               "item": "beef_broth",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "start with 3 cups",
-              "from_index": null
+              "note": "start with 3 cups"
             }
           ]
         },
@@ -1374,28 +848,13 @@
           "rank": 4,
           "items": [
             {
-              "item": "kidney_beans",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "kidney_beans"
             },
             {
-              "item": "pinto_beans",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "pinto_beans"
             },
             {
-              "item": "bakers_chocolate",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "bakers_chocolate"
             }
           ]
         },
@@ -1404,28 +863,14 @@
           "rank": 5,
           "items": [
             {
-              "item": "masa_harina",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "masa_harina"
             },
             {
               "item": "water",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "for slurry",
-              "from_index": null
+              "note": "for slurry"
             },
             {
-              "item": "msg",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "msg"
             }
           ]
         }
@@ -1517,36 +962,17 @@
           "rank": 0,
           "items": [
             {
-              "item": "brown_sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "brown_sugar"
             },
             {
-              "item": "rice_vinegar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "rice_vinegar"
             },
             {
-              "item": "maple_syrup",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "maple_syrup"
             },
             {
-              "item": null,
               "label": "black pepper",
-              "quantity": null,
-              "unit": null,
-              "note": "to taste",
-              "from_index": null
+              "note": "to taste"
             }
           ]
         },
@@ -1555,12 +981,7 @@
           "rank": 1,
           "items": [
             {
-              "item": "bacon",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "bacon"
             }
           ]
         }
@@ -1598,52 +1019,27 @@
           "rank": 2,
           "items": [
             {
-              "item": "chicken_thigh",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "chicken_thigh"
             },
             {
               "item": "sweet_potato",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "cut into thick sticks",
-              "from_index": null
+              "note": "cut into thick sticks"
             },
             {
               "item": "carrot",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "diagonal slices",
-              "from_index": null
+              "note": "diagonal slices"
             },
             {
               "item": "cabbage",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "shredded",
-              "from_index": null
+              "note": "shredded"
             },
             {
               "item": "perilla_leaf",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "thinly sliced",
-              "from_index": null
+              "note": "thinly sliced"
             },
             {
               "item": "rice_cake",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "separate; soak if packaged",
-              "from_index": null
+              "note": "separate; soak if packaged"
             }
           ]
         },
@@ -1652,84 +1048,36 @@
           "rank": 0,
           "items": [
             {
-              "item": "gochujang",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochujang"
             },
             {
-              "item": "rice_wine",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "rice_wine"
             },
             {
-              "item": "gochugaru",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochugaru"
             },
             {
-              "item": "soy_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "soy_sauce"
             },
             {
-              "item": "sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sugar"
             },
             {
-              "item": "garlic",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "garlic"
             },
             {
-              "item": "ginger",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ginger"
             },
             {
-              "item": "korean_curry_powder",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "korean_curry_powder"
             },
             {
               "item": "onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "grated or minced",
-              "from_index": null
+              "note": "grated or minced"
             },
             {
-              "item": null,
               "label": "black pepper",
-              "quantity": null,
-              "unit": null,
-              "note": "few sprinkles",
-              "from_index": null
+              "note": "few sprinkles"
             }
           ]
         },
@@ -1738,12 +1086,7 @@
           "rank": 1,
           "items": [
             {
-              "item": "neutral_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "neutral_oil"
             }
           ]
         }
@@ -1781,19 +1124,11 @@
           "items": [
             {
               "item": "onion",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "diced; not too fine",
-              "from_index": null
+              "note": "diced; not too fine"
             },
             {
               "item": "green_bell_pepper",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "diced; not too fine",
-              "from_index": null
+              "note": "diced; not too fine"
             }
           ]
         },
@@ -1803,11 +1138,7 @@
           "items": [
             {
               "item": "sausage",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "thick slices",
-              "from_index": null
+              "note": "thick slices"
             }
           ]
         },
@@ -1817,27 +1148,19 @@
           "items": [
             {
               "item": "tomato_paste",
-              "label": null,
               "quantity": 2.0,
-              "unit": "tbsp",
-              "note": null,
-              "from_index": null
+              "unit": "tbsp"
             },
             {
               "item": "garlic",
-              "label": null,
               "quantity": 3.0,
               "unit": "clove",
-              "note": "finely diced",
-              "from_index": null
+              "note": "finely diced"
             },
             {
               "item": "cajun_seasoning",
-              "label": null,
               "quantity": 1.5,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             }
           ]
         },
@@ -1847,27 +1170,15 @@
           "items": [
             {
               "item": "red_beans",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "drained & rinsed",
-              "from_index": null
+              "note": "drained & rinsed"
             },
             {
               "item": "black_beans",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "drained & rinsed",
-              "from_index": null
+              "note": "drained & rinsed"
             },
             {
               "item": "pinto_beans",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "drained & rinsed",
-              "from_index": null
+              "note": "drained & rinsed"
             }
           ]
         },
@@ -1877,27 +1188,18 @@
           "items": [
             {
               "item": "chicken_stock",
-              "label": null,
               "quantity": 3.0,
-              "unit": "cup",
-              "note": null,
-              "from_index": null
+              "unit": "cup"
             },
             {
               "item": "hot_sauce",
-              "label": null,
               "quantity": 1.0,
-              "unit": "tsp",
-              "note": null,
-              "from_index": null
+              "unit": "tsp"
             },
             {
               "item": "bay_leaf",
-              "label": null,
               "quantity": 1.0,
-              "unit": "count",
-              "note": null,
-              "from_index": null
+              "unit": "count"
             }
           ]
         },
@@ -1907,11 +1209,7 @@
           "items": [
             {
               "item": "cooking_wine",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": "splash",
-              "from_index": null
+              "note": "splash"
             }
           ]
         },
@@ -1920,28 +1218,13 @@
           "rank": 6,
           "items": [
             {
-              "item": "salt",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "salt"
             },
             {
-              "item": null,
-              "label": "black pepper",
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "label": "black pepper"
             },
             {
-              "item": "msg",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "msg"
             }
           ]
         },
@@ -1950,36 +1233,20 @@
           "rank": 7,
           "items": [
             {
-              "item": null,
               "label": "paprika",
-              "quantity": null,
-              "unit": null,
-              "note": "1/2–1 tsp",
-              "from_index": null
+              "note": "1/2–1 tsp"
             },
             {
-              "item": null,
               "label": "white pepper",
-              "quantity": null,
-              "unit": null,
-              "note": "1/4 tsp",
-              "from_index": null
+              "note": "1/4 tsp"
             },
             {
-              "item": null,
               "label": "cayenne pepper",
-              "quantity": null,
-              "unit": null,
-              "note": "1/2 tsp",
-              "from_index": null
+              "note": "1/2 tsp"
             },
             {
-              "item": null,
               "label": "oregano",
-              "quantity": null,
-              "unit": null,
-              "note": "1 tsp",
-              "from_index": null
+              "note": "1 tsp"
             }
           ]
         }
@@ -2048,12 +1315,7 @@
           "rank": 0,
           "items": [
             {
-              "item": "pork_belly",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "pork_belly"
             }
           ]
         },
@@ -2062,84 +1324,34 @@
           "rank": 1,
           "items": [
             {
-              "item": "ginger",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "ginger"
             },
             {
-              "item": "shallot",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "shallot"
             },
             {
-              "item": "asian_pear",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "asian_pear"
             },
             {
-              "item": "garlic",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "garlic"
             },
             {
-              "item": "gochujang",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochujang"
             },
             {
-              "item": "gochugaru",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "gochugaru"
             },
             {
-              "item": "sesame_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sesame_oil"
             },
             {
-              "item": "sweet_soy_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sweet_soy_sauce"
             },
             {
-              "item": "dark_soy_sauce",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "dark_soy_sauce"
             },
             {
-              "item": "mirin",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "mirin"
             }
           ]
         },
@@ -2148,60 +1360,25 @@
           "rank": 2,
           "items": [
             {
-              "item": "daikon",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "daikon"
             },
             {
-              "item": "english_cucumber",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "english_cucumber"
             },
             {
-              "item": "carrot",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "carrot"
             },
             {
-              "item": "serrano_chile",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "serrano_chile"
             },
             {
-              "item": "sugar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "sugar"
             },
             {
-              "item": "salt",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "salt"
             },
             {
-              "item": "rice_vinegar",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "rice_vinegar"
             }
           ]
         },
@@ -2210,20 +1387,10 @@
           "rank": 3,
           "items": [
             {
-              "item": "buns",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "buns"
             },
             {
-              "item": "kewpie_mayo",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
-              "from_index": null
+              "item": "kewpie_mayo"
             }
           ]
         }
