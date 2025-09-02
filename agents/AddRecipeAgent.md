@@ -19,6 +19,7 @@ This json file will be used by another agent to select recipes from the json lis
  - Merge directly into `data/recipes.json` without external scripts:
    - If `data/recipes.json` does not exist, create it with `{ "recipes": [] }`.
    - If an entry with the same `recipe_id` exists, update it in place; otherwise append.
+ - Do NOT manually edit `web/public/data/recipes.json` or `web/public/data/recipe_views.json`. These files are auto-generated/copied from `data/` by the build/dev scripts (see `web/package.json` predev/prebuild).
 
 ### Non‑simplification principle
 - Always maintain functional identity and ordering of the original recipe. Never compress multiple operational steps into one if it obscures sequence or timing.
