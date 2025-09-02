@@ -15,6 +15,7 @@
           "item": "broccoli",
           "quantity": 1.0,
           "unit": "lb",
+          "unit_type": "mass",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -22,6 +23,7 @@
           "item": "garlic",
           "quantity": 5.0,
           "unit": "clove",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -29,6 +31,7 @@
           "item": "ginger",
           "quantity": 0.5,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -36,6 +39,7 @@
           "item": "neutral_oil",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -43,6 +47,7 @@
           "item": "shaoxing_wine",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -50,6 +55,7 @@
           "item": "salt",
           "quantity": 0.5,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -57,6 +63,7 @@
           "item": "sugar",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -64,6 +71,7 @@
           "item": "shaoxing_wine",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -71,6 +79,7 @@
           "item": "chicken_bouillon_powder",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -78,6 +87,7 @@
           "item": "cornstarch",
           "quantity": 2.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -85,6 +95,7 @@
           "item": "water",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         },
@@ -92,6 +103,7 @@
           "item": "oyster_sauce",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         }
@@ -113,6 +125,7 @@
           "item": "chicken_thigh",
           "quantity": 1.5,
           "unit": "lb",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -120,6 +133,7 @@
           "item": "greek_yogurt",
           "quantity": 0.75,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "dairy",
           "storage": "refrigerated"
         },
@@ -127,6 +141,7 @@
           "item": "lemon_juice",
           "quantity": 2.0,
           "unit": "tsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -134,6 +149,7 @@
           "item": "ginger",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -141,6 +157,7 @@
           "item": "kashmiri_chili_powder",
           "quantity": 2.5,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -148,6 +165,7 @@
           "item": "turmeric",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -155,6 +173,7 @@
           "item": "ground_cumin",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -162,6 +181,7 @@
           "item": "garam_masala",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -169,6 +189,7 @@
           "item": "salt",
           "quantity": 2.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -176,6 +197,7 @@
           "item": "onion",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -183,6 +205,7 @@
           "item": "garlic",
           "quantity": 5.0,
           "unit": "clove",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -190,6 +213,7 @@
           "item": "ginger",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -197,6 +221,7 @@
           "item": "salt",
           "quantity": 0.5,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -204,6 +229,7 @@
           "item": "garam_masala",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -211,6 +237,7 @@
           "item": "kashmiri_chili_powder",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -218,6 +245,7 @@
           "item": "turmeric",
           "quantity": 0.5,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -225,6 +253,7 @@
           "item": "fenugreek_powder",
           "quantity": 0.5,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -232,6 +261,7 @@
           "item": "sugar",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -239,6 +269,7 @@
           "item": "ghee",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -246,6 +277,7 @@
           "item": "crushed_tomatoes",
           "quantity": 14.0,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -253,6 +285,7 @@
           "item": "heavy_cream",
           "quantity": 0.75,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "dairy",
           "storage": "refrigerated"
         },
@@ -260,6 +293,7 @@
           "item": "unsalted_butter",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "dairy",
           "storage": "refrigerated"
         }
@@ -281,6 +315,7 @@
           "item": "zucchini",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -288,6 +323,7 @@
           "item": "radish",
           "quantity": 1.0,
           "unit": "handful",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -295,6 +331,7 @@
           "item": "onion",
           "quantity": 0.5,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -302,6 +339,7 @@
           "item": "green_onion",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -309,6 +347,7 @@
           "item": "cheongyang_chili_pepper",
           "quantity": 2.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -316,6 +355,7 @@
           "item": "shiitake_mushroom",
           "quantity": 2.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -323,6 +363,7 @@
           "item": "yellow_potato",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -330,6 +371,7 @@
           "item": "pork",
           "quantity": 6.3,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -337,6 +379,7 @@
           "item": "neutral_oil",
           "quantity": 0.33,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -344,6 +387,7 @@
           "item": "red_chili_powder",
           "quantity": 4.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -351,6 +395,7 @@
           "item": "water",
           "quantity": 2.5,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         },
@@ -358,6 +403,7 @@
           "item": "gochujang",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "refrigerated"
         },
@@ -365,6 +411,7 @@
           "item": "soup_soy_sauce",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -372,6 +419,7 @@
           "item": "tuna_extract",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -379,6 +427,7 @@
           "item": "sugar",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -386,6 +435,7 @@
           "item": "garlic",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "pantry"
         }
@@ -407,6 +457,7 @@
           "item": "pork",
           "quantity": 1.1,
           "unit": "lb",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -414,6 +465,7 @@
           "item": "onion",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -421,6 +473,7 @@
           "item": "green_onion",
           "quantity": 2.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -428,6 +481,7 @@
           "item": "garlic",
           "quantity": 3.0,
           "unit": "clove",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -435,6 +489,7 @@
           "item": "carrot",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -442,6 +497,7 @@
           "item": "neutral_oil",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -449,6 +505,7 @@
           "item": "gochujang",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "refrigerated"
         },
@@ -456,6 +513,7 @@
           "item": "gochugaru",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -463,6 +521,7 @@
           "item": "soy_sauce",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -470,6 +529,7 @@
           "item": "sugar",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -477,6 +537,7 @@
           "item": "honey",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         },
@@ -484,6 +545,7 @@
           "item": "sesame_oil",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -491,6 +553,7 @@
           "item": "garlic",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "pantry"
         },
@@ -498,6 +561,7 @@
           "item": "ginger",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -505,6 +569,7 @@
           "item": "mirin",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         }
@@ -526,6 +591,7 @@
           "item": "flank_steak",
           "quantity": 1.0,
           "unit": "lb",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -533,6 +599,7 @@
           "item": "peanut_oil",
           "quantity": 3.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -540,6 +607,7 @@
           "item": "thai_basil",
           "quantity": 1.0,
           "unit": "handful",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -547,6 +615,7 @@
           "item": "cornstarch",
           "quantity": 0.25,
           "unit": "cup",
+          "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -554,6 +623,7 @@
           "item": "ground_white_pepper",
           "quantity": 0.5,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -561,6 +631,7 @@
           "item": "green_onion",
           "quantity": 1.0,
           "unit": "bunch",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -568,6 +639,7 @@
           "item": "ginger",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -575,6 +647,7 @@
           "item": "fresno_chili",
           "quantity": 2.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -582,6 +655,7 @@
           "item": "gochugaru",
           "quantity": 2.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -589,6 +663,7 @@
           "item": "dark_soy_sauce",
           "quantity": 0.25,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -596,6 +671,7 @@
           "item": "soy_sauce",
           "quantity": 0.25,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -603,6 +679,7 @@
           "item": "brown_sugar",
           "quantity": 0.5,
           "unit": "cup",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -610,6 +687,7 @@
           "item": "garlic",
           "quantity": 5.0,
           "unit": "clove",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         }
@@ -631,6 +709,7 @@
           "item": "ground_beef",
           "quantity": 2.0,
           "unit": "lb",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -638,6 +717,7 @@
           "item": "onion",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -645,6 +725,7 @@
           "item": "garlic",
           "quantity": 5.0,
           "unit": "clove",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -652,6 +733,7 @@
           "item": "tomato_sauce",
           "quantity": 8.0,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -659,6 +741,7 @@
           "item": "chili_powder",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -666,6 +749,7 @@
           "item": "ground_cumin",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -673,6 +757,7 @@
           "item": "ground_oregano",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -680,6 +765,7 @@
           "item": "salt",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -687,6 +773,7 @@
           "item": "cayenne_pepper",
           "quantity": 0.25,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -694,6 +781,7 @@
           "item": "beef_broth",
           "quantity": 4.0,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         },
@@ -701,6 +789,7 @@
           "item": "red_wine",
           "quantity": 0.25,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         },
@@ -708,6 +797,7 @@
           "item": "kidney_beans",
           "quantity": 15.0,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -715,6 +805,7 @@
           "item": "pinto_beans",
           "quantity": 15.0,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -722,6 +813,7 @@
           "item": "bakers_chocolate",
           "quantity": 0.5,
           "unit": "square",
+          "unit_type": "count",
           "category": "other",
           "storage": "pantry"
         },
@@ -729,6 +821,7 @@
           "item": "masa_harina",
           "quantity": 0.25,
           "unit": "cup",
+          "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -736,6 +829,7 @@
           "item": "water",
           "quantity": 0.5,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         },
@@ -743,6 +837,7 @@
           "item": "msg",
           "quantity": 0.25,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         }
@@ -765,6 +860,7 @@
           "item": "brown_sugar",
           "quantity": 0.25,
           "unit": "cup",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -772,6 +868,7 @@
           "item": "rice_vinegar",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -779,6 +876,7 @@
           "item": "maple_syrup",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         },
@@ -786,6 +884,7 @@
           "item": "bacon",
           "quantity": 1.0,
           "unit": "lb",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         }
@@ -809,6 +908,7 @@
           "item": "chicken_thigh",
           "quantity": 1.1,
           "unit": "lb",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -816,6 +916,7 @@
           "item": "sweet_potato",
           "quantity": 0.5,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -823,6 +924,7 @@
           "item": "carrot",
           "quantity": 0.5,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -830,6 +932,7 @@
           "item": "cabbage",
           "quantity": 0.25,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -837,6 +940,7 @@
           "item": "perilla_leaf",
           "quantity": 10.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -844,6 +948,7 @@
           "item": "rice_cake",
           "quantity": 18.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "grain_legume",
           "storage": "refrigerated"
         },
@@ -851,6 +956,7 @@
           "item": "neutral_oil",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -858,6 +964,7 @@
           "item": "gochujang",
           "quantity": 3.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "refrigerated"
         },
@@ -865,6 +972,7 @@
           "item": "rice_wine",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -872,6 +980,7 @@
           "item": "gochugaru",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -879,6 +988,7 @@
           "item": "soy_sauce",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -886,6 +996,7 @@
           "item": "sugar",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -893,6 +1004,7 @@
           "item": "garlic",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "pantry"
         },
@@ -900,6 +1012,7 @@
           "item": "ginger",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -907,6 +1020,7 @@
           "item": "korean_curry_powder",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -914,6 +1028,7 @@
           "item": "onion",
           "quantity": 0.5,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         }
@@ -935,6 +1050,7 @@
           "item": "sausage",
           "quantity": 12.0,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -942,6 +1058,7 @@
           "item": "onion",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -949,6 +1066,7 @@
           "item": "green_bell_pepper",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -956,6 +1074,7 @@
           "item": "tomato_paste",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -963,6 +1082,7 @@
           "item": "garlic",
           "quantity": 3.0,
           "unit": "clove",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -970,6 +1090,7 @@
           "item": "cajun_seasoning",
           "quantity": 1.5,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -977,6 +1098,7 @@
           "item": "red_beans",
           "quantity": 15.0,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -984,6 +1106,7 @@
           "item": "black_beans",
           "quantity": 15.0,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -991,6 +1114,7 @@
           "item": "pinto_beans",
           "quantity": 15.0,
           "unit": "oz",
+          "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -998,6 +1122,7 @@
           "item": "chicken_stock",
           "quantity": 3.0,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         },
@@ -1005,6 +1130,7 @@
           "item": "hot_sauce",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -1012,6 +1138,7 @@
           "item": "bay_leaf",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -1019,6 +1146,7 @@
           "item": "cooking_wine",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "other",
           "storage": "pantry"
         }
@@ -1041,6 +1169,7 @@
           "item": "pork_belly",
           "quantity": 2.0,
           "unit": "lb",
+          "unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -1048,6 +1177,7 @@
           "item": "ginger",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -1055,6 +1185,7 @@
           "item": "shallot",
           "quantity": 2.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -1062,6 +1193,7 @@
           "item": "asian_pear",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -1069,6 +1201,7 @@
           "item": "garlic",
           "quantity": 7.0,
           "unit": "clove",
+          "unit_type": "count",
           "category": "produce",
           "storage": "pantry"
         },
@@ -1076,6 +1209,7 @@
           "item": "gochujang",
           "quantity": 0.5,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "refrigerated"
         },
@@ -1083,6 +1217,7 @@
           "item": "gochugaru",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -1090,6 +1225,7 @@
           "item": "sesame_oil",
           "quantity": 2.0,
           "unit": "tsp",
+          "unit_type": "volume",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -1097,6 +1233,7 @@
           "item": "sweet_soy_sauce",
           "quantity": 1.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -1104,6 +1241,7 @@
           "item": "dark_soy_sauce",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -1111,6 +1249,7 @@
           "item": "mirin",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -1118,6 +1257,7 @@
           "item": "daikon",
           "quantity": 0.5,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -1125,6 +1265,7 @@
           "item": "english_cucumber",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -1132,6 +1273,7 @@
           "item": "carrot",
           "quantity": 2.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -1139,6 +1281,7 @@
           "item": "serrano_chile",
           "quantity": 1.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -1146,6 +1289,7 @@
           "item": "sugar",
           "quantity": 1.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -1153,6 +1297,7 @@
           "item": "salt",
           "quantity": 2.0,
           "unit": "tsp",
+          "unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -1160,6 +1305,7 @@
           "item": "rice_vinegar",
           "quantity": 2.0,
           "unit": "tbsp",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -1167,6 +1313,7 @@
           "item": "buns",
           "quantity": 6.0,
           "unit": "count",
+          "unit_type": "count",
           "category": "grain_legume",
           "storage": "pantry"
         },
@@ -1174,6 +1321,7 @@
           "item": "kewpie_mayo",
           "quantity": 0.5,
           "unit": "cup",
+          "unit_type": "volume",
           "category": "condiment",
           "storage": "refrigerated"
         }

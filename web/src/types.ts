@@ -2,6 +2,7 @@ export type Ingredient = {
 	item: string
 	quantity: number
 	unit: string
+	unit_type?: "mass" | "volume" | "count"
 	category: string
 	storage: string
 }

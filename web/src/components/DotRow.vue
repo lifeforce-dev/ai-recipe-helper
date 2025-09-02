@@ -27,7 +27,7 @@ const props = defineProps<{
 const left = computed(() => (props.item ? pretty(props.item) : props.left ?? ""))
 const right = computed(() => {
   if (props.qty != null && props.unit) {
-    const { qty, unit } = props.metric ? toMetric(props.qty, props.unit) : { qty: props.qty, unit: props.unit }
+    const { qty, unit } = props.metric ? toMetricSmart(props.qty, props.unit, props.item) : { qty: props.qty, unit: props.unit }
     return formatQty(qty) + (unit ? " " + unit : "")
   }
   return props.right ?? ""
@@ -208,6 +208,53 @@ function toMetric(qty: number, unit: string): { qty: number; unit: string } {
 
   // Unknown unit: leave as-is.
   return { qty, unit }
+}
+
+// Smart conversion using unit_type on the ingredient when available.
+function toMetricSmart(qty: number, unit: string, item?: string): { qty: number; unit: string } {
+  // Try to detect unit_type from the displayed item by peeking into a global runtime map, if available.
+  // Fallback to simple toMetric if no metadata is available.
+  const anyWin = window as any
+  const metaMap: Map<string, { unit_type?: string }> | undefined = anyWin.__ING_META__
+  const unitType = item && metaMap ? metaMap.get(item)?.unit_type : undefined
+
+  if (unitType === "count") return { qty, unit }
+  if (unitType === "mass") {
+    // Convert lb/oz to g; if already grams, return as-is; otherwise leave unmodified (unknown mass unit)
+    const u = unit.toLowerCase()
+    // Item-specific density overrides for spoon/cup measures (grams per teaspoon).
+    // Sources: USDA FoodData Central where available. cornstarch: 1 cup = 128 g => 48 tsp => 2.667 g/tsp.
+    const gramsPerTsp: Record<string, number> = {
+      cornstarch: 128 / 48,
+    }
+    if (item && gramsPerTsp[item]) {
+      const gpt = gramsPerTsp[item]
+      if (u === "tsp" || u === "teaspoon" || u === "teaspoons") return { qty: round(qty * gpt, 0), unit: "g" }
+      if (u === "tbsp" || u === "tablespoon" || u === "tablespoons") return { qty: round(qty * gpt * 3, 0), unit: "g" }
+      if (u === "cup" || u === "cups") return { qty: round(qty * gpt * 48, 0), unit: "g" }
+    }
+  // Spoon-based measures for mass (approximate densities):
+  // Use water-like approximations for simplicity and consistency across powders.
+  if (u === "tsp" || u === "teaspoon" || u === "teaspoons") return { qty: round(qty * 5, 0), unit: "g" }
+  if (u === "tbsp" || u === "tablespoon" || u === "tablespoons") return { qty: round(qty * 15, 0), unit: "g" }
+  if (u === "cup" || u === "cups") return { qty: round(qty * 236.588, 0), unit: "g" }
+    if (u === "lb" || u === "pound" || u === "lbs") return { qty: round(qty * 453.592, 0), unit: "g" }
+    if (u === "oz" || u === "ounce" || u === "ounces") return { qty: round(qty * 28.3495, 0), unit: "g" }
+    if (u === "g" || u === "gram" || u === "grams") return { qty, unit: "g" }
+    if (u === "kg" || u === "kilogram" || u === "kilograms") return { qty: round(qty * 1000, 0), unit: "g" }
+    return { qty, unit }
+  }
+  if (unitType === "volume") {
+    const u = unit.toLowerCase()
+    if (u === "tsp" || u === "teaspoon" || u === "teaspoons") return { qty: round(qty * 5, 0), unit: "ml" }
+    if (u === "tbsp" || u === "tablespoon" || u === "tablespoons") return { qty: round(qty * 15, 0), unit: "ml" }
+    if (u === "cup" || u === "cups") return { qty: round(qty * 236.588, 0), unit: "ml" }
+    if (u === "ml" || u === "milliliter" || u === "milliliters") return { qty, unit: "ml" }
+    if (u === "l" || u === "liter" || u === "liters") return { qty: round(qty * 1000, 0), unit: "ml" }
+    return { qty, unit }
+  }
+  // Unknown: fallback to existing heuristic
+  return toMetric(qty, unit)
 }
 
 function round(n: number, decimals: number): number {

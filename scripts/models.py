@@ -10,6 +10,7 @@ class Ingredient(BaseModel):
 	item: str
 	quantity: float
 	unit: str
+	unit_type: Optional[Literal["mass", "volume", "count"]] = None
 	category: Literal[
 		"meat",
 		"produce",

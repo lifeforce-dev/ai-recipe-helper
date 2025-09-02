@@ -81,6 +81,10 @@
                     "refrigerated",
                     "frozen"
                   ]
+                },
+                "unit_type": {
+                  "type": "string",
+                  "enum": ["mass", "volume", "count"]
                 }
               },
               "additionalProperties": false
