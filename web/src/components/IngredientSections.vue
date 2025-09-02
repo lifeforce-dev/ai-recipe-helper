@@ -11,7 +11,8 @@
         </div>
   <div class="rows col">
           <template v-for="(it, j) in sec.items" :key="j">
-            <template v-if="'item' in it">
+            <!-- If item is a non-null string, render as a recipe-linked row; otherwise treat as a label row. -->
+            <template v-if="(it as any).item != null">
               <DotRow
                 :item="(it as any).item"
                 :qty="(it as any).quantity ?? findDefault((it as any).item, (it as any).from_index, (it as any).portion).qty"
@@ -20,7 +21,16 @@
   :shrink-left="true"
               />
             </template>
-            <DotRow v-else :left="(it as any).label" :right="(it as any).note ?? ''" :shrink-right="true" />
+            <!-- Label rows can optionally include qty/unit; if absent, fall back to note on the right. -->
+            <DotRow
+              v-else
+              :left="(it as any).label"
+              :qty="(it as any).quantity"
+              :unit="(it as any).unit"
+              :right="(it as any).note ?? ''"
+              :metric="metric"
+              :shrink-right="true"
+            />
           </template>
         </div>
       </div>
