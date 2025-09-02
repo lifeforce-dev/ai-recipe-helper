@@ -646,20 +646,20 @@
       "aliases": [
         "dak galbi",
         "dakgalbi",
-        "spicy chicken stir fry",
-        "korean spicy chicken stir fry"
+        "korean spicy chicken stir fry",
+        "닭갈비"
       ],
       "ingredient_sections": [
         {
           "name": "Main",
-          "rank": 1,
+          "rank": 2,
           "items": [
             {
               "item": "chicken_thigh",
               "label": null,
               "quantity": null,
               "unit": null,
-              "note": "bite‑size pieces",
+              "note": null,
               "from_index": null
             },
             {
@@ -667,7 +667,7 @@
               "label": null,
               "quantity": null,
               "unit": null,
-              "note": "thick sticks",
+              "note": "cut into thick sticks",
               "from_index": null
             },
             {
@@ -675,7 +675,7 @@
               "label": null,
               "quantity": null,
               "unit": null,
-              "note": "diagonal",
+              "note": "diagonal slices",
               "from_index": null
             },
             {
@@ -700,14 +700,6 @@
               "quantity": null,
               "unit": null,
               "note": "separate; soak if packaged",
-              "from_index": null
-            },
-            {
-              "item": "neutral_oil",
-              "label": null,
-              "quantity": null,
-              "unit": null,
-              "note": null,
               "from_index": null
             }
           ]
@@ -797,23 +789,37 @@
               "from_index": null
             }
           ]
+        },
+        {
+          "name": "For Stir‑Fry",
+          "rank": 1,
+          "items": [
+            {
+              "item": "neutral_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
         }
       ],
       "instruction_sections": [
         {
           "name": "Marinate",
           "steps": [
-            "Mix marinade until smooth.",
-            "Toss with chicken; marinate at least 30 min (4 hrs to overnight preferred)."
+            "Mix marinade ingredients until smooth.",
+            "Toss with chicken; marinate 30 minutes to overnight."
           ]
         },
         {
           "name": "Cook",
           "steps": [
-            "Preheat large skillet over medium‑high; add oil.",
-            "Add vegetables and rice cakes; place chicken on top.",
-            "Cook 3–4 min, then reduce to medium/low and stir often until chicken is cooked and veg tender (10–15 min).",
-            "Cover as needed to speed cooking. Serve with rice."
+            "Heat large skillet over medium‑high; add oil.",
+            "Add cabbage, sweet potato, carrot, perilla, and rice cakes; place chicken on top.",
+            "Cook 3–4 minutes, then reduce to medium/low; stir often until chicken is cooked and veg tender (10–15 minutes).",
+            "Cover if needed to speed cooking; serve with rice."
           ]
         }
       ]
