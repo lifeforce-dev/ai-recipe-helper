@@ -1605,44 +1605,28 @@
           "rank": 1,
           "items": [
             {
-              "item": "oyster_sauce",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "oyster_sauce"
             },
             {
-              "item": "soy_sauce",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "soy_sauce"
             },
             {
-              "item": "shaoxing_wine",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "shaoxing_wine"
             },
             {
-              "item": "salt",
-              "quantity": 1.0,
-              "unit": "tsp"
+              "item": "salt"
             },
             {
-              "item": "sugar",
-              "quantity": 1.0,
-              "unit": "tsp"
+              "item": "sugar"
             },
             {
-              "item": "ground_white_pepper",
-              "quantity": 0.5,
-              "unit": "tsp"
+              "item": "ground_white_pepper"
             },
             {
-              "item": "cornstarch",
-              "quantity": 2.0,
-              "unit": "tbsp"
+              "item": "cornstarch"
             },
             {
               "item": "ginger",
-              "quantity": 0.5,
-              "unit": "oz",
               "note": "finely minced"
             }
           ]
@@ -1653,14 +1637,10 @@
           "items": [
             {
               "item": "white_onion",
-              "quantity": 0.5,
-              "unit": "count",
               "note": "sliced"
             },
             {
               "item": "red_onion",
-              "quantity": 0.5,
-              "unit": "count",
               "note": "sliced"
             }
           ]
@@ -1671,8 +1651,6 @@
           "items": [
             {
               "item": "garlic",
-              "quantity": 3.0,
-              "unit": "clove",
               "note": "minced"
             }
           ]
@@ -1683,8 +1661,6 @@
           "items": [
             {
               "item": "cornstarch",
-              "quantity": 0.25,
-              "unit": "cup",
               "note": "for coating"
             }
           ]
@@ -1694,20 +1670,14 @@
           "rank": 5,
           "items": [
             {
-              "item": "avocado_oil",
-              "quantity": 2.0,
-              "unit": "tbsp"
+              "item": "avocado_oil"
             },
             {
               "item": "shaoxing_wine",
-              "quantity": 1.0,
-              "unit": "tbsp",
               "note": "splash"
             },
             {
-              "item": "garlic_salt",
-              "quantity": 0.5,
-              "unit": "tsp"
+              "item": "garlic_salt"
             }
           ]
         }
@@ -1757,44 +1727,30 @@
           "rank": 0,
           "items": [
             {
-              "item": "egg",
-              "quantity": 3.0,
-              "unit": "count"
+              "item": "egg"
             },
             {
-              "item": "egg_yolk",
-              "quantity": 2.0,
-              "unit": "count"
+              "item": "egg_yolk"
             },
             {
-              "item": "ground_cinnamon",
-              "quantity": 1.0,
-              "unit": "tsp"
+              "item": "ground_cinnamon"
             },
             {
               "item": "salt",
-              "quantity": 0.5,
-              "unit": "tsp",
               "note": "fine sea salt"
             },
             {
-              "item": "light_brown_sugar",
-              "quantity": 1.5,
-              "unit": "tbsp"
+              "item": "light_brown_sugar"
             },
             {
               "label": "freshly grated nutmeg",
               "note": "pinch"
             },
             {
-              "item": "heavy_cream",
-              "quantity": 0.5,
-              "unit": "cup"
+              "item": "heavy_cream"
             },
             {
-              "item": "whole_milk",
-              "quantity": 0.75,
-              "unit": "cup"
+              "item": "whole_milk"
             }
           ]
         },
@@ -1843,9 +1799,7 @@
           "rank": 0,
           "items": [
             {
-              "item": "chicken_thigh",
-              "quantity": 2.0,
-              "unit": "count"
+              "item": "chicken_thigh"
             }
           ]
         },
@@ -1862,9 +1816,7 @@
               "note": "squeeze into water"
             },
             {
-              "item": "water",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "water"
             }
           ]
         },
@@ -1873,45 +1825,29 @@
           "rank": 2,
           "items": [
             {
-              "item": "sugar",
-              "quantity": 1.0,
-              "unit": "tsp"
+              "item": "sugar"
             },
             {
-              "item": "salt",
-              "quantity": 0.5,
-              "unit": "tsp"
+              "item": "salt"
             },
             {
-              "item": "dark_soy_sauce",
-              "quantity": 1.0,
-              "unit": "tsp"
+              "item": "dark_soy_sauce"
             },
             {
-              "item": "sake",
-              "quantity": 1.0,
-              "unit": "tsp"
+              "item": "sake"
             },
             {
               "item": "sesame_oil",
-              "quantity": 0.25,
-              "unit": "tsp",
               "note": "hint"
             },
             {
-              "item": "egg",
-              "quantity": 1.0,
-              "unit": "count"
+              "item": "egg"
             },
             {
-              "item": "all_purpose_flour",
-              "quantity": 2.0,
-              "unit": "tbsp"
+              "item": "all_purpose_flour"
             },
             {
               "item": "potato_starch",
-              "quantity": 2.0,
-              "unit": "tbsp",
               "from_index": 0
             }
           ]
@@ -1922,8 +1858,6 @@
           "items": [
             {
               "item": "potato_starch",
-              "quantity": 1.0,
-              "unit": "tbsp",
               "from_index": 1
             }
           ]
@@ -1943,29 +1877,19 @@
           "rank": 5,
           "items": [
             {
-              "item": "soy_sauce",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "soy_sauce"
             },
             {
-              "item": "mirin",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "mirin"
             },
             {
-              "item": "sake",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "sake"
             },
             {
-              "item": "sugar",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "sugar"
             },
             {
               "item": "cornstarch",
-              "quantity": 1.0,
-              "unit": "tbsp",
               "note": "slurry as needed"
             }
           ]
@@ -2011,9 +1935,7 @@
           "rank": 0,
           "items": [
             {
-              "item": "angel_hair_pasta",
-              "quantity": 115.0,
-              "unit": "g"
+              "item": "angel_hair_pasta"
             }
           ]
         },
@@ -2023,24 +1945,16 @@
           "items": [
             {
               "item": "tiger_shrimp",
-              "quantity": 12.0,
-              "unit": "count",
               "note": "12–15 large shrimp"
             },
             {
-              "item": "salt",
-              "quantity": 1.0,
-              "unit": "to taste"
+              "item": "salt"
             },
             {
-              "item": "black_pepper",
-              "quantity": 1.0,
-              "unit": "to taste"
+              "item": "black_pepper"
             },
             {
               "item": "lemon",
-              "quantity": 1.0,
-              "unit": "zest",
               "note": "zest over shrimp and finish"
             }
           ]
@@ -2051,31 +1965,21 @@
           "items": [
             {
               "item": "shallot",
-              "quantity": 1.0,
-              "unit": "count",
               "note": "thinly sliced"
             },
             {
               "item": "garlic",
-              "quantity": 3.0,
-              "unit": "clove",
               "note": "grated"
             },
             {
-              "item": "chili_flakes",
-              "quantity": 2.0,
-              "unit": "tsp"
+              "item": "chili_flakes"
             },
             {
               "item": "cherry_tomatoes",
-              "quantity": 60.0,
-              "unit": "g",
               "note": "halved"
             },
             {
               "item": "basil",
-              "quantity": 1.0,
-              "unit": "as needed",
               "note": "chiffonade"
             }
           ]
@@ -2085,19 +1989,13 @@
           "rank": 3,
           "items": [
             {
-              "item": "olive_oil",
-              "quantity": 2.0,
-              "unit": "tbsp"
+              "item": "olive_oil"
             },
             {
-              "item": "white_wine",
-              "quantity": 0.5,
-              "unit": "cup"
+              "item": "white_wine"
             },
             {
-              "item": "seafood_stock",
-              "quantity": 0.5,
-              "unit": "cup"
+              "item": "seafood_stock"
             }
           ]
         },
@@ -2106,14 +2004,10 @@
           "rank": 4,
           "items": [
             {
-              "item": "butter",
-              "quantity": 55.0,
-              "unit": "g"
+              "item": "butter"
             },
             {
-              "item": "parmesan",
-              "quantity": 1.0,
-              "unit": "to taste"
+              "item": "parmesan"
             }
           ]
         }
@@ -2166,36 +2060,24 @@
           "rank": 1,
           "items": [
             {
-              "item": "pork_chop",
-              "quantity": 2.0,
-              "unit": "count"
+              "item": "pork_chop"
             },
             {
-              "item": "salt",
-              "quantity": 1.0,
-              "unit": "to taste"
+              "item": "salt"
             },
             {
-              "item": "black_pepper",
-              "quantity": 1.0,
-              "unit": "to taste"
+              "item": "black_pepper"
             },
             {
               "item": "garlic",
-              "quantity": 4.0,
-              "unit": "clove",
               "note": "crushed"
             },
             {
               "item": "thyme",
-              "quantity": 1.0,
-              "unit": "sprig",
               "note": "to baste"
             },
             {
-              "item": "butter",
-              "quantity": 28.0,
-              "unit": "g"
+              "item": "butter"
             }
           ]
         },
@@ -2204,36 +2086,24 @@
           "rank": 0,
           "items": [
             {
-              "item": "olive_oil",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "olive_oil"
             },
             {
               "item": "red_onion",
-              "quantity": 1.0,
-              "unit": "count",
               "note": "sliced"
             },
             {
               "item": "red_bell_pepper",
-              "quantity": 1.0,
-              "unit": "count",
               "note": "sliced"
             },
             {
-              "item": "sugar",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "sugar"
             },
             {
-              "item": "red_wine_vinegar",
-              "quantity": 0.25,
-              "unit": "cup"
+              "item": "red_wine_vinegar"
             },
             {
               "item": "basil",
-              "quantity": 1.0,
-              "unit": "handful",
               "note": "chopped"
             }
           ]
@@ -2454,29 +2324,19 @@
           "rank": 0,
           "items": [
             {
-              "item": "soy_sauce",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "soy_sauce"
             },
             {
-              "item": "mirin",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "mirin"
             },
             {
-              "item": "sake",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "sake"
             },
             {
-              "item": "sugar",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "sugar"
             },
             {
               "item": "cornstarch",
-              "quantity": 1.0,
-              "unit": "tbsp",
               "note": "slurry as needed"
             }
           ]
@@ -2507,34 +2367,22 @@
           "items": [
             {
               "item": "red_cabbage",
-              "quantity": 1.0,
-              "unit": "head",
               "note": "shredded"
             },
             {
-              "item": "rice_vinegar",
-              "quantity": 1.5,
-              "unit": "cup"
+              "item": "rice_vinegar"
             },
             {
-              "item": "water",
-              "quantity": 1.0,
-              "unit": "cup"
+              "item": "water"
             },
             {
-              "item": "sugar",
-              "quantity": 2.0,
-              "unit": "tbsp"
+              "item": "sugar"
             },
             {
-              "item": "salt",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "salt"
             },
             {
-              "item": "yukari_rice_seasoning",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "yukari_rice_seasoning"
             }
           ]
         },
@@ -2544,36 +2392,24 @@
           "items": [
             {
               "item": "butter",
-              "quantity": 56.0,
-              "unit": "g",
               "note": "for onions"
             },
             {
               "item": "onion",
-              "quantity": 3.0,
-              "unit": "count",
               "note": "julienned"
             },
             {
-              "item": "chicken_stock",
-              "quantity": 4.0,
-              "unit": "cup"
+              "item": "chicken_stock"
             },
             {
-              "item": "dried_shiitake_mushroom",
-              "quantity": 4.0,
-              "unit": "count"
+              "item": "dried_shiitake_mushroom"
             },
             {
               "item": "apple",
-              "quantity": 1.0,
-              "unit": "count",
               "note": "grated"
             },
             {
-              "item": "tomato_paste",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "tomato_paste"
             }
           ]
         },
@@ -2583,30 +2419,20 @@
           "items": [
             {
               "item": "butter",
-              "quantity": 112.0,
-              "unit": "g",
               "note": "for roux"
             },
             {
-              "item": "all_purpose_flour",
-              "quantity": 72.0,
-              "unit": "g"
+              "item": "all_purpose_flour"
             },
             {
               "item": "garam_masala",
-              "quantity": 1.0,
-              "unit": "tbsp",
               "note": "optional"
             },
             {
-              "item": "curry_powder",
-              "quantity": 25.0,
-              "unit": "g"
+              "item": "curry_powder"
             },
             {
-              "item": "msg",
-              "quantity": 2.0,
-              "unit": "tsp"
+              "item": "msg"
             }
           ]
         },
@@ -2615,24 +2441,16 @@
           "rank": 3,
           "items": [
             {
-              "item": "dark_soy_sauce",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "dark_soy_sauce"
             },
             {
-              "item": "worcestershire_sauce",
-              "quantity": 2.0,
-              "unit": "tbsp"
+              "item": "worcestershire_sauce"
             },
             {
-              "item": "honey",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "honey"
             },
             {
               "item": "butter",
-              "quantity": 50.0,
-              "unit": "g",
               "note": "finish while blending"
             }
           ]
@@ -2643,14 +2461,10 @@
           "items": [
             {
               "item": "carrot",
-              "quantity": 1.0,
-              "unit": "as needed",
               "note": "chunks"
             },
             {
               "item": "potato",
-              "quantity": 1.0,
-              "unit": "as needed",
               "note": "chunks"
             }
           ]
@@ -2660,35 +2474,23 @@
           "rank": 5,
           "items": [
             {
-              "item": "pork_loin_chop",
-              "quantity": 4.0,
-              "unit": "count"
+              "item": "pork_loin_chop"
             },
             {
-              "item": "salt",
-              "quantity": 1.0,
-              "unit": "to taste"
+              "item": "salt"
             },
             {
-              "item": "all_purpose_flour",
-              "quantity": 72.0,
-              "unit": "g"
+              "item": "all_purpose_flour"
             },
             {
               "item": "egg",
-              "quantity": 2.0,
-              "unit": "count",
               "note": "whisked with a splash of water"
             },
             {
-              "item": "panko_breadcrumbs",
-              "quantity": 75.0,
-              "unit": "g"
+              "item": "panko_breadcrumbs"
             },
             {
               "item": "vegetable_oil",
-              "quantity": 3.5,
-              "unit": "cup",
               "note": "340°F/170°C"
             }
           ]
@@ -2753,25 +2555,17 @@
           "items": [
             {
               "item": "chicken_breast",
-              "quantity": 8.0,
-              "unit": "oz",
               "note": "cut into bite-size"
             },
             {
-              "item": "all_purpose_flour",
-              "quantity": 0.25,
-              "unit": "cup"
+              "item": "all_purpose_flour"
             },
             {
               "item": "egg",
-              "quantity": 1.0,
-              "unit": "count",
               "note": "beaten"
             },
             {
-              "item": "panko_breadcrumbs",
-              "quantity": 1.0,
-              "unit": "cup"
+              "item": "panko_breadcrumbs"
             }
           ]
         },
@@ -2780,40 +2574,26 @@
           "rank": 1,
           "items": [
             {
-              "item": "peanut_oil",
-              "quantity": 1.0,
-              "unit": "tbsp"
+              "item": "peanut_oil"
             },
             {
               "item": "garlic",
-              "quantity": 1.0,
-              "unit": "clove",
               "note": "minced"
             },
             {
-              "item": "low_sodium_soy_sauce",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "low_sodium_soy_sauce"
             },
             {
-              "item": "honey",
-              "quantity": 2.0,
-              "unit": "tbsp"
+              "item": "honey"
             },
             {
-              "item": "sriracha",
-              "quantity": 2.0,
-              "unit": "tbsp"
+              "item": "sriracha"
             },
             {
-              "item": "water",
-              "quantity": 3.0,
-              "unit": "tbsp"
+              "item": "water"
             },
             {
-              "item": "red_pepper_flakes",
-              "quantity": 0.125,
-              "unit": "tsp"
+              "item": "red_pepper_flakes"
             }
           ]
         }
