@@ -2690,6 +2690,121 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "fudge_brownies",
+      "aliases": [
+        "brownies",
+        "fudgy brownies",
+        "crackly top brownies"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Melt",
+          "rank": 0,
+          "items": [
+            {
+              "item": "unsweetened_chocolate",
+              "note": "melt with butter"
+            },
+            {
+              "item": "unsalted_butter"
+            }
+          ]
+        },
+        {
+          "name": "Sugar & Eggs",
+          "rank": 1,
+          "items": [
+            {
+              "item": "granulated_sugar"
+            },
+            {
+              "item": "egg",
+              "note": "2 whole"
+            },
+            {
+              "item": "egg_yolk",
+              "note": "1 extra yolk"
+            }
+          ]
+        },
+        {
+          "name": "Dry Mix",
+          "rank": 2,
+          "items": [
+            {
+              "item": "all_purpose_flour",
+              "note": "swap 1 tbsp for cornstarch optional"
+            },
+            {
+              "item": "baking_powder"
+            },
+            {
+              "item": "salt"
+            }
+          ]
+        },
+        {
+          "name": "Optional",
+          "rank": 3,
+          "items": [
+            {
+              "item": "dark_chocolate",
+              "note": "chopped mix-ins"
+            },
+            {
+              "item": "flaky_sea_salt",
+              "note": "for topping"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Melt Butter & Chocolate",
+          "steps": [
+            "Melt butter and unsweetened chocolate over very low heat, stirring; cool 5–10 minutes."
+          ]
+        },
+        {
+          "name": "Whisk Sugar & Eggs",
+          "steps": [
+            "Whisk sugar, 2 eggs, and 1 yolk 1–2 minutes until slightly pale and creamy."
+          ]
+        },
+        {
+          "name": "Combine Wet",
+          "steps": [
+            "Stream in cooled chocolate-butter while whisking until smooth and glossy."
+          ]
+        },
+        {
+          "name": "Mix Dry",
+          "steps": [
+            "Whisk flour, baking powder, and salt (optional: espresso powder; experiment: swap 1 tbsp flour for 1 tbsp cornstarch)."
+          ]
+        },
+        {
+          "name": "Fold & Add-Ins",
+          "steps": [
+            "Fold dry into wet just until combined; fold in chopped chocolate if using."
+          ]
+        },
+        {
+          "name": "Pan & Bake",
+          "steps": [
+            "Line or grease 8x8 metal pan; spread batter; top with flaky salt if desired.",
+            "Bake at 350°F (175°C) for 25–27 minutes; toothpick 1\" from edge should have moist crumbs."
+          ]
+        },
+        {
+          "name": "Cool & Slice",
+          "steps": [
+            "Cool in pan at least 1 hour before slicing."
+          ]
+        }
+      ]
     }
   ]
 }

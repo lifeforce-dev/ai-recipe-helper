@@ -2865,6 +2865,100 @@
       ],
       "source": "https://www.youtube.com/shorts/ZD21rjVPpl8",
       "instructions": "Meal prep 4 jars. For each jar: 1) Add 1.5 tbsp red miso. 2) Add 1 tsp dashi powder. 3) Add tofu. 4) Add spinach. 5) Add shredded carrots. 6) Add green onion. 7) Add wakame. 8) Add vermicelli noodles. Store in fridge until ready. To serve: Bring the jar to room temp, pour in boiling water, and let sit 10 minutes before eating."
+    },
+    {
+      "recipe_id": "fudge_brownies",
+      "title": "Fudge Brownies",
+      "servings": 9,
+      "theme_tags": [
+        "dessert",
+        "baking",
+        "brownies"
+      ],
+      "ingredients": [
+        {
+          "item": "unsweetened_chocolate",
+          "quantity": 2.0,
+          "unit": "oz",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "unsalted_butter",
+          "quantity": 113.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "granulated_sugar",
+          "quantity": 200.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "egg",
+          "quantity": 2.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "egg_yolk",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "all_purpose_flour",
+          "quantity": 90.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "baking_powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "dark_chocolate",
+          "quantity": 3.0,
+          "unit": "oz",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "flaky_sea_salt",
+          "quantity": 1.0,
+          "unit": "to taste",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        }
+      ],
+      "source": "local-notes",
+      "instructions": "Melt butter and chocolate over very low heat until smooth; cool 5-10 minutes. Whisk sugar, eggs, and yolk 1-2 minutes until slightly pale. Stream in cooled chocolate-butter while whisking until glossy. Whisk flour, baking powder, and salt separately (optional: swap 1 tbsp flour for 1 tbsp cornstarch; espresso powder optional). Fold dry into wet just until combined. Fold in chopped dark chocolate (optional). Line or grease 8x8 metal pan; spread batter; sprinkle flaky salt if desired. Bake at 350°F (175°C) for 25-27 minutes until a toothpick 1 inch from edge has moist crumbs. Cool at least 1 hour before slicing."
     }
   ]
 }
