@@ -2682,6 +2682,110 @@
       ],
       "source": "local-notes",
       "instructions": "Pickled Cabbage: Slice red cabbage thin. Bring rice vinegar, water, sugar, and salt to a boil; cut heat; stir in yukari. Pour over cabbage in a jar, weight to submerge, cool, then refrigerate. Pork Prep: Score fat and lightly cross-hatch meat; pound to ~1/2 inch; season with salt. Curry Sauce: Thread 1 – melt butter, add onions; cook 30–45 minutes, adjusting heat, until deeply caramelized (add a splash of water if needed). Thread 2 – bring chicken stock to a boil; add dried shiitake to hydrate, then reserve mushrooms. When onions are ready, add grated apple, tomato paste, and rehydrated mushrooms; saute 3–5 minutes. In same pot add butter, melt; whisk in flour; add garam masala, curry powder, and MSG; toast 1 minute. Stir in onion mixture, dark soy, Worcestershire, honey, and chicken stock; simmer and thicken ~2 minutes; salt to taste. Blend very smooth; while blending, add butter in small pieces; strain back to pot and keep warm. Steam Veg: Steam small carrot and potato pieces until tender. Fry Pork: Heat oil to 340°F (170°C). Dredge pork: flour, beaten eggs, then panko. Fry 4–6 minutes until golden and cooked through. Assembly: Bowl rice, add a pocket of curry, slice pork and serve with pickled cabbage on the side."
+    },
+    {
+      "recipe_id": "sweet_spicy_baked_honey_sriracha_chicken",
+      "title": "Sweet and Spicy Baked Honey Sriracha Chicken",
+      "servings": 2,
+      "theme_tags": [
+        "chicken",
+        "baked",
+        "spicy",
+        "sweet",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken_breast",
+          "quantity": 8.0,
+          "unit": "oz",
+          "unit_type": "mass",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "all_purpose_flour",
+          "quantity": 0.25,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "egg",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "panko_breadcrumbs",
+          "quantity": 1.0,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "peanut_oil",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 1.0,
+          "unit": "clove",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "low_sodium_soy_sauce",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "honey",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "sriracha",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "water",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "red_pepper_flakes",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "unit_type": "volume",
+          "category": "spice_herb",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://chefsavvy.com/sweet-spicy-baked-honey-sriracha-chicken/",
+      "instructions": "Chicken: Dredge chicken pieces in flour, then beaten egg, then panko to coat thoroughly. Sauce: Heat peanut oil in a small saucepan; add minced garlic briefly. Whisk in soy sauce, honey, sriracha, water, and red pepper flakes; cook over high heat, whisking, until thickened; set aside. Cooking: Bake breaded chicken about 15 minutes until cooked through, then toss immediately with sauce. Serve with rice."
     }
   ]
 }

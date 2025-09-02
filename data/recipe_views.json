@@ -2738,6 +2738,109 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "sweet_spicy_baked_honey_sriracha_chicken",
+      "aliases": [
+        "honey sriracha chicken",
+        "baked honey sriracha chicken",
+        "sweet and spicy chicken"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Chicken – Breading",
+          "rank": 0,
+          "items": [
+            {
+              "item": "chicken_breast",
+              "quantity": 8.0,
+              "unit": "oz",
+              "note": "cut into bite-size"
+            },
+            {
+              "item": "all_purpose_flour",
+              "quantity": 0.25,
+              "unit": "cup"
+            },
+            {
+              "item": "egg",
+              "quantity": 1.0,
+              "unit": "count",
+              "note": "beaten"
+            },
+            {
+              "item": "panko_breadcrumbs",
+              "quantity": 1.0,
+              "unit": "cup"
+            }
+          ]
+        },
+        {
+          "name": "Honey Sriracha Sauce",
+          "rank": 1,
+          "items": [
+            {
+              "item": "peanut_oil",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "garlic",
+              "quantity": 1.0,
+              "unit": "clove",
+              "note": "minced"
+            },
+            {
+              "item": "low_sodium_soy_sauce",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "honey",
+              "quantity": 2.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "sriracha",
+              "quantity": 2.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "water",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "red_pepper_flakes",
+              "quantity": 0.125,
+              "unit": "tsp"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Bread the Chicken",
+          "steps": [
+            "Set up three plates: flour, beaten egg, and panko.",
+            "Dredge chicken in flour, then egg, then panko; pack to adhere."
+          ]
+        },
+        {
+          "name": "Make the Sauce",
+          "steps": [
+            "Heat peanut oil; saute garlic briefly.",
+            "Whisk in soy sauce, honey, sriracha, water, and red pepper flakes; cook until thickened; remove from heat."
+          ]
+        },
+        {
+          "name": "Bake & Finish",
+          "steps": [
+            "Bake breaded chicken about 15 minutes until cooked through.",
+            "Toss hot chicken with sauce and serve with rice."
+          ]
+        }
+      ]
     }
   ]
 }
