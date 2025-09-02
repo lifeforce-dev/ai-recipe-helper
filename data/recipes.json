@@ -1961,6 +1961,141 @@
       ],
       "source": "https://www.youtube.com/watch?v=5Ea3EuwA758",
       "instructions": "Prep aromatic water: leek greens + ginger peels in 3 tbsp water; squeeze to infuse. Add the water to chicken and mix until absorbed. Add sugar, salt, dark soy, sake, splash of mirin; mix to absorb. Add egg; mix until no liquid pools. Add flour and potato starch; mix very well. Fry: Heat peanut oil to 320°F (160°C). Fry chicken until it floats easily (~90s, ~80% cooked). Rest while raising oil to 356°F (180°C). Fry again until bubbles lighten. Teriyaki: Combine soy sauce, mirin, sake, and sugar; simmer, stirring, to a glaze. Optionally thicken with cornstarch slurry. Toss chicken in glaze or serve alongside."
+    },
+    {
+      "recipe_id": "shrimp_scampi_angel_hair_pasta",
+      "title": "Shrimp Scampi with Angel Hair Pasta",
+      "servings": 2,
+      "theme_tags": [
+        "seafood",
+        "pasta",
+        "stovetop",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "item": "tiger_shrimp",
+          "quantity": 14.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "angel_hair_pasta",
+          "quantity": 115.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "olive_oil",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 3.0,
+          "unit": "clove",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "shallot",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "chili_flakes",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "white_wine",
+          "quantity": 0.5,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "cherry_tomatoes",
+          "quantity": 60.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "seafood_stock",
+          "quantity": 0.5,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "butter",
+          "quantity": 55.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "parmesan",
+          "quantity": 1.0,
+          "unit": "to taste",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "basil",
+          "quantity": 1.0,
+          "unit": "as needed",
+          "unit_type": "count",
+          "category": "spice_herb",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "to taste",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "black_pepper",
+          "quantity": 1.0,
+          "unit": "to taste",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "lemon",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        }
+      ],
+      "source": "local-notes",
+      "instructions": "Sauce: Heat pan to medium hot. Add sliced shallot; season with salt/pepper. Add grated garlic and 1 tbsp olive oil; cook until shallots brown. Increase heat, add chili flakes. Add halved cherry tomatoes; reduce heat when simmering; cook until blistered and broken down. Deglaze with white wine; turn up heat and reduce. Add seafood stock and reduce. Add basil; cook ~30 seconds; remove from heat. Shrimp: Season shrimp with salt and pepper. Sear one side 90 seconds; flip and remove from heat. Pasta: Boil angel hair ~90 seconds. Finish: Add pasta to sauce with some pasta water as needed; add shrimp, butter, and parmesan; toss to coat. Zest lemon over the top and adjust seasoning."
     }
   ]
 }

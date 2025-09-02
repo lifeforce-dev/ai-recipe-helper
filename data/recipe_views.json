@@ -1997,6 +1997,162 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "shrimp_scampi_angel_hair_pasta",
+      "aliases": [
+        "shrimp scampi",
+        "shrimp scampi with angel hair",
+        "angel hair shrimp scampi"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Pasta",
+          "rank": 0,
+          "items": [
+            {
+              "item": "angel_hair_pasta",
+              "quantity": 115.0,
+              "unit": "g"
+            }
+          ]
+        },
+        {
+          "name": "Shrimp",
+          "rank": 1,
+          "items": [
+            {
+              "item": "tiger_shrimp",
+              "quantity": 12.0,
+              "unit": "count",
+              "note": "12–15 large shrimp"
+            },
+            {
+              "item": "salt",
+              "quantity": 1.0,
+              "unit": "to taste"
+            },
+            {
+              "item": "black_pepper",
+              "quantity": 1.0,
+              "unit": "to taste"
+            },
+            {
+              "item": "lemon",
+              "quantity": 1.0,
+              "unit": "zest",
+              "note": "zest over shrimp and finish"
+            }
+          ]
+        },
+        {
+          "name": "Aromatics",
+          "rank": 2,
+          "items": [
+            {
+              "item": "shallot",
+              "quantity": 1.0,
+              "unit": "count",
+              "note": "thinly sliced"
+            },
+            {
+              "item": "garlic",
+              "quantity": 3.0,
+              "unit": "clove",
+              "note": "grated"
+            },
+            {
+              "item": "chili_flakes",
+              "quantity": 2.0,
+              "unit": "tsp"
+            },
+            {
+              "item": "cherry_tomatoes",
+              "quantity": 60.0,
+              "unit": "g",
+              "note": "halved"
+            },
+            {
+              "item": "basil",
+              "quantity": 1.0,
+              "unit": "as needed",
+              "note": "chiffonade"
+            }
+          ]
+        },
+        {
+          "name": "Sauce Base",
+          "rank": 3,
+          "items": [
+            {
+              "item": "olive_oil",
+              "quantity": 2.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "white_wine",
+              "quantity": 0.5,
+              "unit": "cup"
+            },
+            {
+              "item": "seafood_stock",
+              "quantity": 0.5,
+              "unit": "cup"
+            }
+          ]
+        },
+        {
+          "name": "Finish",
+          "rank": 4,
+          "items": [
+            {
+              "item": "butter",
+              "quantity": 55.0,
+              "unit": "g"
+            },
+            {
+              "item": "parmesan",
+              "quantity": 1.0,
+              "unit": "to taste"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Sauce",
+          "steps": [
+            "Heat pan medium hot; add sliced shallot and season with salt/pepper.",
+            "Add grated garlic and 1 tbsp olive oil; cook until shallots brown.",
+            "Increase heat; add chili flakes. Add halved cherry tomatoes; lower heat as it levels out; cook until blistered and broken down.",
+            "Add white wine; raise heat to deglaze and reduce.",
+            "Add seafood stock; reduce until slightly thickened.",
+            "Add basil; cook ~30 seconds and remove from heat."
+          ]
+        },
+        {
+          "name": "Shrimp",
+          "steps": [
+            "Season shrimp with salt and pepper.",
+            "Sear shrimp on one side ~90 seconds; flip and remove from heat.",
+            "Zest lemon over shrimp."
+          ]
+        },
+        {
+          "name": "Pasta",
+          "steps": [
+            "Boil angel hair ~90 seconds until just tender."
+          ]
+        },
+        {
+          "name": "Finish",
+          "steps": [
+            "Add pasta to sauce with a splash of pasta water if needed.",
+            "Add shrimp, butter, and parmesan; toss to coat and emulsify.",
+            "Zest more lemon and adjust seasoning."
+          ]
+        }
+      ]
     }
   ]
 }
