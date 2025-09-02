@@ -1,6 +1,6 @@
 DISCLAIMER: Code directed by me, written almost entirely by AI
 
-Page is live here: http://lifeforce-dev.github.io/ai-recipe-helper/#/recipe/pork_stir_fry
+Page is live here: http://lifeforce-dev.github.io/ai-recipe-helper/
 
 Recipe Planner Workspace
 ========================
