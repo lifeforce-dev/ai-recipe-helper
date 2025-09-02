@@ -1580,6 +1580,171 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "chinese_seared_chicken_thighs",
+      "aliases": [
+        "chinese seared chicken thighs",
+        "seared chicken thighs"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Bowl 1",
+          "rank": 0,
+          "items": [
+            {
+              "label": "Deboned chicken thighs"
+            },
+            {
+              "item": "chicken_thigh"
+            }
+          ]
+        },
+        {
+          "name": "Bowl 2 – Marinade",
+          "rank": 1,
+          "items": [
+            {
+              "item": "oyster_sauce",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "soy_sauce",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "shaoxing_wine",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "salt",
+              "quantity": 1.0,
+              "unit": "tsp"
+            },
+            {
+              "item": "sugar",
+              "quantity": 1.0,
+              "unit": "tsp"
+            },
+            {
+              "item": "ground_white_pepper",
+              "quantity": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "item": "cornstarch",
+              "quantity": 2.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "ginger",
+              "quantity": 0.5,
+              "unit": "oz",
+              "note": "finely minced"
+            }
+          ]
+        },
+        {
+          "name": "Bowl 3 – Onions",
+          "rank": 2,
+          "items": [
+            {
+              "item": "white_onion",
+              "quantity": 0.5,
+              "unit": "count",
+              "note": "sliced"
+            },
+            {
+              "item": "red_onion",
+              "quantity": 0.5,
+              "unit": "count",
+              "note": "sliced"
+            }
+          ]
+        },
+        {
+          "name": "Bowl 4 – Garlic",
+          "rank": 3,
+          "items": [
+            {
+              "item": "garlic",
+              "quantity": 3.0,
+              "unit": "clove",
+              "note": "minced"
+            }
+          ]
+        },
+        {
+          "name": "Bowl 5 – Coating",
+          "rank": 4,
+          "items": [
+            {
+              "item": "cornstarch",
+              "quantity": 0.25,
+              "unit": "cup",
+              "note": "for coating"
+            }
+          ]
+        },
+        {
+          "name": "For Frying / Finish",
+          "rank": 5,
+          "items": [
+            {
+              "item": "avocado_oil",
+              "quantity": 2.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "shaoxing_wine",
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "note": "splash"
+            },
+            {
+              "item": "garlic_salt",
+              "quantity": 0.5,
+              "unit": "tsp"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Prep",
+          "steps": [
+            "B1: Debone thighs (see cheat sheet).",
+            "B2: Combine marinade; ginger finely minced.",
+            "B3: Slice onions; B4: mince garlic; B5: spread cornstarch for coating."
+          ]
+        },
+        {
+          "name": "Marinate",
+          "steps": [
+            "Pat chicken completely dry.",
+            "Work marinade into meat; start meat-side down, then flip; rest 10+ minutes."
+          ]
+        },
+        {
+          "name": "Coat",
+          "steps": [
+            "Lightly dust chicken in cornstarch just before frying (meat side first, then skin).",
+            "Stack pieces meat-side down after coating; spot-check for even, light coating."
+          ]
+        },
+        {
+          "name": "Cook",
+          "steps": [
+            "Preheat stainless pan; add avocado oil; it should smoke quickly—drop heat to low.",
+            "Skin-side down 2–3 min; slide to even browning; flip and cook 5–6 min.",
+            "Flip 1–2 min more; add garlic, then onions; splash shaoxing wine; cover 30–40 sec.",
+            "Season with garlic salt (and MSG if desired)."
+          ]
+        }
+      ]
     }
   ]
 }

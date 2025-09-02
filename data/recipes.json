@@ -1574,6 +1574,149 @@
       ],
       "source": "https://carlsbadcravings.com/best-bbq-pulled-pork-slow-cooker-recipe/",
       "instructions": "Pork: Cube pork shoulder and sear in batches. Combine chilies, Dr Pepper, Worcestershire, apple cider vinegar, liquid smoke, all spices, and orange zest; add pork and cook in slow cooker on LOW 8–12 hours. Remove pork, shred, return to cooker 20 minutes on LOW. Strain juices; add ~1/2 cup back and stir in BBQ sauce; season to taste. Coleslaw: Mix shredded cabbages, carrots, and green onions. In a separate bowl whisk mayo, sour cream, vinegar, sugar, Dijon, lemon juice, salt, dill, and pepper. Toss slaw with dressing as needed just before serving."
+    },
+    {
+      "recipe_id": "chinese_seared_chicken_thighs",
+      "title": "Chinese Seared Chicken Thighs",
+      "servings": 2,
+      "theme_tags": [
+        "chinese",
+        "chicken",
+        "stir_fry",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "item": "chicken_thigh",
+          "quantity": 17.0,
+          "unit": "oz",
+          "unit_type": "mass",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "red_onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "white_onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 3.0,
+          "unit": "clove",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "avocado_oil",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "oyster_sauce",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "soy_sauce",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "shaoxing_wine",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "ground_white_pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "ginger",
+          "quantity": 0.5,
+          "unit": "oz",
+          "unit_type": "mass",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": 0.25,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "shaoxing_wine",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic_salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://youtu.be/lSyylbrHLxE?si=KHbZJEH7uSk6LFmu",
+      "instructions": "Prep bowls: B1 chicken thighs (deboned). B2 marinade (oyster sauce, soy sauce, shaoxing wine, salt, sugar, white pepper, cornstarch, minced ginger). B3 sliced onions (red, white). B4 minced garlic. B5 cornstarch for coating. Pat chicken very dry; marinate 10+ minutes, meat side down first. Lightly coat in cornstarch just before frying (skin last). Heat stainless pan; add avocado oil; immediately drop to low. Fry skin-side down 2–3 min until golden; slide for even browning. Flip; cook 5–6 min; flip again 1–2 min. Add garlic and onions; splash shaoxing wine; cover 30–40 sec. Finish with garlic salt and MSG to taste."
     }
   ]
 }
