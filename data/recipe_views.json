@@ -1829,6 +1829,174 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "j_fried_chicken",
+      "aliases": [
+        "j-fried chicken",
+        "j fried chicken",
+        "japanese fried chicken"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Main",
+          "rank": 0,
+          "items": [
+            {
+              "item": "chicken_thigh",
+              "quantity": 2.0,
+              "unit": "count"
+            }
+          ]
+        },
+        {
+          "name": "Aromatic Water",
+          "rank": 1,
+          "items": [
+            {
+              "label": "Japanese leek (green tops)",
+              "note": "squeeze into water"
+            },
+            {
+              "label": "ginger skin",
+              "note": "squeeze into water"
+            },
+            {
+              "item": "water",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            }
+          ]
+        },
+        {
+          "name": "Marinade",
+          "rank": 2,
+          "items": [
+            {
+              "item": "sugar",
+              "quantity": 1.0,
+              "unit": "tsp"
+            },
+            {
+              "item": "salt",
+              "quantity": 0.5,
+              "unit": "tsp"
+            },
+            {
+              "item": "dark_soy_sauce",
+              "quantity": 1.0,
+              "unit": "tsp"
+            },
+            {
+              "item": "sake",
+              "quantity": 1.0,
+              "unit": "tsp"
+            },
+            {
+              "item": "sesame_oil",
+              "quantity": 0.25,
+              "unit": "tsp",
+              "note": "hint"
+            },
+            {
+              "item": "egg",
+              "quantity": 1.0,
+              "unit": "count"
+            },
+            {
+              "item": "all_purpose_flour",
+              "quantity": 2.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "potato_starch",
+              "quantity": 2.0,
+              "unit": "tbsp",
+              "from_index": 0
+            }
+          ]
+        },
+        {
+          "name": "Pre‑Fry Coat",
+          "rank": 3,
+          "items": [
+            {
+              "item": "potato_starch",
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "from_index": 1
+            }
+          ]
+        },
+        {
+          "name": "Frying",
+          "rank": 4,
+          "items": [
+            {
+              "label": "frying oil",
+              "note": "320°F first fry; 356°F second fry"
+            }
+          ]
+        },
+        {
+          "name": "Teriyaki Glaze",
+          "rank": 5,
+          "items": [
+            {
+              "item": "soy_sauce",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "mirin",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "sake",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "sugar",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "cornstarch",
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "note": "slurry as needed"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Prep",
+          "steps": [
+            "Squeeze leek greens and ginger peels into 3 tbsp water; strain if desired.",
+            "Add the aromatic water to chicken; mix until absorbed.",
+            "Add sugar, salt, dark soy, sake, and a splash of mirin; mix until absorbed.",
+            "Add egg; mix until no pooling; add flour and potato starch; mix very well."
+          ]
+        },
+        {
+          "name": "Fry",
+          "steps": [
+            "Heat peanut oil to 320°F (160°C).",
+            "First fry until pieces float easily (~90 seconds, ~80% cooked). Remove and rest.",
+            "Raise oil to 356°F (180°C); second fry until bubbles lighten and crisp."
+          ]
+        },
+        {
+          "name": "Glaze",
+          "steps": [
+            "Combine soy sauce, mirin, sake, and sugar in a small pan; simmer, stirring, to a glaze.",
+            "Thicken with cornstarch slurry if needed; toss chicken or serve on side."
+          ]
+        }
+      ]
     }
   ]
 }
