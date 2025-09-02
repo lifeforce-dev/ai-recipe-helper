@@ -5,7 +5,14 @@
       <div class="section-hint">All ingredients at a glance.</div>
     </div>
     <div class="rows col">
-      <DotRow v-for="(ing, i) in ingredients" :key="i" :item="ing.item" :qty="ing.quantity" :unit="ing.unit" />
+      <DotRow
+        v-for="(ing, i) in ingredients"
+        :key="i"
+        :item="ing.item"
+        :qty="ing.quantity"
+        :unit="ing.unit"
+        :metric="metric"
+      />
     </div>
   </div>
 </template>
@@ -14,7 +21,7 @@
 import DotRow from "./DotRow.vue"
 import type { Ingredient } from "../types"
 
-defineProps<{ ingredients: Ingredient[] }>()
+defineProps<{ ingredients: Ingredient[]; metric?: boolean }>()
 </script>
 
 <style scoped>

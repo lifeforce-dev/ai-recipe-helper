@@ -16,10 +16,11 @@
                 :item="(it as any).item"
                 :qty="(it as any).quantity ?? findDefault((it as any).item, (it as any).from_index, (it as any).portion).qty"
     :unit="(it as any).unit ?? findDefault((it as any).item, (it as any).from_index, (it as any).portion).unit"
-    :metric="metric"
+  :metric="metric"
+  :shrink-left="true"
               />
             </template>
-            <DotRow v-else :left="(it as any).label" :right="(it as any).note ?? ''" />
+            <DotRow v-else :left="(it as any).label" :right="(it as any).note ?? ''" :shrink-right="true" />
           </template>
         </div>
       </div>

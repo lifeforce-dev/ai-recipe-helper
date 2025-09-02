@@ -1,22 +1,130 @@
 <template>
-  <div class="row">
-    <div class="left">{{ left }}</div>
-    <div class="fill" />
-    <div class="right">{{ right }}</div>
+  <div class="row" ref="rowEl">
+    <div class="left" ref="leftEl" :style="leftStyle">{{ left }}</div>
+    <div class="fill" ref="fillEl" />
+  <div class="right" ref="rightEl" :style="rightStyle">{{ right }}</div>
   </div>
+  
 </template>
 
 <script setup lang="ts">
-import { computed } from "vue"
+import { computed, onMounted, onBeforeUnmount, ref, watch, nextTick } from "vue"
 import { pretty } from "../data"
 
-const props = defineProps<{ left?: string; right?: string; item?: string; qty?: number; unit?: string }>()
+const props = defineProps<{
+  left?: string
+  right?: string
+  item?: string
+  qty?: number
+  unit?: string
+  metric?: boolean
+  // If true, shrink the left text only when the row runs out of leader space (used by Sectioned groups).
+  shrinkLeft?: boolean
+  // If true, shrink the right text similarly when space runs out (useful for long notes in sections).
+  shrinkRight?: boolean
+}>()
 
 const left = computed(() => (props.item ? pretty(props.item) : props.left ?? ""))
 const right = computed(() => {
-  if (props.qty != null && props.unit) return formatQty(props.qty) + " " + props.unit
+  if (props.qty != null && props.unit) {
+    const { qty, unit } = props.metric ? toMetric(props.qty, props.unit) : { qty: props.qty, unit: props.unit }
+    return formatQty(qty) + (unit ? " " + unit : "")
+  }
   return props.right ?? ""
 })
+
+// --- Adaptive left sizing (section-only) ---
+const rowEl = ref<HTMLDivElement>()
+const leftEl = ref<HTMLDivElement>()
+const rightEl = ref<HTMLDivElement>()
+const fillEl = ref<HTMLDivElement>()
+const leftFontPx = ref<number | null>(null)
+const rightFontPx = ref<number | null>(null)
+const leftStyle = computed(() => (props.shrinkLeft && leftFontPx.value ? { fontSize: `${leftFontPx.value}px` } : undefined))
+const rightStyle = computed(() => (props.shrinkRight && rightFontPx.value ? { fontSize: `${rightFontPx.value}px` } : undefined))
+
+let ro: ResizeObserver | null = null
+
+async function adjustAdaptiveSize() {
+  await nextTick()
+  const row = rowEl.value, leftN = leftEl.value, rightN = rightEl.value, fillN = fillEl.value
+  if (!row || !leftN || !rightN || !fillN) return
+
+  // Reset any prior sizing to measure natural widths.
+  if (props.shrinkLeft) leftFontPx.value = null
+  if (props.shrinkRight) rightFontPx.value = null
+  await nextTick()
+
+  const baseSize = parseFloat(getComputedStyle(leftN).fontSize || "16") || 16
+  const baseSizeRight = parseFloat(getComputedStyle(rightN).fontSize || "16") || 16
+  const minFill = 12 // keep at least this many pixels of leader
+  const minFontL = Math.max(12, Math.round(baseSize * 0.75)) // don't go below 12px or 75%
+  const minFontR = Math.max(12, Math.round(baseSizeRight * 0.75))
+
+  // Measure current layout.
+  const containerW = row.clientWidth
+  const leftW = leftN.offsetWidth
+  const rightW = rightN.offsetWidth
+  const fillW = fillN.offsetWidth
+
+  // If we still have enough leader space, do nothing.
+  if (fillW >= minFill) return
+
+  // Compute a scale to reclaim at least minFill width.
+  const targetLeftMax = containerW - rightW - minFill
+  const targetRightMax = containerW - leftW - minFill
+
+  let candidates: Array<{
+    side: 'left' | 'right'
+    base: number
+    minFont: number
+    currentW: number
+    targetMax: number
+  }> = []
+  if (props.shrinkLeft) candidates.push({ side: 'left', base: baseSize, minFont: minFontL, currentW: leftW, targetMax: targetLeftMax })
+  if (props.shrinkRight) candidates.push({ side: 'right', base: baseSizeRight, minFont: minFontR, currentW: rightW, targetMax: targetRightMax })
+  if (candidates.length === 0) return
+
+  // Discard impossible targets.
+  candidates = candidates.filter(c => c.targetMax > 0)
+  if (candidates.length === 0) {
+    // Nothing fits; clamp both sides to minimum if allowed.
+    if (props.shrinkLeft) leftFontPx.value = minFontL
+    if (props.shrinkRight) rightFontPx.value = minFontR
+    return
+  }
+
+  // Choose the side that requires the least reduction (largest scale) but still <= 1.
+  candidates.sort((a, b) => (b.targetMax / Math.max(1, b.currentW)) - (a.targetMax / Math.max(1, a.currentW)))
+  const pick = candidates[0]
+  const scale = Math.min(1, pick.targetMax / Math.max(1, pick.currentW))
+  let newSize = Math.max(pick.minFont, Math.floor(pick.base * scale))
+  if (pick.side === 'left') {
+    leftFontPx.value = newSize
+  } else {
+    rightFontPx.value = newSize
+  }
+  await nextTick()
+
+  // Safety: if still no leader, clamp the chosen side to its min.
+  if (fillN.offsetWidth < minFill) {
+    if (pick.side === 'left') leftFontPx.value = pick.minFont
+    else rightFontPx.value = pick.minFont
+  }
+}
+
+onMounted(() => {
+  if (props.shrinkLeft || props.shrinkRight) {
+    ro = new ResizeObserver(() => adjustAdaptiveSize())
+    if (rowEl.value) ro.observe(rowEl.value)
+  }
+  adjustAdaptiveSize()
+})
+
+onBeforeUnmount(() => { if (ro) { ro.disconnect(); ro = null } })
+
+// Recompute when the displayed text changes.
+watch([left, right, () => props.shrinkLeft, () => props.shrinkRight], () => adjustAdaptiveSize())
 
 // Render quantities as mixed numbers with nice fraction glyphs where possible.
 function formatQty(n: number): string {
@@ -78,5 +186,32 @@ function gcd(a: number, b: number): number {
   let x = Math.abs(a), y = Math.abs(b)
   while (y) { const t = y; y = x % y; x = t }
   return x || 1
+}
+
+// Convert common US cooking units to metric.
+function toMetric(qty: number, unit: string): { qty: number; unit: string } {
+  const u = unit.toLowerCase()
+  // Count-like units stay as-is.
+  const countUnits = new Set(["count", "clove", "bunch", "handful", "square"])
+  if (countUnits.has(u)) return { qty, unit }
+
+  // Weight
+  if (u === "lb" || u === "pound" || u === "lbs") return { qty: round(qty * 453.592, 0), unit: "g" }
+  if (u === "oz" || u === "ounce" || u === "ounces") return { qty: round(qty * 28.3495, 0), unit: "g" }
+
+  // Volume
+  if (u === "tsp" || u === "teaspoon" || u === "teaspoons") return { qty: round(qty * 5, 0), unit: "ml" }
+  if (u === "tbsp" || u === "tablespoon" || u === "tablespoons") return { qty: round(qty * 15, 0), unit: "ml" }
+  if (u === "cup" || u === "cups") return { qty: round(qty * 236.588, 0), unit: "ml" }
+
+  // Canned goods by oz -> g (approx weight). Already handled by oz path above.
+
+  // Unknown unit: leave as-is.
+  return { qty, unit }
+}
+
+function round(n: number, decimals: number): number {
+  const f = 10 ** decimals
+  return Math.round(n * f) / f
 }
 </script>
