@@ -53,3 +53,6 @@ web/coverage/
 # --- Generated web data copies (source of truth lives in /data) ---
 web/public/data/recipes.json
 web/public/data/recipe_views.json
+
+# --- Ephemeral incoming temp JSON (not tracked) ---
+data/incoming/

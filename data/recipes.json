@@ -4,226 +4,1031 @@
       "recipe_id": "broccoli_stir_fry",
       "title": "Broccoli Stir Fry",
       "servings": 2,
-      "theme_tags": ["chinese", "vegetarian", "stir_fry", "weeknight"],
-      "ingredients": [
-        { "item": "broccoli", "quantity": 1, "unit": "lb", "category": "produce", "storage": "refrigerated" },
-        { "item": "garlic", "quantity": 5, "unit": "clove", "category": "produce", "storage": "pantry" },
-        { "item": "ginger", "quantity": 0.5, "unit": "oz", "category": "produce", "storage": "refrigerated" },
-        { "item": "neutral_oil", "quantity": 2, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
-        { "item": "shaoxing_wine", "quantity": 1, "unit": "tsp", "category": "condiment", "storage": "pantry" },
-
-        { "item": "salt", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "sugar", "quantity": 1, "unit": "tsp", "category": "other", "storage": "pantry" },
-        { "item": "shaoxing_wine", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
-        { "item": "chicken_bouillon_powder", "quantity": 1, "unit": "tsp", "category": "condiment", "storage": "pantry" },
-        { "item": "cornstarch", "quantity": 2, "unit": "tsp", "category": "grain_legume", "storage": "pantry" },
-        { "item": "water", "quantity": 2, "unit": "tbsp", "category": "other", "storage": "pantry" },
-        { "item": "oyster_sauce", "quantity": 1, "unit": "tsp", "category": "condiment", "storage": "pantry" }
+      "theme_tags": [
+        "chinese",
+        "vegetarian",
+        "stir_fry",
+        "weeknight"
       ],
+      "ingredients": [
+        {
+          "item": "broccoli",
+          "quantity": 1.0,
+          "unit": "lb",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "garlic",
+          "quantity": 5.0,
+          "unit": "clove",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "ginger",
+          "quantity": 0.5,
+          "unit": "oz",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "neutral_oil",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "shaoxing_wine",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "shaoxing_wine",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "chicken_bouillon_powder",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "water",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "oyster_sauce",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "condiment",
+          "storage": "pantry"
+        }
+      ],
+      "source": null,
       "instructions": "Blanch broccoli in salted, oiled boiling water; shock in ice bath and drain. Stir-fry aromatics in hot oil, add broccoli, Shaoxing wine, then pour in premixed sauce (salt, sugar, chicken bouillon, cornstarch, water, oyster sauce); toss until glossy and thickened."
-    }
-    ,
+    },
     {
       "recipe_id": "butter_chicken",
       "title": "Butter Chicken",
       "servings": 4,
-      "theme_tags": ["indian", "chicken", "curry", "weeknight"],
-      "ingredients": [
-        { "item": "chicken_thigh", "quantity": 1.5, "unit": "lb", "category": "meat", "storage": "refrigerated" },
-        { "item": "greek_yogurt", "quantity": 0.75, "unit": "cup", "category": "dairy", "storage": "refrigerated" },
-        { "item": "lemon_juice", "quantity": 2, "unit": "tsp", "category": "produce", "storage": "refrigerated" },
-        { "item": "ginger", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "refrigerated" },
-        { "item": "kashmiri_chili_powder", "quantity": 2.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "turmeric", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "ground_cumin", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "garam_masala", "quantity": 1, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "salt", "quantity": 2, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-
-        { "item": "onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
-        { "item": "garlic", "quantity": 5, "unit": "clove", "category": "produce", "storage": "pantry" },
-        { "item": "ginger", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "refrigerated" },
-        { "item": "salt", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-
-        { "item": "garam_masala", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "kashmiri_chili_powder", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "turmeric", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "fenugreek_powder", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "sugar", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
-
-        { "item": "ghee", "quantity": 2, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
-        { "item": "crushed_tomatoes", "quantity": 14, "unit": "oz", "category": "condiment", "storage": "pantry" },
-        { "item": "heavy_cream", "quantity": 0.75, "unit": "cup", "category": "dairy", "storage": "refrigerated" },
-        { "item": "unsalted_butter", "quantity": 2, "unit": "tbsp", "category": "dairy", "storage": "refrigerated" }
+      "theme_tags": [
+        "indian",
+        "chicken",
+        "curry",
+        "weeknight"
       ],
+      "ingredients": [
+        {
+          "item": "chicken_thigh",
+          "quantity": 1.5,
+          "unit": "lb",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "greek_yogurt",
+          "quantity": 0.75,
+          "unit": "cup",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "lemon_juice",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "ginger",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "kashmiri_chili_powder",
+          "quantity": 2.5,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "turmeric",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "ground_cumin",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "garam_masala",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "onion",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 5.0,
+          "unit": "clove",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "ginger",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "garam_masala",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "kashmiri_chili_powder",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "turmeric",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "fenugreek_powder",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "ghee",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "crushed_tomatoes",
+          "quantity": 14.0,
+          "unit": "oz",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "heavy_cream",
+          "quantity": 0.75,
+          "unit": "cup",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "unsalted_butter",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "dairy",
+          "storage": "refrigerated"
+        }
+      ],
+      "source": null,
       "instructions": "Sear marinated chicken in ghee; set aside. In same pan cook onion, salt, garlic, ginger until softened. Add garam masala, Kashmiri chili, turmeric, fenugreek, sugar; cook until fragrant. Add crushed tomatoes, reduce briefly, blend smooth; return sauce and chicken to pan and simmer 7 minutes. Add heavy cream; simmer 7 minutes. Cut heat, stir in butter; salt to taste."
     },
     {
       "recipe_id": "gochujang_stew",
       "title": "Gochujang Stew (고추장찌개)",
       "servings": 4,
-      "theme_tags": ["korean", "stew", "spicy", "pork"],
-      "ingredients": [
-        { "item": "zucchini", "quantity": 1, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "radish", "quantity": 1, "unit": "handful", "category": "produce", "storage": "refrigerated" },
-        { "item": "onion", "quantity": 0.5, "unit": "count", "category": "produce", "storage": "pantry" },
-        { "item": "green_onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "cheongyang_chili_pepper", "quantity": 2, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "shiitake_mushroom", "quantity": 2, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "yellow_potato", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
-        { "item": "pork", "quantity": 6.3, "unit": "oz", "category": "meat", "storage": "refrigerated" },
-        { "item": "neutral_oil", "quantity": 0.33, "unit": "cup", "category": "oil_fat", "storage": "pantry" },
-        { "item": "red_chili_powder", "quantity": 4, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "water", "quantity": 2.5, "unit": "cup", "category": "other", "storage": "pantry" },
-        { "item": "gochujang", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "refrigerated" },
-        { "item": "soup_soy_sauce", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
-        { "item": "tuna_extract", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
-        { "item": "sugar", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
-        { "item": "garlic", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "pantry" }
+      "theme_tags": [
+        "korean",
+        "stew",
+        "spicy",
+        "pork"
       ],
+      "ingredients": [
+        {
+          "item": "zucchini",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "radish",
+          "quantity": 1.0,
+          "unit": "handful",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "cheongyang_chili_pepper",
+          "quantity": 2.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "shiitake_mushroom",
+          "quantity": 2.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "yellow_potato",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "pork",
+          "quantity": 6.3,
+          "unit": "oz",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "neutral_oil",
+          "quantity": 0.33,
+          "unit": "cup",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "red_chili_powder",
+          "quantity": 4.0,
+          "unit": "tbsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "water",
+          "quantity": 2.5,
+          "unit": "cup",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "gochujang",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "soup_soy_sauce",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "tuna_extract",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "produce",
+          "storage": "pantry"
+        }
+      ],
+      "source": null,
       "instructions": "Slice zucchini. Slice radish, onion, green onion, chili peppers, and mushrooms. Slice pork and season with black pepper. In a pot, add cooking oil and stir-fry pork with black pepper until cooked through; add red chili powder and bloom on low heat. Add water and gochujang; bring to a boil. Add soup soy sauce, tuna extract (optional), sugar, and minced garlic; mix well. Add radish, onion, potato, and mushrooms; simmer until radish is soft and flavors blend. Finish with zucchini and chili peppers; simmer briefly and serve hot."
     },
     {
       "recipe_id": "pork_stir_fry",
       "title": "Pork Stir Fry (제육볶음)",
       "servings": 4,
-      "theme_tags": ["korean", "stir_fry", "pork", "weeknight"],
-      "ingredients": [
-        { "item": "pork", "quantity": 1.1, "unit": "lb", "category": "meat", "storage": "refrigerated" },
-        { "item": "onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
-        { "item": "green_onion", "quantity": 2, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "garlic", "quantity": 3, "unit": "clove", "category": "produce", "storage": "pantry" },
-        { "item": "carrot", "quantity": 1, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "neutral_oil", "quantity": 1, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
-
-        { "item": "gochujang", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "refrigerated" },
-        { "item": "gochugaru", "quantity": 1, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "soy_sauce", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
-        { "item": "sugar", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
-        { "item": "honey", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
-        { "item": "sesame_oil", "quantity": 1, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
-        { "item": "garlic", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "pantry" },
-        { "item": "ginger", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "refrigerated" },
-        { "item": "mirin", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" }
+      "theme_tags": [
+        "korean",
+        "stir_fry",
+        "pork",
+        "weeknight"
       ],
+      "ingredients": [
+        {
+          "item": "pork",
+          "quantity": 1.1,
+          "unit": "lb",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "onion",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 2.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "garlic",
+          "quantity": 3.0,
+          "unit": "clove",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "carrot",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "neutral_oil",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "gochujang",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "gochugaru",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "soy_sauce",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "honey",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "sesame_oil",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "ginger",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "mirin",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        }
+      ],
+      "source": null,
       "instructions": "Mix marinade (gochujang, gochugaru, soy sauce, sugar, honey, sesame oil, minced garlic, grated ginger, mirin). Add pork and marinate 30 minutes (or a few hours). Heat oil in a pan over medium-high. Add marinated pork; stir-fry until mostly cooked. Add onion, carrot, and garlic; stir-fry until vegetables are tender and pork is cooked through. Add green onions; stir 1 minute. Drizzle a little sesame oil and black pepper to taste. Serve with steamed rice."
     },
     {
       "recipe_id": "mongolian_beef",
       "title": "Mongolian Beef",
       "servings": 4,
-      "theme_tags": ["chinese", "beef", "stir_fry", "weeknight"],
-      "ingredients": [
-        { "item": "flank_steak", "quantity": 1, "unit": "lb", "category": "meat", "storage": "refrigerated" },
-        { "item": "peanut_oil", "quantity": 3, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
-        { "item": "thai_basil", "quantity": 1, "unit": "handful", "category": "produce", "storage": "refrigerated" },
-        { "item": "cornstarch", "quantity": 0.25, "unit": "cup", "category": "grain_legume", "storage": "pantry" },
-        { "item": "ground_white_pepper", "quantity": 0.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "green_onion", "quantity": 1, "unit": "bunch", "category": "produce", "storage": "refrigerated" },
-        { "item": "ginger", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "refrigerated" },
-        { "item": "fresno_chili", "quantity": 2, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "gochugaru", "quantity": 2, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "dark_soy_sauce", "quantity": 0.25, "unit": "cup", "category": "condiment", "storage": "pantry" },
-        { "item": "soy_sauce", "quantity": 0.25, "unit": "cup", "category": "condiment", "storage": "pantry" },
-        { "item": "brown_sugar", "quantity": 0.5, "unit": "cup", "category": "other", "storage": "pantry" },
-        { "item": "garlic", "quantity": 5, "unit": "clove", "category": "produce", "storage": "pantry" }
+      "theme_tags": [
+        "chinese",
+        "beef",
+        "stir_fry",
+        "weeknight"
       ],
+      "ingredients": [
+        {
+          "item": "flank_steak",
+          "quantity": 1.0,
+          "unit": "lb",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "peanut_oil",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "thai_basil",
+          "quantity": 1.0,
+          "unit": "handful",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "ground_white_pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 1.0,
+          "unit": "bunch",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "ginger",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "fresno_chili",
+          "quantity": 2.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "gochugaru",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "dark_soy_sauce",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "soy_sauce",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "brown_sugar",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 5.0,
+          "unit": "clove",
+          "category": "produce",
+          "storage": "pantry"
+        }
+      ],
+      "source": null,
       "instructions": "Prep bowls: B1 cornstarch + white pepper + salt; B2 ginger + fresno chiles + gochugaru; B3 brown sugar; B4 dark soy + soy sauce + water + rice vinegar; B5 Thai basil + garlic; B6 flank steak sliced 1/2 inch. Heat peanut oil in wok. Toss beef in B1; shallow‑fry until browned; set aside. Sear green onions ~1 minute until caramelized. Add B2; stir‑fry 45 seconds. Add B3, then B4; boil and reduce ~3 minutes. Return beef; toss until glazed. Cut heat; add Thai basil and garlic; toss to combine."
-    }
-    ,
+    },
     {
       "recipe_id": "simple_perfect_chili",
       "title": "Simple, Perfect Chili",
       "servings": 6,
-      "theme_tags": ["american", "beef", "chili", "stew"],
-      "source": "https://www.foodnetwork.com/recipes/ree-drummond/simple-perfect-chili-recipe-2107099",
-      "ingredients": [
-        { "item": "ground_beef", "quantity": 2, "unit": "lb", "category": "meat", "storage": "refrigerated" },
-        { "item": "onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
-        { "item": "garlic", "quantity": 5, "unit": "clove", "category": "produce", "storage": "pantry" },
-
-        { "item": "tomato_sauce", "quantity": 8, "unit": "oz", "category": "condiment", "storage": "pantry" },
-        { "item": "chili_powder", "quantity": 2, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "ground_cumin", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "ground_oregano", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "salt", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "cayenne_pepper", "quantity": 0.25, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-
-        { "item": "beef_broth", "quantity": 4, "unit": "cup", "category": "other", "storage": "pantry" },
-        { "item": "red_wine", "quantity": 0.25, "unit": "cup", "category": "other", "storage": "pantry" },
-        { "item": "kidney_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
-        { "item": "pinto_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
-        { "item": "bakers_chocolate", "quantity": 0.5, "unit": "square", "category": "other", "storage": "pantry" },
-
-        { "item": "masa_harina", "quantity": 0.25, "unit": "cup", "category": "grain_legume", "storage": "pantry" },
-        { "item": "water", "quantity": 0.5, "unit": "cup", "category": "other", "storage": "pantry" },
-        { "item": "msg", "quantity": 0.25, "unit": "tsp", "category": "other", "storage": "pantry" }
+      "theme_tags": [
+        "american",
+        "beef",
+        "chili",
+        "stew"
       ],
+      "ingredients": [
+        {
+          "item": "ground_beef",
+          "quantity": 2.0,
+          "unit": "lb",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "onion",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 5.0,
+          "unit": "clove",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "tomato_sauce",
+          "quantity": 8.0,
+          "unit": "oz",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "chili_powder",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "ground_cumin",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "ground_oregano",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "cayenne_pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "beef_broth",
+          "quantity": 4.0,
+          "unit": "cup",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "red_wine",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "kidney_beans",
+          "quantity": 15.0,
+          "unit": "oz",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "pinto_beans",
+          "quantity": 15.0,
+          "unit": "oz",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "bakers_chocolate",
+          "quantity": 0.5,
+          "unit": "square",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "masa_harina",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "water",
+          "quantity": 0.5,
+          "unit": "cup",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "msg",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "category": "other",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://www.foodnetwork.com/recipes/ree-drummond/simple-perfect-chili-recipe-2107099",
       "instructions": "Brown beef in two pressed batches for deep crust; reserve fat. Sweat onions; toast garlic and spices in beef fat, then add tomato sauce and cook to deep red. Deglaze pot with red wine; add beef, onion/spice mix, 3 cups beef broth, beans, and chocolate. Cover and simmer 1 hour, stirring every 15 minutes to lift fond; add more broth as needed. Finish with masa harina slurry, 1/4 tsp MSG, and salt to taste."
-    }
-    ,
+    },
     {
       "recipe_id": "candied_bacon",
       "title": "Candied Bacon",
       "servings": 4,
-      "theme_tags": ["american", "pork", "snack", "oven"],
-      "source": "https://www.allrecipes.com/recipe/221007/candied-bacon/",
-      "ingredients": [
-        { "item": "brown_sugar", "quantity": 0.25, "unit": "cup", "category": "other", "storage": "pantry" },
-        { "item": "rice_vinegar", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
-        { "item": "maple_syrup", "quantity": 2, "unit": "tbsp", "category": "other", "storage": "pantry" },
-        { "item": "bacon", "quantity": 1, "unit": "lb", "category": "meat", "storage": "refrigerated" }
+      "theme_tags": [
+        "american",
+        "pork",
+        "snack",
+        "oven"
       ],
+      "ingredients": [
+        {
+          "item": "brown_sugar",
+          "quantity": 0.25,
+          "unit": "cup",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "rice_vinegar",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "maple_syrup",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "bacon",
+          "quantity": 1.0,
+          "unit": "lb",
+          "category": "meat",
+          "storage": "refrigerated"
+        }
+      ],
+      "source": "https://www.allrecipes.com/recipe/221007/candied-bacon/",
       "instructions": "Preheat oven to 350°F (175°C). Mix brown sugar, rice vinegar, maple syrup, and black pepper to taste. Arrange thick‑cut bacon on a rack over a sheet pan. Bake 10 minutes, flip and bake 5 more. Brush both sides with glaze and return to oven; continue baking and brushing every 5 minutes until browned and crisp, about 35 minutes total."
     },
     {
       "recipe_id": "dak_galbi",
       "title": "Dak Galbi (Korean Spicy Chicken Stir Fry)",
       "servings": 3,
-      "theme_tags": ["korean", "chicken", "stir_fry", "spicy", "weeknight"],
-      "source": "https://mykoreankitchen.com/dak-galbi/",
-      "ingredients": [
-        { "item": "chicken_thigh", "quantity": 1.1, "unit": "lb", "category": "meat", "storage": "refrigerated" },
-        { "item": "sweet_potato", "quantity": 0.5, "unit": "count", "category": "produce", "storage": "pantry" },
-        { "item": "carrot", "quantity": 0.5, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "cabbage", "quantity": 0.25, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "perilla_leaf", "quantity": 10, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "rice_cake", "quantity": 18, "unit": "count", "category": "grain_legume", "storage": "refrigerated" },
-        { "item": "neutral_oil", "quantity": 2, "unit": "tbsp", "category": "oil_fat", "storage": "pantry" },
-
-        { "item": "gochujang", "quantity": 3, "unit": "tbsp", "category": "condiment", "storage": "refrigerated" },
-        { "item": "rice_wine", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
-        { "item": "gochugaru", "quantity": 1, "unit": "tbsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "soy_sauce", "quantity": 1, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
-        { "item": "sugar", "quantity": 1, "unit": "tbsp", "category": "other", "storage": "pantry" },
-        { "item": "garlic", "quantity": 1, "unit": "tbsp", "category": "produce", "storage": "pantry" },
-        { "item": "ginger", "quantity": 1, "unit": "tsp", "category": "produce", "storage": "refrigerated" },
-        { "item": "korean_curry_powder", "quantity": 1, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "onion", "quantity": 0.5, "unit": "count", "category": "produce", "storage": "pantry" }
+      "theme_tags": [
+        "korean",
+        "chicken",
+        "stir_fry",
+        "spicy",
+        "weeknight"
       ],
+      "ingredients": [
+        {
+          "item": "chicken_thigh",
+          "quantity": 1.1,
+          "unit": "lb",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "sweet_potato",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "carrot",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "cabbage",
+          "quantity": 0.25,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "perilla_leaf",
+          "quantity": 10.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "rice_cake",
+          "quantity": 18.0,
+          "unit": "count",
+          "category": "grain_legume",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "neutral_oil",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "gochujang",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "rice_wine",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "gochugaru",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "soy_sauce",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "ginger",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "korean_curry_powder",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "onion",
+          "quantity": 0.5,
+          "unit": "count",
+          "category": "produce",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://mykoreankitchen.com/dak-galbi/",
       "instructions": "Mix marinade (gochujang, rice wine, gochugaru, soy sauce, sugar, garlic, ginger, Korean curry powder, grated onion). Toss with chicken; marinate 30 minutes to overnight. Heat large skillet over medium‑high; add oil. Add cabbage, sweet potato, carrot, perilla, and rice cakes; place chicken on top. Cook 3–4 minutes, then reduce to medium/low and stir often until chicken is cooked and vegetables tender, 10–15 minutes. Cover to speed cooking. Serve with rice."
-    }
-    ,
+    },
     {
       "recipe_id": "red_beans_and_rice",
       "title": "Simple Red Beans and Rice",
       "servings": 6,
-      "theme_tags": ["cajun", "stew", "weeknight"],
-      "source": "https://damndelicious.net/2019/04/15/red-beans-and-rice/",
-      "ingredients": [
-        { "item": "sausage", "quantity": 12, "unit": "oz", "category": "meat", "storage": "refrigerated" },
-        { "item": "onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
-        { "item": "green_bell_pepper", "quantity": 1, "unit": "count", "category": "produce", "storage": "refrigerated" },
-        { "item": "tomato_paste", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
-        { "item": "garlic", "quantity": 3, "unit": "clove", "category": "produce", "storage": "pantry" },
-        { "item": "cajun_seasoning", "quantity": 1.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
-        { "item": "red_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
-        { "item": "black_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
-        { "item": "pinto_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
-        { "item": "chicken_stock", "quantity": 3, "unit": "cup", "category": "other", "storage": "pantry" },
-        { "item": "hot_sauce", "quantity": 1, "unit": "tsp", "category": "condiment", "storage": "pantry" },
-        { "item": "bay_leaf", "quantity": 1, "unit": "count", "category": "spice_herb", "storage": "pantry" },
-        { "item": "cooking_wine", "quantity": 2, "unit": "tbsp", "category": "other", "storage": "pantry" }
+      "theme_tags": [
+        "cajun",
+        "stew",
+        "weeknight"
       ],
+      "ingredients": [
+        {
+          "item": "sausage",
+          "quantity": 12.0,
+          "unit": "oz",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "onion",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "green_bell_pepper",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "tomato_paste",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 3.0,
+          "unit": "clove",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "cajun_seasoning",
+          "quantity": 1.5,
+          "unit": "tsp",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "red_beans",
+          "quantity": 15.0,
+          "unit": "oz",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "black_beans",
+          "quantity": 15.0,
+          "unit": "oz",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "pinto_beans",
+          "quantity": 15.0,
+          "unit": "oz",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "chicken_stock",
+          "quantity": 3.0,
+          "unit": "cup",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "hot_sauce",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "bay_leaf",
+          "quantity": 1.0,
+          "unit": "count",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "cooking_wine",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "category": "other",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://damndelicious.net/2019/04/15/red-beans-and-rice/",
       "instructions": "Prep: B1 dice onion and bell pepper; B2 slice sausage; B3 mix tomato paste, minced garlic, and Cajun seasoning; B4 drain and rinse beans. Sauté onion and bell pepper on high until lightly caramelized; remove. Sear sausage in batches; remove. Deglaze hot pan with a splash of cooking wine, add onions/peppers and scrape up fond. Stir in B3; cook until tomato paste toasts and fragrant. Add 1 cup chicken stock; stir until smooth and deglazed. Transfer to pot; add remaining stock, beans, sausage, hot sauce, and bay leaf. Cover and simmer 15 minutes. Uncover, season with salt/black pepper/MSG to taste, and simmer 15 minutes more; mash some beans against the pot wall to thicken if needed. Serve over rice."
     }
   ]

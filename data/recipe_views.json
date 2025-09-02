@@ -12,39 +12,144 @@
           "name": "Main Ingredients",
           "rank": 2,
           "items": [
-            { "item": "broccoli" },
-            { "item": "garlic" },
-            { "item": "ginger" }
+            {
+              "item": "broccoli",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "ginger",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Sauce",
           "rank": 3,
           "items": [
-            { "item": "salt" },
-            { "item": "sugar" },
-            { "item": "shaoxing_wine", "from_index": 1 },
-            { "item": "chicken_bouillon_powder" },
-            { "item": "cornstarch" },
-            { "item": "water" },
-            { "item": "oyster_sauce" }
+            {
+              "item": "salt",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "shaoxing_wine",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": 1
+            },
+            {
+              "item": "chicken_bouillon_powder",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "cornstarch",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "water",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "oyster_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Blanching Water",
           "rank": 0,
           "items": [
-            { "label": "Ice Cold Water", "note": "enough to fully submerge broccoli" },
-            { "item": "salt", "quantity": 1, "unit": "tbsp" },
-            { "item": "neutral_oil", "quantity": 1, "unit": "tsp" }
+            {
+              "item": null,
+              "label": "Ice Cold Water",
+              "quantity": null,
+              "unit": null,
+              "note": "enough to fully submerge broccoli",
+              "from_index": null
+            },
+            {
+              "item": "salt",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "neutral_oil",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "For Stir‑Fry",
           "rank": 1,
           "items": [
-            { "item": "neutral_oil" },
-            { "item": "shaoxing_wine", "from_index": 0 }
+            {
+              "item": "neutral_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "shaoxing_wine",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": 0
+            }
           ]
         }
       ],
@@ -88,52 +193,206 @@
           "name": "Marinade",
           "rank": 0,
           "items": [
-            { "item": "chicken_thigh" },
-            { "item": "greek_yogurt" },
-            { "item": "lemon_juice" },
-            { "label": "ginger grated", "note": "2-inch knob" },
-            { "item": "kashmiri_chili_powder", "quantity": 2.5, "unit": "tsp" },
-            { "item": "turmeric", "quantity": 1, "unit": "tsp" },
-            { "item": "ground_cumin" },
-            { "item": "garam_masala", "quantity": 1, "unit": "tbsp" },
-            { "item": "salt", "quantity": 2, "unit": "tsp" }
+            {
+              "item": "chicken_thigh",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "greek_yogurt",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "lemon_juice",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "ginger grated",
+              "quantity": null,
+              "unit": null,
+              "note": "2-inch knob",
+              "from_index": null
+            },
+            {
+              "item": "kashmiri_chili_powder",
+              "label": null,
+              "quantity": 2.5,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "turmeric",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "ground_cumin",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garam_masala",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "salt",
+              "label": null,
+              "quantity": 2.0,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Onions",
           "rank": 2,
           "items": [
-            { "item": "onion", "note": "thinly sliced" }
+            {
+              "item": "onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "thinly sliced",
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Aromatics",
           "rank": 3,
           "items": [
-            { "item": "garlic", "note": "finely chopped" },
-            { "item": "ginger", "quantity": 1, "unit": "tbsp", "note": "grated (15g)" },
-            { "item": "salt", "quantity": 0.5, "unit": "tsp" }
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "finely chopped",
+              "from_index": null
+            },
+            {
+              "item": "ginger",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "note": "grated (15g)",
+              "from_index": null
+            },
+            {
+              "item": "salt",
+              "label": null,
+              "quantity": 0.5,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Spice Mix",
           "rank": 4,
           "items": [
-            { "item": "garam_masala", "quantity": 1, "unit": "tsp" },
-            { "item": "kashmiri_chili_powder", "quantity": 1, "unit": "tsp" },
-            { "item": "turmeric", "quantity": 0.5, "unit": "tsp" },
-            { "item": "fenugreek_powder" },
-            { "item": "sugar" }
+            {
+              "item": "garam_masala",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "kashmiri_chili_powder",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "turmeric",
+              "label": null,
+              "quantity": 0.5,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "fenugreek_powder",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Have Ready",
           "rank": 1,
           "items": [
-            { "item": "ghee" },
-            { "item": "crushed_tomatoes" },
-            { "item": "heavy_cream" },
-            { "item": "unsalted_butter" }
+            {
+              "item": "ghee",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "crushed_tomatoes",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "heavy_cream",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "unsalted_butter",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         }
       ],
@@ -164,59 +423,178 @@
           "name": "Simmer Vegetables",
           "rank": 4,
           "items": [
-            { "item": "radish" },
-            { "item": "onion" },
-            { "item": "shiitake_mushroom" },
-            { "item": "yellow_potato" }
+            {
+              "item": "radish",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "shiitake_mushroom",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "yellow_potato",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Finish – Zucchini & Chili",
           "rank": 5,
           "items": [
-            { "item": "zucchini" },
-            { "item": "cheongyang_chili_pepper" }
+            {
+              "item": "zucchini",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "cheongyang_chili_pepper",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Finish – Green Onion",
           "rank": 6,
           "items": [
-            { "item": "green_onion" }
+            {
+              "item": "green_onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Pork & Oil",
           "rank": 0,
           "items": [
-            { "item": "pork" },
-            { "label": "black pepper", "note": "generously" },
-            { "item": "neutral_oil" }
+            {
+              "item": "pork",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "black pepper",
+              "quantity": null,
+              "unit": null,
+              "note": "generously",
+              "from_index": null
+            },
+            {
+              "item": "neutral_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Chili Oil",
           "rank": 1,
           "items": [
-            { "item": "red_chili_powder" }
+            {
+              "item": "red_chili_powder",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Broth Base",
           "rank": 2,
           "items": [
-            { "item": "water" },
-            { "item": "gochujang" }
+            {
+              "item": "water",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "gochujang",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Seasoning",
           "rank": 3,
           "items": [
-            { "item": "soup_soy_sauce" },
-            { "item": "tuna_extract" },
-            { "item": "sugar" },
-            { "item": "garlic" }
+            {
+              "item": "soup_soy_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "tuna_extract",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         }
       ],
@@ -276,29 +654,148 @@
           "name": "Main",
           "rank": 1,
           "items": [
-            { "item": "chicken_thigh", "note": "bite‑size pieces" },
-            { "item": "sweet_potato", "note": "thick sticks" },
-            { "item": "carrot", "note": "diagonal" },
-            { "item": "cabbage", "note": "shredded" },
-            { "item": "perilla_leaf", "note": "thinly sliced" },
-            { "item": "rice_cake", "note": "separate; soak if packaged" },
-            { "item": "neutral_oil" }
+            {
+              "item": "chicken_thigh",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "bite‑size pieces",
+              "from_index": null
+            },
+            {
+              "item": "sweet_potato",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "thick sticks",
+              "from_index": null
+            },
+            {
+              "item": "carrot",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "diagonal",
+              "from_index": null
+            },
+            {
+              "item": "cabbage",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "shredded",
+              "from_index": null
+            },
+            {
+              "item": "perilla_leaf",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "thinly sliced",
+              "from_index": null
+            },
+            {
+              "item": "rice_cake",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "separate; soak if packaged",
+              "from_index": null
+            },
+            {
+              "item": "neutral_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Marinade",
           "rank": 0,
           "items": [
-            { "item": "gochujang" },
-            { "item": "rice_wine" },
-            { "item": "gochugaru" },
-            { "item": "soy_sauce" },
-            { "item": "sugar" },
-            { "item": "garlic" },
-            { "item": "ginger" },
-            { "item": "korean_curry_powder" },
-            { "item": "onion", "note": "grated or minced" },
-            { "label": "black pepper", "note": "few sprinkles" }
+            {
+              "item": "gochujang",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "rice_wine",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "gochugaru",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "soy_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "ginger",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "korean_curry_powder",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "grated or minced",
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "black pepper",
+              "quantity": null,
+              "unit": null,
+              "note": "few sprinkles",
+              "from_index": null
+            }
           ]
         }
       ],
@@ -333,53 +830,172 @@
           "name": "Marinade",
           "rank": 0,
           "items": [
-            { "item": "gochujang" },
-            { "item": "gochugaru" },
-            { "item": "soy_sauce" },
-            { "item": "sugar" },
-            { "item": "honey" },
-            { "item": "sesame_oil" },
-            { "item": "garlic", "quantity": 1, "unit": "tbsp" },
-            { "item": "ginger" },
-            { "item": "mirin" }
+            {
+              "item": "gochujang",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "gochugaru",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "soy_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "honey",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sesame_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "ginger",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "mirin",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Pork",
           "rank": 2,
           "items": [
-            { "item": "pork" }
+            {
+              "item": "pork",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "For Stir‑Fry",
           "rank": 1,
           "items": [
-            { "item": "neutral_oil" }
+            {
+              "item": "neutral_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Veg – Add Later",
           "rank": 3,
           "items": [
-            { "item": "onion" },
-            { "item": "carrot", "note": "optional" },
-            { "item": "garlic", "quantity": 3, "unit": "clove" }
+            {
+              "item": "onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "carrot",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "optional",
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": 3.0,
+              "unit": "clove",
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Finish – Green Onion",
           "rank": 4,
           "items": [
-            { "item": "green_onion" }
+            {
+              "item": "green_onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Finish – Season",
           "rank": 5,
           "items": [
-            { "label": "sesame oil", "note": "drizzle to taste" },
-            { "label": "black pepper", "note": "to taste" }
+            {
+              "item": null,
+              "label": "sesame oil",
+              "quantity": null,
+              "unit": null,
+              "note": "drizzle to taste",
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "black pepper",
+              "quantity": null,
+              "unit": null,
+              "note": "to taste",
+              "from_index": null
+            }
           ]
         }
       ],
@@ -419,171 +1035,547 @@
         "mongolian beef"
       ],
       "ingredient_sections": [
-  { "name": "Beef Coating", "items": [
-          { "item": "cornstarch" },
-          { "item": "ground_white_pepper" },
-          { "label": "salt", "note": "pinch" }
-  ], "rank": 2},
-  { "name": "Aromatics & Chili", "items": [
-          { "item": "ginger" },
-          { "item": "fresno_chili" },
-          { "item": "gochugaru" }
-  ], "rank": 4},
-  { "name": "Brown Sugar", "items": [
-          { "item": "brown_sugar" }
-  ], "rank": 5},
-  { "name": "Sauce Base", "items": [
-          { "item": "dark_soy_sauce" },
-          { "item": "soy_sauce" },
-          { "label": "water", "note": "splash" },
-          { "label": "rice vinegar", "note": "to taste" }
-  ], "rank": 6},
-  { "name": "Finish – Herbs & Garlic", "items": [
-          { "item": "thai_basil" },
-          { "item": "garlic" }
-  ], "rank": 7},
-  { "name": "Beef", "items": [
-          { "item": "flank_steak" }
-  ], "rank": 1},
-  { "name": "Wok Oil", "items": [
-          { "item": "peanut_oil" }
-  ], "rank": 0},
-  { "name": "Green Onion – Sear Early", "items": [
-          { "item": "green_onion" }
-  ], "rank": 3}
+        {
+          "name": "Beef Coating",
+          "rank": 2,
+          "items": [
+            {
+              "item": "cornstarch",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "ground_white_pepper",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "salt",
+              "quantity": null,
+              "unit": null,
+              "note": "pinch",
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Aromatics & Chili",
+          "rank": 4,
+          "items": [
+            {
+              "item": "ginger",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "fresno_chili",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "gochugaru",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Brown Sugar",
+          "rank": 5,
+          "items": [
+            {
+              "item": "brown_sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Sauce Base",
+          "rank": 6,
+          "items": [
+            {
+              "item": "dark_soy_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "soy_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "water",
+              "quantity": null,
+              "unit": null,
+              "note": "splash",
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "rice vinegar",
+              "quantity": null,
+              "unit": null,
+              "note": "to taste",
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Finish – Herbs & Garlic",
+          "rank": 7,
+          "items": [
+            {
+              "item": "thai_basil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Beef",
+          "rank": 1,
+          "items": [
+            {
+              "item": "flank_steak",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Wok Oil",
+          "rank": 0,
+          "items": [
+            {
+              "item": "peanut_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Green Onion – Sear Early",
+          "rank": 3,
+          "items": [
+            {
+              "item": "green_onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        }
       ],
       "instruction_sections": [
-        { "name": "Prep", "steps": [
-          "Assemble prep groups as described."
-        ]},
-        { "name": "Season & Fry Beef", "steps": [
-          "Heat peanut oil in wok.",
-          "Toss beef in Beef Coating; shallow‑fry until browned; set aside."
-        ]},
-        { "name": "Aromatics & Sauce", "steps": [
-          "Sear green onions ~1 minute until caramelized.",
-          "Add Aromatics & Chili; stir‑fry 45 seconds.",
-          "Add Brown Sugar, then Sauce Base; boil and reduce ~3 minutes until slightly thickened."
-        ]},
-        { "name": "Finish", "steps": [
-          "Return beef; toss until sauce glazes.",
-          "Cut heat; add Thai basil and garlic; toss to combine."
-        ]}
+        {
+          "name": "Prep",
+          "steps": [
+            "Assemble prep groups as described."
+          ]
+        },
+        {
+          "name": "Season & Fry Beef",
+          "steps": [
+            "Heat peanut oil in wok.",
+            "Toss beef in Beef Coating; shallow‑fry until browned; set aside."
+          ]
+        },
+        {
+          "name": "Aromatics & Sauce",
+          "steps": [
+            "Sear green onions ~1 minute until caramelized.",
+            "Add Aromatics & Chili; stir‑fry 45 seconds.",
+            "Add Brown Sugar, then Sauce Base; boil and reduce ~3 minutes until slightly thickened."
+          ]
+        },
+        {
+          "name": "Finish",
+          "steps": [
+            "Return beef; toss until sauce glazes.",
+            "Cut heat; add Thai basil and garlic; toss to combine."
+          ]
+        }
       ]
     },
     {
       "recipe_id": "simple_perfect_chili",
-      "aliases": ["chili", "perfect chili", "simple chili"],
+      "aliases": [
+        "chili",
+        "perfect chili",
+        "simple chili"
+      ],
       "ingredient_sections": [
-  { "name": "Meat", "items": [
-          { "item": "ground_beef" }
-  ], "rank": 1},
-  { "name": "Aromatics", "items": [
-          { "item": "onion" },
-          { "item": "garlic" }
-  ], "rank": 0},
-  { "name": "Spices", "items": [
-          { "item": "chili_powder", "note": "Gebhardt if possible" },
-          { "item": "ground_cumin" },
-          { "item": "ground_oregano" },
-          { "item": "cayenne_pepper" },
-          { "item": "salt" }
-  ], "rank": 2},
-  { "name": "Liquids & Base", "items": [
-          { "item": "tomato_sauce" },
-          { "item": "red_wine" },
-          { "item": "beef_broth", "note": "start with 3 cups" }
-  ], "rank": 3},
-  { "name": "Beans & Chocolate", "items": [
-          { "item": "kidney_beans" },
-          { "item": "pinto_beans" },
-          { "item": "bakers_chocolate" }
-  ], "rank": 4},
-  { "name": "Finishers", "items": [
-          { "item": "masa_harina" },
-          { "item": "water", "note": "for slurry" },
-          { "item": "msg" }
-  ], "rank": 5}
+        {
+          "name": "Meat",
+          "rank": 1,
+          "items": [
+            {
+              "item": "ground_beef",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Aromatics",
+          "rank": 0,
+          "items": [
+            {
+              "item": "onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Spices",
+          "rank": 2,
+          "items": [
+            {
+              "item": "chili_powder",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "Gebhardt if possible",
+              "from_index": null
+            },
+            {
+              "item": "ground_cumin",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "ground_oregano",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "cayenne_pepper",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "salt",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Liquids & Base",
+          "rank": 3,
+          "items": [
+            {
+              "item": "tomato_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "red_wine",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "beef_broth",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "start with 3 cups",
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Beans & Chocolate",
+          "rank": 4,
+          "items": [
+            {
+              "item": "kidney_beans",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "pinto_beans",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "bakers_chocolate",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Finishers",
+          "rank": 5,
+          "items": [
+            {
+              "item": "masa_harina",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "water",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "for slurry",
+              "from_index": null
+            },
+            {
+              "item": "msg",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        }
       ],
       "instruction_sections": [
-        { "name": "Prep – Everything", "steps": [
-          "Gather and set out all ingredients.",
-          "Drain beans in a colander, rinse well, and set aside.",
-          "Have salt within reach.",
-          "Chop onions (not too small; large enough to soak flavor, but not so large they turn slimy/mushy).",
-          "Rough‑chop garlic: small enough to extract flavor, large enough not to disintegrate instantly.",
-          "Use stainless steel for all cooking steps.",
-          "Safety: wear glasses, a long‑sleeve shirt, and cooking gloves to guard against hot oil splatter."
-        ]},
-        { "name": "Sweat the Onions", "steps": [
-          "Heat a stainless pan on full burner until water beads and floats.",
-          "Add avocado oil to coat the pan; immediately add onions.",
-          "Keep heat high; push onions constantly until the loud hissing subsides; add 2 pinches of salt to help.",
-          "When hissing dies down and onions are slightly caramelized and soft, remove and set aside.",
-          "Rinse and wipe the pan completely for the next step."
-        ]},
-        { "name": "Brown the Meat", "steps": [
-          "Heat pan on high until water floats; add just enough avocado oil to coat.",
-          "Place 1 brick of ground beef in the center. Oil the top to prevent sticking and press into a thin slab for max surface area.",
-          "Lower heat to about halfway; cook 2–3 minutes until a very dark brown sear forms (water must evaporate).",
-          "Flip; cook another 2–3 minutes.",
-          "Break up the meat; remove with a slotted spoon and set aside.",
-          "Repeat with the second brick.",
-          "There should be plenty of beef fat in the pan—add some to the reserved beef and leave the rest in the pan."
-        ]},
-        { "name": "Build the Flavor", "steps": [
-          "Lower to low/medium; add garlic to the beef fat; stir ~30 seconds until very fragrant and lightly toasted.",
-          "Return onions; cook 30–60 seconds.",
-          "Add chili powder, 1 tsp salt, cumin, oregano, and cayenne; stir to coat. Mixture will be dry and stick to the pan—toast ~1 minute.",
-          "Pour in tomato sauce and raise heat to medium; scrape up fond and cook until the sauce turns a deep beet‑red color.",
-          "Remove pan from heat."
-        ]},
-        { "name": "Combine", "steps": [
-          "Heat a stainless pot until ripping hot.",
-          "Deglaze with 1/4 cup red wine; cook ~30 seconds (it should hiss).",
-          "Add browned beef.",
-          "Add the tomato/spice/onion mixture.",
-          "Add 3 cups beef broth (will reduce over simmer).",
-          "Add beans.",
-          "Add baker’s chocolate."
-        ]},
-        { "name": "Simmer", "steps": [
-          "Cover and simmer on low for 1 hour.",
-          "Every 15 minutes stir gently to lift fond from the bottom (no hard scraping needed; after 30–60 sec it releases on its own).",
-          "If nothing sticks, raise the simmer slightly. If too dry near the end, add up to 1 cup more broth a little at a time."
-        ]},
-        { "name": "Final Touches", "steps": [
-          "Make a slurry: 1/4 cup masa harina + 1/2 cup cold water. Never add masa directly—only the slurry.",
-          "Stir slurry into chili; add 1/4 tsp MSG.",
-          "Taste and add salt 1/4 tsp at a time until just slightly saltier than seems right when hot (it mutes as it cools)."
-        ]}
+        {
+          "name": "Prep – Everything",
+          "steps": [
+            "Gather and set out all ingredients.",
+            "Drain beans in a colander, rinse well, and set aside.",
+            "Have salt within reach.",
+            "Chop onions (not too small; large enough to soak flavor, but not so large they turn slimy/mushy).",
+            "Rough‑chop garlic: small enough to extract flavor, large enough not to disintegrate instantly.",
+            "Use stainless steel for all cooking steps.",
+            "Safety: wear glasses, a long‑sleeve shirt, and cooking gloves to guard against hot oil splatter."
+          ]
+        },
+        {
+          "name": "Sweat the Onions",
+          "steps": [
+            "Heat a stainless pan on full burner until water beads and floats.",
+            "Add avocado oil to coat the pan; immediately add onions.",
+            "Keep heat high; push onions constantly until the loud hissing subsides; add 2 pinches of salt to help.",
+            "When hissing dies down and onions are slightly caramelized and soft, remove and set aside.",
+            "Rinse and wipe the pan completely for the next step."
+          ]
+        },
+        {
+          "name": "Brown the Meat",
+          "steps": [
+            "Heat pan on high until water floats; add just enough avocado oil to coat.",
+            "Place 1 brick of ground beef in the center. Oil the top to prevent sticking and press into a thin slab for max surface area.",
+            "Lower heat to about halfway; cook 2–3 minutes until a very dark brown sear forms (water must evaporate).",
+            "Flip; cook another 2–3 minutes.",
+            "Break up the meat; remove with a slotted spoon and set aside.",
+            "Repeat with the second brick.",
+            "There should be plenty of beef fat in the pan—add some to the reserved beef and leave the rest in the pan."
+          ]
+        },
+        {
+          "name": "Build the Flavor",
+          "steps": [
+            "Lower to low/medium; add garlic to the beef fat; stir ~30 seconds until very fragrant and lightly toasted.",
+            "Return onions; cook 30–60 seconds.",
+            "Add chili powder, 1 tsp salt, cumin, oregano, and cayenne; stir to coat. Mixture will be dry and stick to the pan—toast ~1 minute.",
+            "Pour in tomato sauce and raise heat to medium; scrape up fond and cook until the sauce turns a deep beet‑red color.",
+            "Remove pan from heat."
+          ]
+        },
+        {
+          "name": "Combine",
+          "steps": [
+            "Heat a stainless pot until ripping hot.",
+            "Deglaze with 1/4 cup red wine; cook ~30 seconds (it should hiss).",
+            "Add browned beef.",
+            "Add the tomato/spice/onion mixture.",
+            "Add 3 cups beef broth (will reduce over simmer).",
+            "Add beans.",
+            "Add baker’s chocolate."
+          ]
+        },
+        {
+          "name": "Simmer",
+          "steps": [
+            "Cover and simmer on low for 1 hour.",
+            "Every 15 minutes stir gently to lift fond from the bottom (no hard scraping needed; after 30–60 sec it releases on its own).",
+            "If nothing sticks, raise the simmer slightly. If too dry near the end, add up to 1 cup more broth a little at a time."
+          ]
+        },
+        {
+          "name": "Final Touches",
+          "steps": [
+            "Make a slurry: 1/4 cup masa harina + 1/2 cup cold water. Never add masa directly—only the slurry.",
+            "Stir slurry into chili; add 1/4 tsp MSG.",
+            "Taste and add salt 1/4 tsp at a time until just slightly saltier than seems right when hot (it mutes as it cools)."
+          ]
+        }
       ]
     },
     {
       "recipe_id": "candied_bacon",
-      "aliases": ["candied bacon", "caramelized bacon"],
+      "aliases": [
+        "candied bacon",
+        "caramelized bacon"
+      ],
       "ingredient_sections": [
-  { "name": "Glaze", "items": [
-          { "item": "brown_sugar" },
-          { "item": "rice_vinegar" },
-          { "item": "maple_syrup" },
-          { "label": "black pepper", "note": "to taste" }
-  ], "rank": 0},
-  { "name": "Bacon", "items": [
-          { "item": "bacon" }
-  ], "rank": 1}
+        {
+          "name": "Glaze",
+          "rank": 0,
+          "items": [
+            {
+              "item": "brown_sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "rice_vinegar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "maple_syrup",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "black pepper",
+              "quantity": null,
+              "unit": null,
+              "note": "to taste",
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Bacon",
+          "rank": 1,
+          "items": [
+            {
+              "item": "bacon",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        }
       ],
       "instruction_sections": [
-        { "name": "Prep", "steps": [
-          "Preheat oven to 350°F (175°C).",
-          "Stir glaze: brown sugar + rice vinegar + maple syrup + black pepper."
-        ]},
-        { "name": "Bake & Baste", "steps": [
-          "Place bacon on a rack set over a sheet pan.",
-          "Bake 10 min; flip and bake 5 min.",
-          "Brush both sides with glaze; bake 5 min.",
-          "Repeat glazing every 5 min until browned and crisp, ~35 min total."
-        ]}
+        {
+          "name": "Prep",
+          "steps": [
+            "Preheat oven to 350°F (175°C).",
+            "Stir glaze: brown sugar + rice vinegar + maple syrup + black pepper."
+          ]
+        },
+        {
+          "name": "Bake & Baste",
+          "steps": [
+            "Place bacon on a rack set over a sheet pan.",
+            "Bake 10 min; flip and bake 5 min.",
+            "Brush both sides with glaze; bake 5 min.",
+            "Repeat glazing every 5 min until browned and crisp, ~35 min total."
+          ]
+        }
       ]
     },
     {
@@ -599,35 +1591,154 @@
           "name": "Main",
           "rank": 2,
           "items": [
-            { "item": "chicken_thigh" },
-            { "item": "sweet_potato", "note": "cut into thick sticks" },
-            { "item": "carrot", "note": "diagonal slices" },
-            { "item": "cabbage", "note": "shredded" },
-            { "item": "perilla_leaf", "note": "thinly sliced" },
-            { "item": "rice_cake", "note": "separate; soak if packaged" }
+            {
+              "item": "chicken_thigh",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sweet_potato",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "cut into thick sticks",
+              "from_index": null
+            },
+            {
+              "item": "carrot",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "diagonal slices",
+              "from_index": null
+            },
+            {
+              "item": "cabbage",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "shredded",
+              "from_index": null
+            },
+            {
+              "item": "perilla_leaf",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "thinly sliced",
+              "from_index": null
+            },
+            {
+              "item": "rice_cake",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "separate; soak if packaged",
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Marinade",
           "rank": 0,
           "items": [
-            { "item": "gochujang" },
-            { "item": "rice_wine" },
-            { "item": "gochugaru" },
-            { "item": "soy_sauce" },
-            { "item": "sugar" },
-            { "item": "garlic" },
-            { "item": "ginger" },
-            { "item": "korean_curry_powder" },
-            { "item": "onion", "note": "grated or minced" },
-            { "label": "black pepper", "note": "few sprinkles" }
+            {
+              "item": "gochujang",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "rice_wine",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "gochugaru",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "soy_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "ginger",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "korean_curry_powder",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "grated or minced",
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "black pepper",
+              "quantity": null,
+              "unit": null,
+              "note": "few sprinkles",
+              "from_index": null
+            }
           ]
         },
         {
           "name": "For Stir‑Fry",
           "rank": 1,
           "items": [
-            { "item": "neutral_oil" }
+            {
+              "item": "neutral_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         }
       ],
@@ -649,8 +1760,7 @@
           ]
         }
       ]
-    }
-    ,
+    },
     {
       "recipe_id": "red_beans_and_rice",
       "aliases": [
@@ -663,68 +1773,208 @@
           "name": "Aromatics",
           "rank": 0,
           "items": [
-            { "item": "onion", "note": "diced; not too fine" },
-            { "item": "green_bell_pepper", "note": "diced; not too fine" }
+            {
+              "item": "onion",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "diced; not too fine",
+              "from_index": null
+            },
+            {
+              "item": "green_bell_pepper",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "diced; not too fine",
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Sausage",
           "rank": 1,
           "items": [
-            { "item": "sausage", "note": "thick slices" }
+            {
+              "item": "sausage",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "thick slices",
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Paste Mix",
           "rank": 2,
           "items": [
-            { "item": "tomato_paste", "quantity": 2, "unit": "tbsp" },
-            { "item": "garlic", "quantity": 3, "unit": "clove", "note": "finely diced" },
-            { "item": "cajun_seasoning", "quantity": 1.5, "unit": "tsp" }
+            {
+              "item": "tomato_paste",
+              "label": null,
+              "quantity": 2.0,
+              "unit": "tbsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": 3.0,
+              "unit": "clove",
+              "note": "finely diced",
+              "from_index": null
+            },
+            {
+              "item": "cajun_seasoning",
+              "label": null,
+              "quantity": 1.5,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Beans",
           "rank": 3,
           "items": [
-            { "item": "red_beans", "note": "drained & rinsed" },
-            { "item": "black_beans", "note": "drained & rinsed" },
-            { "item": "pinto_beans", "note": "drained & rinsed" }
+            {
+              "item": "red_beans",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "drained & rinsed",
+              "from_index": null
+            },
+            {
+              "item": "black_beans",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "drained & rinsed",
+              "from_index": null
+            },
+            {
+              "item": "pinto_beans",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "drained & rinsed",
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Have Ready",
           "rank": 5,
           "items": [
-            { "item": "chicken_stock", "quantity": 3, "unit": "cup" },
-            { "item": "hot_sauce", "quantity": 1, "unit": "tsp" },
-            { "item": "bay_leaf", "quantity": 1, "unit": "count" }
+            {
+              "item": "chicken_stock",
+              "label": null,
+              "quantity": 3.0,
+              "unit": "cup",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "hot_sauce",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "tsp",
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "bay_leaf",
+              "label": null,
+              "quantity": 1.0,
+              "unit": "count",
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Deglaze",
           "rank": 4,
           "items": [
-            { "item": "cooking_wine", "note": "splash" }
+            {
+              "item": "cooking_wine",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": "splash",
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Finish – Season to Taste",
           "rank": 6,
           "items": [
-            { "item": "salt" },
-            { "label": "black pepper" },
-            { "item": "msg" }
+            {
+              "item": "salt",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "black pepper",
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "msg",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
           ]
         },
         {
           "name": "Optional – Insane additions",
           "rank": 7,
           "items": [
-            { "label": "paprika", "note": "1/2–1 tsp" },
-            { "label": "white pepper", "note": "1/4 tsp" },
-            { "label": "cayenne pepper", "note": "1/2 tsp" },
-            { "label": "oregano", "note": "1 tsp" }
+            {
+              "item": null,
+              "label": "paprika",
+              "quantity": null,
+              "unit": null,
+              "note": "1/2–1 tsp",
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "white pepper",
+              "quantity": null,
+              "unit": null,
+              "note": "1/4 tsp",
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "cayenne pepper",
+              "quantity": null,
+              "unit": null,
+              "note": "1/2 tsp",
+              "from_index": null
+            },
+            {
+              "item": null,
+              "label": "oregano",
+              "quantity": null,
+              "unit": null,
+              "note": "1 tsp",
+              "from_index": null
+            }
           ]
         }
       ],
