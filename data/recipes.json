@@ -2435,6 +2435,253 @@
       ],
       "source": "local-notes",
       "instructions": "Combine soy sauce, mirin, sake, and sugar with cornstarch in a small saucepan over medium heat. Whisk constantly until thickened and glossy. Use warm to glaze fried chicken or serve alongside."
+    },
+    {
+      "recipe_id": "pork_curry_katsu",
+      "title": "Pork Curry Katsu",
+      "servings": 4,
+      "theme_tags": [
+        "japanese",
+        "pork",
+        "fried",
+        "stovetop"
+      ],
+      "ingredients": [
+        {
+          "item": "red_cabbage",
+          "quantity": 1.0,
+          "unit": "head",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "rice_vinegar",
+          "quantity": 1.5,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "water",
+          "quantity": 1.0,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "yukari_rice_seasoning",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "butter",
+          "quantity": 56.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "onion",
+          "quantity": 3.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "chicken_stock",
+          "quantity": 4.0,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "dried_shiitake_mushroom",
+          "quantity": 4.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "apple",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "tomato_paste",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "butter",
+          "quantity": 112.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "all_purpose_flour",
+          "quantity": 72.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "garam_masala",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "curry_powder",
+          "quantity": 25.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "msg",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "dark_soy_sauce",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "worcestershire_sauce",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "honey",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "butter",
+          "quantity": 50.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "pork_loin_chop",
+          "quantity": 4.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "to taste",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "all_purpose_flour",
+          "quantity": 72.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "egg",
+          "quantity": 2.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "panko_breadcrumbs",
+          "quantity": 75.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "vegetable_oil",
+          "quantity": 3.5,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "carrot",
+          "quantity": 1.0,
+          "unit": "as needed",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "potato",
+          "quantity": 1.0,
+          "unit": "as needed",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        }
+      ],
+      "source": "local-notes",
+      "instructions": "Pickled Cabbage: Slice red cabbage thin. Bring rice vinegar, water, sugar, and salt to a boil; cut heat; stir in yukari. Pour over cabbage in a jar, weight to submerge, cool, then refrigerate. Pork Prep: Score fat and lightly cross-hatch meat; pound to ~1/2 inch; season with salt. Curry Sauce: Thread 1 – melt butter, add onions; cook 30–45 minutes, adjusting heat, until deeply caramelized (add a splash of water if needed). Thread 2 – bring chicken stock to a boil; add dried shiitake to hydrate, then reserve mushrooms. When onions are ready, add grated apple, tomato paste, and rehydrated mushrooms; saute 3–5 minutes. In same pot add butter, melt; whisk in flour; add garam masala, curry powder, and MSG; toast 1 minute. Stir in onion mixture, dark soy, Worcestershire, honey, and chicken stock; simmer and thicken ~2 minutes; salt to taste. Blend very smooth; while blending, add butter in small pieces; strain back to pot and keep warm. Steam Veg: Steam small carrot and potato pieces until tender. Fry Pork: Heat oil to 340°F (170°C). Dredge pork: flour, beaten eggs, then panko. Fry 4–6 minutes until golden and cooked through. Assembly: Bowl rice, add a pocket of curry, slice pork and serve with pickled cabbage on the side."
     }
   ]
 }

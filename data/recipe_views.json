@@ -2492,6 +2492,252 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "pork_curry_katsu",
+      "aliases": [
+        "katsu curry",
+        "pork katsu curry",
+        "japanese curry pork katsu"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Pickled Cabbage",
+          "rank": 0,
+          "items": [
+            {
+              "item": "red_cabbage",
+              "quantity": 1.0,
+              "unit": "head",
+              "note": "shredded"
+            },
+            {
+              "item": "rice_vinegar",
+              "quantity": 1.5,
+              "unit": "cup"
+            },
+            {
+              "item": "water",
+              "quantity": 1.0,
+              "unit": "cup"
+            },
+            {
+              "item": "sugar",
+              "quantity": 2.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "salt",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "yukari_rice_seasoning",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            }
+          ]
+        },
+        {
+          "name": "Curry – Onions & Stock",
+          "rank": 1,
+          "items": [
+            {
+              "item": "butter",
+              "quantity": 56.0,
+              "unit": "g",
+              "note": "for onions"
+            },
+            {
+              "item": "onion",
+              "quantity": 3.0,
+              "unit": "count",
+              "note": "julienned"
+            },
+            {
+              "item": "chicken_stock",
+              "quantity": 4.0,
+              "unit": "cup"
+            },
+            {
+              "item": "dried_shiitake_mushroom",
+              "quantity": 4.0,
+              "unit": "count"
+            },
+            {
+              "item": "apple",
+              "quantity": 1.0,
+              "unit": "count",
+              "note": "grated"
+            },
+            {
+              "item": "tomato_paste",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            }
+          ]
+        },
+        {
+          "name": "Curry – Roux & Spices",
+          "rank": 2,
+          "items": [
+            {
+              "item": "butter",
+              "quantity": 112.0,
+              "unit": "g",
+              "note": "for roux"
+            },
+            {
+              "item": "all_purpose_flour",
+              "quantity": 72.0,
+              "unit": "g"
+            },
+            {
+              "item": "garam_masala",
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "note": "optional"
+            },
+            {
+              "item": "curry_powder",
+              "quantity": 25.0,
+              "unit": "g"
+            },
+            {
+              "item": "msg",
+              "quantity": 2.0,
+              "unit": "tsp"
+            }
+          ]
+        },
+        {
+          "name": "Curry – Season & Finish",
+          "rank": 3,
+          "items": [
+            {
+              "item": "dark_soy_sauce",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "worcestershire_sauce",
+              "quantity": 2.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "honey",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "butter",
+              "quantity": 50.0,
+              "unit": "g",
+              "note": "finish while blending"
+            }
+          ]
+        },
+        {
+          "name": "Steam Veggies",
+          "rank": 4,
+          "items": [
+            {
+              "item": "carrot",
+              "quantity": 1.0,
+              "unit": "as needed",
+              "note": "chunks"
+            },
+            {
+              "item": "potato",
+              "quantity": 1.0,
+              "unit": "as needed",
+              "note": "chunks"
+            }
+          ]
+        },
+        {
+          "name": "Pork & Frying",
+          "rank": 5,
+          "items": [
+            {
+              "item": "pork_loin_chop",
+              "quantity": 4.0,
+              "unit": "count"
+            },
+            {
+              "item": "salt",
+              "quantity": 1.0,
+              "unit": "to taste"
+            },
+            {
+              "item": "all_purpose_flour",
+              "quantity": 72.0,
+              "unit": "g"
+            },
+            {
+              "item": "egg",
+              "quantity": 2.0,
+              "unit": "count",
+              "note": "whisked with a splash of water"
+            },
+            {
+              "item": "panko_breadcrumbs",
+              "quantity": 75.0,
+              "unit": "g"
+            },
+            {
+              "item": "vegetable_oil",
+              "quantity": 3.5,
+              "unit": "cup",
+              "note": "340°F/170°C"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Pickled Cabbage",
+          "steps": [
+            "Shred cabbage. Bring vinegar, water, sugar, and salt to a boil; cut heat.",
+            "Stir in yukari; pour over cabbage in a jar; weight to submerge; cool, then refrigerate."
+          ]
+        },
+        {
+          "name": "Curry – Onions & Stock",
+          "steps": [
+            "Melt butter; cook onions 30–45 minutes, adjusting heat, until deep caramelization.",
+            "Boil chicken stock; hydrate shiitake then reserve mushrooms.",
+            "Add grated apple, tomato paste, and mushrooms to onions; saute 3–5 minutes."
+          ]
+        },
+        {
+          "name": "Curry – Roux & Finish",
+          "steps": [
+            "Add butter; melt; whisk in flour; add garam masala, curry powder, MSG; toast 1 minute.",
+            "Stir in onion mix, dark soy, Worcestershire, honey, and stock; simmer ~2 minutes; salt to taste.",
+            "Blend very smooth; add finishing butter while blending; strain and keep warm."
+          ]
+        },
+        {
+          "name": "Steam Veggies",
+          "steps": [
+            "Steam carrot and potato pieces until tender."
+          ]
+        },
+        {
+          "name": "Fry Pork",
+          "steps": [
+            "Heat oil to 340°F (170°C). Dredge pork in flour, then beaten eggs, then panko.",
+            "Fry 4–6 minutes until golden brown and cooked through."
+          ]
+        },
+        {
+          "name": "Assembly",
+          "steps": [
+            "Bowl rice; add a pocket of curry; slice pork and serve with pickled cabbage."
+          ]
+        }
+      ]
     }
   ]
 }
