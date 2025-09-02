@@ -9,13 +9,14 @@
         <div class="panel-title">
           <span class="panel-name">{{ sec.name }}</span>
         </div>
-        <div class="rows col">
+  <div class="rows col">
           <template v-for="(it, j) in sec.items" :key="j">
             <template v-if="'item' in it">
               <DotRow
                 :item="(it as any).item"
                 :qty="(it as any).quantity ?? findDefault((it as any).item, (it as any).from_index, (it as any).portion).qty"
-                :unit="(it as any).unit ?? findDefault((it as any).item, (it as any).from_index, (it as any).portion).unit"
+    :unit="(it as any).unit ?? findDefault((it as any).item, (it as any).from_index, (it as any).portion).unit"
+    :metric="metric"
               />
             </template>
             <DotRow v-else :left="(it as any).label" :right="(it as any).note ?? ''" />
@@ -31,7 +32,7 @@ import DotRow from "./DotRow.vue"
 import type { IngredientSection, Ingredient } from "../types"
 import { computed } from "vue"
 
-const props = defineProps<{ sections: IngredientSection[]; ingredients: Ingredient[] }>()
+const props = defineProps<{ sections: IngredientSection[]; ingredients: Ingredient[]; metric?: boolean }>()
 
 // Build a quick lookup: item -> array of matching recipe ingredients
 const byItem = computed(() => {
