@@ -2381,6 +2381,60 @@
       ],
       "source": "https://www.joshuaweissman.com/post/uncle-roger-s-fried-rice-but-better",
       "instructions": "Fry Shallots: Add 3 cups peanut oil to wok, add 3 thinly sliced shallots to cold oil. Stir constantly; as soon as browned and bubbling slows, remove and salt immediately. Fried Rice Sauce: Mix grated galangal, sesame oil, Malaysian sambal, 3 cloves finely chopped garlic, sweet soy sauce, and double-aged soy sauce. Cooking: Heat wok; add duck fat. Fry thinly sliced garlic until golden; remove or keep. Add diced shallot, diced fresno chiles, and sliced green onion; stir-fry until soft and fragrant. Push aside; add beaten eggs with a pinch of salt; let set, then stir gently to keep curds. Add cold cooked rice; toss and fry until hot with some crispy bits. Season with ground white pepper and MSG; cut heat. Add fried rice sauce; toss to combine fully. Top with fried shallots."
+    },
+    {
+      "recipe_id": "teriyaki_sauce_karaage",
+      "title": "Teriyaki Sauce for J‑Fried Chicken (Karaage)",
+      "servings": 2,
+      "theme_tags": [
+        "japanese",
+        "sauce",
+        "stovetop"
+      ],
+      "ingredients": [
+        {
+          "item": "soy_sauce",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "mirin",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "sake",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "cornstarch",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        }
+      ],
+      "source": "local-notes",
+      "instructions": "Combine soy sauce, mirin, sake, and sugar with cornstarch in a small saucepan over medium heat. Whisk constantly until thickened and glossy. Use warm to glaze fried chicken or serve alongside."
     }
   ]
 }

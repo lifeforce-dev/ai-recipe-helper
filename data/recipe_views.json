@@ -2440,6 +2440,58 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "teriyaki_sauce_karaage",
+      "aliases": [
+        "teriyaki glaze",
+        "karaage teriyaki sauce",
+        "j-fried teriyaki"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Teriyaki Sauce",
+          "rank": 0,
+          "items": [
+            {
+              "item": "soy_sauce",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "mirin",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "sake",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "sugar",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "cornstarch",
+              "quantity": 1.0,
+              "unit": "tbsp",
+              "note": "slurry as needed"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Cook",
+          "steps": [
+            "Combine soy, mirin, sake, sugar, and cornstarch in a small saucepan.",
+            "Whisk constantly over medium heat until thickened and glossy.",
+            "Use to glaze fried chicken or serve alongside."
+          ]
+        }
+      ]
     }
   ]
 }
