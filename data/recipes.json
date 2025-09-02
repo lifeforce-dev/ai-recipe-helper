@@ -2886,16 +2886,16 @@
         },
         {
           "item": "unsalted_butter",
-          "quantity": 113.0,
-          "unit": "g",
+          "quantity": 1.0,
+          "unit": "stick",
           "unit_type": "mass",
           "category": "dairy",
           "storage": "refrigerated"
         },
         {
           "item": "granulated_sugar",
-          "quantity": 200.0,
-          "unit": "g",
+          "quantity": 1.0,
+          "unit": "cup",
           "unit_type": "mass",
           "category": "other",
           "storage": "pantry"
@@ -2918,8 +2918,8 @@
         },
         {
           "item": "all_purpose_flour",
-          "quantity": 90.0,
-          "unit": "g",
+          "quantity": 0.75,
+          "unit": "cup",
           "unit_type": "mass",
           "category": "grain_legume",
           "storage": "pantry"
@@ -2928,7 +2928,7 @@
           "item": "baking_powder",
           "quantity": 0.5,
           "unit": "tsp",
-          "unit_type": "mass",
+          "unit_type": "volume",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -2936,7 +2936,7 @@
           "item": "salt",
           "quantity": 0.5,
           "unit": "tsp",
-          "unit_type": "mass",
+          "unit_type": "volume",
           "category": "spice_herb",
           "storage": "pantry"
         },
