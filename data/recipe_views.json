@@ -2621,6 +2621,75 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "miso_soup",
+      "aliases": [
+        "miso soup",
+        "miso soup jars",
+        "jar miso soup"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Per-Jar Base",
+          "rank": 0,
+          "items": [
+            {
+              "item": "red_miso",
+              "note": "1.5 tbsp per jar"
+            },
+            {
+              "item": "dashi_powder",
+              "note": "1 tsp per jar"
+            }
+          ]
+        },
+        {
+          "name": "Per-Jar Fill-Ins",
+          "rank": 1,
+          "items": [
+            {
+              "item": "tofu",
+              "note": "cubed"
+            },
+            {
+              "item": "spinach",
+              "note": "handful"
+            },
+            {
+              "item": "shredded_carrots"
+            },
+            {
+              "item": "green_onion",
+              "note": "sliced"
+            },
+            {
+              "item": "wakame",
+              "note": "dried"
+            },
+            {
+              "item": "vermicelli_noodles",
+              "note": "dry"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Jar Prep (x4 jars)",
+          "steps": [
+            "Add 1.5 tbsp miso and 1 tsp dashi to each jar.",
+            "Add tofu, spinach, carrots, green onion, wakame, and noodles."
+          ]
+        },
+        {
+          "name": "To Serve",
+          "steps": [
+            "Bring jar to room temp.",
+            "Add boiling water; cover and steep 10 minutes."
+          ]
+        }
+      ]
     }
   ]
 }

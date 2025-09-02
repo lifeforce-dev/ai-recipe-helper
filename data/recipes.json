@@ -2786,6 +2786,85 @@
       ],
       "source": "https://chefsavvy.com/sweet-spicy-baked-honey-sriracha-chicken/",
       "instructions": "Chicken: Dredge chicken pieces in flour, then beaten egg, then panko to coat thoroughly. Sauce: Heat peanut oil in a small saucepan; add minced garlic briefly. Whisk in soy sauce, honey, sriracha, water, and red pepper flakes; cook over high heat, whisking, until thickened; set aside. Cooking: Bake breaded chicken about 15 minutes until cooked through, then toss immediately with sauce. Serve with rice."
+    },
+    {
+      "recipe_id": "miso_soup",
+      "title": "Miso Soup (Jar Meal Prep)",
+      "servings": 4,
+      "theme_tags": [
+        "japanese",
+        "soup",
+        "meal_prep",
+        "quick"
+      ],
+      "ingredients": [
+        {
+          "item": "red_miso",
+          "quantity": 6.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "condiment",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "dashi_powder",
+          "quantity": 4.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "tofu",
+          "quantity": 200.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "spinach",
+          "quantity": 4.0,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "shredded_carrots",
+          "quantity": 8.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "vermicelli_noodles",
+          "quantity": 60.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 4.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "wakame",
+          "quantity": 4.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://www.youtube.com/shorts/ZD21rjVPpl8",
+      "instructions": "Meal prep 4 jars. For each jar: 1) Add 1.5 tbsp red miso. 2) Add 1 tsp dashi powder. 3) Add tofu. 4) Add spinach. 5) Add shredded carrots. 6) Add green onion. 7) Add wakame. 8) Add vermicelli noodles. Store in fridge until ready. To serve: Bring the jar to room temp, pour in boiling water, and let sit 10 minutes before eating."
     }
   ]
 }
