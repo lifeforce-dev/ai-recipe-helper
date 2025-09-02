@@ -1,53 +1,44 @@
 DISCLAIMER: Code directed by me, written almost entirely by AI
 
-Page is live here: http://lifeforce-dev.github.io/ai-recipe-helper/
+Live app: http://lifeforce-dev.github.io/ai-recipe-helper/
 
-Recipe Planner Workspace
-========================
-This folder is ready for VS Code + Copilot (ChatGPT 5) agents.
+AI‑Recipe‑Helper
+================
+Simple workflow to collect recipes, view them in a clean prep UI, and plan shopping lists.
 
-Structure
----------
-data/
-  - recipes.json     # your growing catalog (initially empty)
-  - inventory.json   # your current stock (edit as you like)
-schema/
-  - recipes.schema.json
-scripts/
-  - planner_json.py  # picks overlapping recipes & writes a shopping list
-  - merge_recipes.py # safe append/update by recipe_id
-templates/
-  - recipe_template.json
-agents/
-  - AddRecipeAgent.md
+What’s here
+-----------
+- data/ — your editable source of truth
+  - recipes.json     (catalog of recipes)
+  - inventory.json   (what you have on hand)
+- schema/
+  - recipes.schema.json (JSON Schema for validation)
+- scripts/
+  - merge_recipes.py (append/update a recipe by recipe_id)
+  - planner_json.py  (compute overlaps and create a shopping list)
+- templates/
+  - recipe_template.json (starter for a new recipe)
+- agents/
+  - AddRecipeAgent.md (instructions for adding recipes via Copilot)
+- web/
+  - Vite + Vue 3 UI that renders your data; deployable to GitHub Pages
 
-VS Code niceties
-----------------
-- .vscode/settings.json binds data/recipes.json -> schema/recipes.schema.json for validation.
-- .vscode/tasks.json adds a "Run Meal Planner" task.
+Current UI features
+-------------------
+- Ingredient Overview with tidy dot leaders.
+- Sectioned Prep groups with per‑group quantities and notes.
+- Metric toggle (toolbar) — switch between freedom units and metric; grams are rounded to whole grams.
 
 Typical flow
 ------------
-1) Paste a messy recipe to your Copilot agent using the instructions in agents/AddRecipeAgent.md.
-2) The agent converts it, validates, then runs:
-     python scripts/merge_recipes.py <temp.json>
-3) Run the planner:
-     python scripts/planner_json.py
-   Outputs to data/: plan_YYYY-MM-DD.json and shopping_list_YYYY-MM-DD.csv
-
-Notes
------
-- Units must match between inventory and recipe ingredients to subtract stock correctly.
-- You can extend the schema with cost, macros, prep time, cuisines, etc.
-- If you want automated 4‑day cycles, we can add a scheduler later.
-
+1) Add a recipe using agents/AddRecipeAgent.md (or edit JSON directly using templates/recipe_template.json).
+2) Save to data/recipes.json using scripts/merge_recipes.py.
+3) (Optional) Generate a plan + shopping list with scripts/planner_json.py.
+4) Run the web UI to browse and cook.
 
 Local development (web UI)
--------------------------
-First time running the app locally (no prior Node/Vue needed):
-
-Prerequisites
-- Install Node.js LTS (includes npm): https://nodejs.org/
+--------------------------
+Prerequisite: Node.js LTS (https://nodejs.org/)
 
 Run the dev server
 ```powershell
@@ -56,11 +47,9 @@ cd web
 npm ci   # or: npm install
 npm run dev
 ```
-Then open the printed URL (usually http://localhost:5173/).
-
 Notes
-- The predev script automatically copies data/*.json into web/public/data so the UI can load them.
-- Edit JSON in data/ and refresh; the dev server will pick up changes.
+- Dev/build scripts copy data/*.json into web/public/data so the UI can load them.
+- Edit JSON in data/ and refresh the browser.
 
 Build a production bundle
 ```powershell
@@ -69,10 +58,13 @@ npm run build
 npm run preview  # serve the built app locally
 ```
 
-Share a public URL (free)
-- We ship a GitHub Actions workflow that deploys to GitHub Pages from the release branch.
-- See web/README-PAGES.md for one‑time setup and the live URL format.
+Deploy to GitHub Pages
+- A workflow builds and deploys web/dist from the release branch. See web/README-PAGES.md.
 
 Troubleshooting
-- "vite: command not found" or similar: ensure Node.js is installed and in PATH; restart your terminal.
-- Port in use: run `npm run dev -- --port 5174`.
+- “vite: command not found”: ensure Node is installed; restart your terminal.
+- Port busy: `npm run dev -- --port 5174`.
+
+Notes
+- Keep units consistent between inventory and recipes for correct stock math.
+- Don’t hand‑edit files under web/public/data; they are generated from data/.
