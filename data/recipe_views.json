@@ -650,5 +650,135 @@
         }
       ]
     }
+    ,
+    {
+      "recipe_id": "red_beans_and_rice",
+      "aliases": [
+        "red beans and rice",
+        "beans and rice",
+        "cajun beans and rice"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Aromatics",
+          "rank": 0,
+          "items": [
+            { "item": "onion", "note": "diced; not too fine" },
+            { "item": "green_bell_pepper", "note": "diced; not too fine" }
+          ]
+        },
+        {
+          "name": "Sausage",
+          "rank": 1,
+          "items": [
+            { "item": "sausage", "note": "thick slices" }
+          ]
+        },
+        {
+          "name": "Paste Mix",
+          "rank": 2,
+          "items": [
+            { "item": "tomato_paste", "quantity": 2, "unit": "tbsp" },
+            { "item": "garlic", "quantity": 3, "unit": "clove", "note": "finely diced" },
+            { "item": "cajun_seasoning", "quantity": 1.5, "unit": "tsp" }
+          ]
+        },
+        {
+          "name": "Beans",
+          "rank": 3,
+          "items": [
+            { "item": "red_beans", "note": "drained & rinsed" },
+            { "item": "black_beans", "note": "drained & rinsed" },
+            { "item": "pinto_beans", "note": "drained & rinsed" }
+          ]
+        },
+        {
+          "name": "Have Ready",
+          "rank": 5,
+          "items": [
+            { "item": "chicken_stock", "quantity": 3, "unit": "cup" },
+            { "item": "hot_sauce", "quantity": 1, "unit": "tsp" },
+            { "item": "bay_leaf", "quantity": 1, "unit": "count" }
+          ]
+        },
+        {
+          "name": "Deglaze",
+          "rank": 4,
+          "items": [
+            { "item": "cooking_wine", "note": "splash" }
+          ]
+        },
+        {
+          "name": "Finish – Season to Taste",
+          "rank": 6,
+          "items": [
+            { "item": "salt" },
+            { "label": "black pepper" },
+            { "item": "msg" }
+          ]
+        },
+        {
+          "name": "Optional – Insane additions",
+          "rank": 7,
+          "items": [
+            { "label": "paprika", "note": "1/2–1 tsp" },
+            { "label": "white pepper", "note": "1/4 tsp" },
+            { "label": "cayenne pepper", "note": "1/2 tsp" },
+            { "label": "oregano", "note": "1 tsp" }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Prep – Bowls",
+          "steps": [
+            "Dice onion and green bell pepper (not too fine).",
+            "Slice sausage into thick rounds.",
+            "Combine tomato paste, finely diced garlic, and Cajun seasoning.",
+            "Drain and rinse beans.",
+            "Have ready: chicken stock, hot sauce, bay leaf."
+          ]
+        },
+        {
+          "name": "Sauté Veg",
+          "steps": [
+            "Heat stainless pan on high; add a little oil.",
+            "Sauté onion and bell pepper until lightly caramelized; remove and set aside."
+          ]
+        },
+        {
+          "name": "Sear Sausage",
+          "steps": [
+            "Wipe pan; reheat.",
+            "Sear sausage in batches for browned edges; remove."
+          ]
+        },
+        {
+          "name": "Deglaze & Toast Paste",
+          "steps": [
+            "With pan hot, add a splash of cooking wine; scrape up fond.",
+            "Return onion and bell pepper; scrape until bottom is clean.",
+            "Add the paste mix (tomato paste, garlic, Cajun seasoning); cook 30–60 sec until fragrant and slightly darkened.",
+            "Add 1 cup chicken stock; stir until smooth and fully deglazed."
+          ]
+        },
+        {
+          "name": "Build & Simmer",
+          "steps": [
+            "Transfer to a pot; add remaining stock, beans, sausage, hot sauce, and bay leaf.",
+            "Cover and simmer 15 minutes."
+          ]
+        },
+        {
+          "name": "Finish",
+          "steps": [
+            "Uncover; season with salt, black pepper, and a pinch of MSG to taste.",
+            "Simmer 15 minutes uncovered.",
+            "If too thin, mash some beans against the pot wall to thicken.",
+            "Serve over rice."
+          ]
+        }
+      ]
+    }
   ]
 }

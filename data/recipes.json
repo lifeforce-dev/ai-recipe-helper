@@ -202,5 +202,29 @@
       ],
       "instructions": "Mix marinade (gochujang, rice wine, gochugaru, soy sauce, sugar, garlic, ginger, Korean curry powder, grated onion). Toss with chicken; marinate 30 minutes to overnight. Heat large skillet over medium‑high; add oil. Add cabbage, sweet potato, carrot, perilla, and rice cakes; place chicken on top. Cook 3–4 minutes, then reduce to medium/low and stir often until chicken is cooked and vegetables tender, 10–15 minutes. Cover to speed cooking. Serve with rice."
     }
+    ,
+    {
+      "recipe_id": "red_beans_and_rice",
+      "title": "Simple Red Beans and Rice",
+      "servings": 6,
+      "theme_tags": ["cajun", "stew", "weeknight"],
+      "source": "https://damndelicious.net/2019/04/15/red-beans-and-rice/",
+      "ingredients": [
+        { "item": "sausage", "quantity": 12, "unit": "oz", "category": "meat", "storage": "refrigerated" },
+        { "item": "onion", "quantity": 1, "unit": "count", "category": "produce", "storage": "pantry" },
+        { "item": "green_bell_pepper", "quantity": 1, "unit": "count", "category": "produce", "storage": "refrigerated" },
+        { "item": "tomato_paste", "quantity": 2, "unit": "tbsp", "category": "condiment", "storage": "pantry" },
+        { "item": "garlic", "quantity": 3, "unit": "clove", "category": "produce", "storage": "pantry" },
+        { "item": "cajun_seasoning", "quantity": 1.5, "unit": "tsp", "category": "spice_herb", "storage": "pantry" },
+        { "item": "red_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
+        { "item": "black_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
+        { "item": "pinto_beans", "quantity": 15, "unit": "oz", "category": "grain_legume", "storage": "pantry" },
+        { "item": "chicken_stock", "quantity": 3, "unit": "cup", "category": "other", "storage": "pantry" },
+        { "item": "hot_sauce", "quantity": 1, "unit": "tsp", "category": "condiment", "storage": "pantry" },
+        { "item": "bay_leaf", "quantity": 1, "unit": "count", "category": "spice_herb", "storage": "pantry" },
+        { "item": "cooking_wine", "quantity": 2, "unit": "tbsp", "category": "other", "storage": "pantry" }
+      ],
+      "instructions": "Prep: B1 dice onion and bell pepper; B2 slice sausage; B3 mix tomato paste, minced garlic, and Cajun seasoning; B4 drain and rinse beans. Sauté onion and bell pepper on high until lightly caramelized; remove. Sear sausage in batches; remove. Deglaze hot pan with a splash of cooking wine, add onions/peppers and scrape up fond. Stir in B3; cook until tomato paste toasts and fragrant. Add 1 cup chicken stock; stir until smooth and deglazed. Transfer to pot; add remaining stock, beans, sausage, hot sauce, and bay leaf. Cover and simmer 15 minutes. Uncover, season with salt/black pepper/MSG to taste, and simmer 15 minutes more; mash some beans against the pot wall to thicken if needed. Serve over rice."
+    }
   ]
 }
