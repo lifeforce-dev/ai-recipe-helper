@@ -54,6 +54,18 @@ def main():
     added, updated = 0, 0
     for r in incoming:
         if r.recipe_id in by_id:
+            # Preserve existing unit_type values when incoming omits them.
+            try:
+                existing_recipe = by_id[r.recipe_id]
+                ext = {ing.item: ing.unit_type for ing in existing_recipe.ingredients if getattr(ing, "unit_type", None) is not None}
+                for ing in r.ingredients:
+                    if getattr(ing, "unit_type", None) is None:
+                        prev = ext.get(ing.item)
+                        if prev is not None:
+                            ing.unit_type = prev
+            except Exception:
+                pass
+
             by_id[r.recipe_id] = r
             updated += 1
         else:
@@ -63,16 +75,13 @@ def main():
     # Preserve original order; append new ones at the end.
     original_ids = [r.recipe_id for r in existing.recipes]
     merged_list: List[Recipe] = []
-    # Keep originals (updated entries swapped in by_id)
     for rid in original_ids:
         merged_list.append(by_id[rid])
-    # Append any brand-new ones in incoming order
     for r in incoming:
         if r.recipe_id not in original_ids:
             merged_list.append(r)
 
     out = RecipeCatalog(recipes=merged_list)
-    # Write using json.dumps of model_dump for consistent formatting and Unicode.
     dest_path.write_text(
         json.dumps(out.model_dump(exclude_none=True), indent=2, ensure_ascii=False),
         encoding="utf-8",

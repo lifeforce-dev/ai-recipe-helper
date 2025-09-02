@@ -1431,6 +1431,155 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "pulled_pork",
+      "aliases": [
+        "bbq pulled pork",
+        "slow cooker pulled pork"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Pork",
+          "rank": 0,
+          "items": [
+            {
+              "item": "pork_shoulder"
+            },
+            {
+              "item": "diced_green_chilies"
+            }
+          ]
+        },
+        {
+          "name": "Braising Liquid",
+          "rank": 1,
+          "items": [
+            {
+              "item": "dr_pepper"
+            },
+            {
+              "item": "worcestershire_sauce"
+            },
+            {
+              "item": "apple_cider_vinegar"
+            },
+            {
+              "item": "liquid_smoke"
+            }
+          ]
+        },
+        {
+          "name": "Dry Rub",
+          "rank": 2,
+          "items": [
+            {
+              "item": "garlic_powder"
+            },
+            {
+              "item": "onion_powder"
+            },
+            {
+              "item": "chili_powder"
+            },
+            {
+              "item": "smoked_paprika"
+            },
+            {
+              "item": "black_pepper"
+            },
+            {
+              "item": "ground_ginger"
+            },
+            {
+              "item": "salt"
+            },
+            {
+              "label": "orange zest",
+              "note": "from 1 orange"
+            }
+          ]
+        },
+        {
+          "name": "Finish",
+          "rank": 3,
+          "items": [
+            {
+              "item": "bbq_sauce",
+              "note": "to taste with strained juices"
+            }
+          ]
+        },
+        {
+          "name": "Coleslaw",
+          "rank": 4,
+          "items": [
+            {
+              "item": "green_cabbage"
+            },
+            {
+              "item": "red_cabbage"
+            },
+            {
+              "item": "carrot"
+            },
+            {
+              "item": "green_onion"
+            }
+          ]
+        },
+        {
+          "name": "Slaw Dressing",
+          "rank": 5,
+          "items": [
+            {
+              "item": "mayo"
+            },
+            {
+              "item": "sour_cream"
+            },
+            {
+              "item": "apple_cider_vinegar"
+            },
+            {
+              "item": "sugar"
+            },
+            {
+              "item": "dijon_mustard"
+            },
+            {
+              "item": "lemon_juice"
+            },
+            {
+              "item": "salt"
+            },
+            {
+              "item": "black_pepper"
+            },
+            {
+              "item": "dried_dill"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Pork",
+          "steps": [
+            "Cube and sear pork shoulder in batches.",
+            "Combine chilies, Dr Pepper, Worcestershire, vinegar, liquid smoke, spices, and orange zest.",
+            "Cook on LOW 8–12 hours until tender.",
+            "Shred, return 20 min on LOW; strain juices, add ~1/2 cup back and BBQ sauce to taste."
+          ]
+        },
+        {
+          "name": "Coleslaw",
+          "steps": [
+            "Shred cabbages and carrots; slice green onions.",
+            "Whisk dressing; toss slaw just before serving."
+          ]
+        }
+      ]
     }
   ]
 }

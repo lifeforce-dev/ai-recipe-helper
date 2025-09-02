@@ -1327,6 +1327,253 @@
         }
       ],
       "instructions": "Blend marinade: ginger, shallot, asian pear, garlic, gochujang, gochugaru, sesame oil, sweet soy sauce, dark soy sauce, mirin. Toss with sliced pork belly; marinate at least 4 hours or overnight. Quick pickle: thinly slice daikon, cucumber, carrot, and serrano; toss with sugar, salt, and rice vinegar; rest 15 minutes. Cook pork on a rack-lined sheet at 450F (230C) for 15–20 minutes until browned edges. Toast buns. Spread Kewpie mayo, pile on pork and salad, and serve."
+    },
+    {
+      "recipe_id": "pulled_pork",
+      "title": "Pulled Pork",
+      "servings": 8,
+      "theme_tags": [
+        "american",
+        "pork",
+        "slow_cooker",
+        "sandwich"
+      ],
+      "ingredients": [
+        {
+          "item": "diced_green_chilies",
+          "quantity": 8.0,
+          "unit": "oz",
+          "unit_type": "mass",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "pork_shoulder",
+          "quantity": 5.0,
+          "unit": "lb",
+          "unit_type": "mass",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "dr_pepper",
+          "quantity": 12.0,
+          "unit": "oz",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "worcestershire_sauce",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "apple_cider_vinegar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "liquid_smoke",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic_powder",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "chili_powder",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "cayenne_pepper",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "onion_powder",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "smoked_paprika",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "black_pepper",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "ground_ginger",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "orange_zest",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "bbq_sauce",
+          "quantity": 1.5,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "green_cabbage",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "red_cabbage",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "carrot",
+          "quantity": 3.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 4.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "mayo",
+          "quantity": 0.5,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "sour_cream",
+          "quantity": 0.25,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "apple_cider_vinegar",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "sugar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "dijon_mustard",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "lemon_juice",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "unit_type": "volume",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "salt",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "dried_dill",
+          "quantity": 0.5,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "black_pepper",
+          "quantity": 0.25,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://carlsbadcravings.com/best-bbq-pulled-pork-slow-cooker-recipe/",
+      "instructions": "Pork: Cube pork shoulder and sear in batches. Combine chilies, Dr Pepper, Worcestershire, apple cider vinegar, liquid smoke, all spices, and orange zest; add pork and cook in slow cooker on LOW 8–12 hours. Remove pork, shred, return to cooker 20 minutes on LOW. Strain juices; add ~1/2 cup back and stir in BBQ sauce; season to taste. Coleslaw: Mix shredded cabbages, carrots, and green onions. In a separate bowl whisk mayo, sour cream, vinegar, sugar, Dijon, lemon juice, salt, dill, and pepper. Toss slaw with dressing as needed just before serving."
     }
   ]
 }
