@@ -2153,6 +2153,293 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "pork_and_peppers",
+      "aliases": [
+        "pork and peppers",
+        "pork chops with peppers"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Pork",
+          "rank": 1,
+          "items": [
+            {
+              "item": "pork_chop",
+              "quantity": 2.0,
+              "unit": "count"
+            },
+            {
+              "item": "salt",
+              "quantity": 1.0,
+              "unit": "to taste"
+            },
+            {
+              "item": "black_pepper",
+              "quantity": 1.0,
+              "unit": "to taste"
+            },
+            {
+              "item": "garlic",
+              "quantity": 4.0,
+              "unit": "clove",
+              "note": "crushed"
+            },
+            {
+              "item": "thyme",
+              "quantity": 1.0,
+              "unit": "sprig",
+              "note": "to baste"
+            },
+            {
+              "item": "butter",
+              "quantity": 28.0,
+              "unit": "g"
+            }
+          ]
+        },
+        {
+          "name": "Peppers & Onions",
+          "rank": 0,
+          "items": [
+            {
+              "item": "olive_oil",
+              "quantity": 3.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "red_onion",
+              "quantity": 1.0,
+              "unit": "count",
+              "note": "sliced"
+            },
+            {
+              "item": "red_bell_pepper",
+              "quantity": 1.0,
+              "unit": "count",
+              "note": "sliced"
+            },
+            {
+              "item": "sugar",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "red_wine_vinegar",
+              "quantity": 0.25,
+              "unit": "cup"
+            },
+            {
+              "item": "basil",
+              "quantity": 1.0,
+              "unit": "handful",
+              "note": "chopped"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Peppers",
+          "steps": [
+            "Heat pan on high with a little olive oil.",
+            "Add onions and peppers; season with salt and black pepper.",
+            "Add sugar; sauté, keeping a constant sizzle.",
+            "When caramelized, add red wine vinegar; add 2 tbsp olive oil; stew 2–3 minutes.",
+            "Stir in chopped basil; cook ~30 seconds; remove from heat."
+          ]
+        },
+        {
+          "name": "Pork",
+          "steps": [
+            "Season pork chops with salt and black pepper.",
+            "Crush a few garlic cloves.",
+            "Lay pork in pan; add garlic and thyme at the sides.",
+            "Sear one side; add butter; sear second side, then finish in 350°F (175°C) oven about 10 minutes."
+          ]
+        }
+      ]
+    },
+    {
+      "recipe_id": "fried_rice",
+      "aliases": [
+        "fried rice",
+        "uncle roger fried rice",
+        "galangal fried rice"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Rice",
+          "rank": 0,
+          "items": [
+            {
+              "item": "medium_grain_rice",
+              "quantity": 2.0,
+              "unit": "cup",
+              "note": "rinse, cook, and chill"
+            },
+            {
+              "item": "filtered_water",
+              "quantity": 2.0,
+              "unit": "cup"
+            }
+          ]
+        },
+        {
+          "name": "Fried Rice Sauce",
+          "rank": 1,
+          "items": [
+            {
+              "item": "galangal",
+              "quantity": 1.0,
+              "unit": "inch_knob",
+              "note": "finely grated"
+            },
+            {
+              "item": "sesame_oil",
+              "quantity": 1.0,
+              "unit": "tsp"
+            },
+            {
+              "item": "sambal_malaysian",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "garlic",
+              "quantity": 3.0,
+              "unit": "clove",
+              "note": "finely chopped"
+            },
+            {
+              "item": "sweet_soy_sauce",
+              "quantity": 1.0,
+              "unit": "tbsp"
+            },
+            {
+              "item": "double_aged_soy_sauce",
+              "quantity": 1.5,
+              "unit": "tbsp"
+            }
+          ]
+        },
+        {
+          "name": "Fried Shallots",
+          "rank": 2,
+          "items": [
+            {
+              "item": "shallot",
+              "quantity": 3.0,
+              "unit": "count",
+              "note": "finely sliced"
+            },
+            {
+              "item": "peanut_oil",
+              "quantity": 3.0,
+              "unit": "cup",
+              "note": "for frying"
+            }
+          ]
+        },
+        {
+          "name": "Stir-Fry Base",
+          "rank": 3,
+          "items": [
+            {
+              "item": "duck_fat",
+              "quantity": 3.5,
+              "unit": "tbsp"
+            },
+            {
+              "item": "garlic",
+              "quantity": 4.0,
+              "unit": "clove",
+              "note": "thinly sliced"
+            },
+            {
+              "item": "shallot",
+              "quantity": 2.0,
+              "unit": "count",
+              "note": "finely diced"
+            },
+            {
+              "item": "red_fresno_chile",
+              "quantity": 2.0,
+              "unit": "count",
+              "note": "finely diced"
+            },
+            {
+              "item": "green_onion",
+              "quantity": 2.0,
+              "unit": "count",
+              "note": "finely sliced"
+            }
+          ]
+        },
+        {
+          "name": "Eggs",
+          "rank": 4,
+          "items": [
+            {
+              "item": "egg",
+              "quantity": 3.0,
+              "unit": "count",
+              "note": "whisked"
+            },
+            {
+              "item": "salt",
+              "quantity": 1.0,
+              "unit": "pinch"
+            }
+          ]
+        },
+        {
+          "name": "Seasoning & Rice",
+          "rank": 5,
+          "items": [
+            {
+              "item": "cold_cooked_rice",
+              "quantity": 3.25,
+              "unit": "cup",
+              "note": "cold"
+            },
+            {
+              "item": "ground_white_pepper",
+              "quantity": 2.0,
+              "unit": "tsp",
+              "note": "or to taste"
+            },
+            {
+              "item": "msg",
+              "quantity": 2.0,
+              "unit": "tsp",
+              "note": "or to taste"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Fry Shallots",
+          "steps": [
+            "Add peanut oil and sliced shallots to a cold wok.",
+            "Stir constantly; once browned and bubbling slows, remove and salt immediately."
+          ]
+        },
+        {
+          "name": "Cook Fried Rice",
+          "steps": [
+            "Heat wok; add duck fat.",
+            "Fry thinly sliced garlic until golden; remove or keep.",
+            "Add diced shallot, diced fresno chiles, and sliced green onion; stir-fry until soft and fragrant.",
+            "Push aside; add beaten eggs with a pinch of salt; let set, then stir gently.",
+            "Add cold cooked rice; toss and fry until hot with some crispy bits.",
+            "Season with ground white pepper and MSG; cut heat.",
+            "Add fried rice sauce; toss to combine. Top with fried shallots."
+          ]
+        }
+      ]
     }
   ]
 }

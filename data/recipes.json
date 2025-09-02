@@ -2096,6 +2096,291 @@
       ],
       "source": "local-notes",
       "instructions": "Sauce: Heat pan to medium hot. Add sliced shallot; season with salt/pepper. Add grated garlic and 1 tbsp olive oil; cook until shallots brown. Increase heat, add chili flakes. Add halved cherry tomatoes; reduce heat when simmering; cook until blistered and broken down. Deglaze with white wine; turn up heat and reduce. Add seafood stock and reduce. Add basil; cook ~30 seconds; remove from heat. Shrimp: Season shrimp with salt and pepper. Sear one side 90 seconds; flip and remove from heat. Pasta: Boil angel hair ~90 seconds. Finish: Add pasta to sauce with some pasta water as needed; add shrimp, butter, and parmesan; toss to coat. Zest lemon over the top and adjust seasoning."
+    },
+    {
+      "recipe_id": "pork_and_peppers",
+      "title": "Pork and Peppers",
+      "servings": 2,
+      "theme_tags": [
+        "pork",
+        "stovetop",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "item": "pork_chop",
+          "quantity": 2.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "red_onion",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "red_bell_pepper",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "sugar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "red_wine_vinegar",
+          "quantity": 0.25,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "olive_oil",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "basil",
+          "quantity": 1.0,
+          "unit": "as needed",
+          "unit_type": "count",
+          "category": "spice_herb",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "thyme",
+          "quantity": 1.0,
+          "unit": "as needed",
+          "unit_type": "count",
+          "category": "spice_herb",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "butter",
+          "quantity": 28.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "garlic",
+          "quantity": 1.0,
+          "unit": "head",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "to taste",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "black_pepper",
+          "quantity": 1.0,
+          "unit": "to taste",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://www.youtube.com/watch?v=Ke_xYIhYPTw",
+      "instructions": "Peppers: Heat pan on high with a little olive oil. Add sliced red onion and red bell pepper; season with salt and black pepper. Add 1 tbsp sugar; sauté vigorously, keeping the sizzle. When caramelized, add red wine vinegar; add 2 tbsp olive oil and stew 2–3 minutes. Chop basil and stir in; cook ~30 seconds, remove from heat. Pork: Season pork chops with salt and black pepper. Crush a few garlic cloves. Sear pork on one side; add butter, garlic, and thyme. Sear the second side; finish in a 350°F (175°C) oven about 10 minutes or until done. Serve pork with peppers."
+    },
+    {
+      "recipe_id": "fried_rice",
+      "title": "Fried Rice",
+      "servings": 4,
+      "theme_tags": [
+        "stir_fry",
+        "rice",
+        "stovetop",
+        "weeknight"
+      ],
+      "ingredients": [
+        {
+          "item": "medium_grain_rice",
+          "quantity": 2.0,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "filtered_water",
+          "quantity": 2.0,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "galangal",
+          "quantity": 1.0,
+          "unit": "inch_knob",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "sesame_oil",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "sambal_malaysian",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 3.0,
+          "unit": "clove",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "sweet_soy_sauce",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "double_aged_soy_sauce",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "shallot",
+          "quantity": 3.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "peanut_oil",
+          "quantity": 3.0,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "duck_fat",
+          "quantity": 3.5,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "garlic",
+          "quantity": 4.0,
+          "unit": "clove",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "shallot",
+          "quantity": 2.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "red_fresno_chile",
+          "quantity": 2.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 2.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "egg",
+          "quantity": 3.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "to taste",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "cold_cooked_rice",
+          "quantity": 3.25,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "ground_white_pepper",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "msg",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        }
+      ],
+      "source": "https://www.joshuaweissman.com/post/uncle-roger-s-fried-rice-but-better",
+      "instructions": "Fry Shallots: Add 3 cups peanut oil to wok, add 3 thinly sliced shallots to cold oil. Stir constantly; as soon as browned and bubbling slows, remove and salt immediately. Fried Rice Sauce: Mix grated galangal, sesame oil, Malaysian sambal, 3 cloves finely chopped garlic, sweet soy sauce, and double-aged soy sauce. Cooking: Heat wok; add duck fat. Fry thinly sliced garlic until golden; remove or keep. Add diced shallot, diced fresno chiles, and sliced green onion; stir-fry until soft and fragrant. Push aside; add beaten eggs with a pinch of salt; let set, then stir gently to keep curds. Add cold cooked rice; toss and fry until hot with some crispy bits. Season with ground white pepper and MSG; cut heat. Add fried rice sauce; toss to combine fully. Top with fried shallots."
     }
   ]
 }
