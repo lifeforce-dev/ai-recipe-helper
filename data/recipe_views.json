@@ -2029,6 +2029,235 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "korean_pork_sammich",
+      "aliases": [
+        "korean pork sammich",
+        "korean pork sandwich"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Pork",
+          "rank": 0,
+          "items": [
+            {
+              "item": "pork_belly",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Marinade",
+          "rank": 1,
+          "items": [
+            {
+              "item": "ginger",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "shallot",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "asian_pear",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "garlic",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "gochujang",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "gochugaru",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sesame_oil",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sweet_soy_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "dark_soy_sauce",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "mirin",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Salad - Quick Pickle",
+          "rank": 2,
+          "items": [
+            {
+              "item": "daikon",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "english_cucumber",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "carrot",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "serrano_chile",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "sugar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "salt",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "rice_vinegar",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        },
+        {
+          "name": "Buns & Sauce",
+          "rank": 3,
+          "items": [
+            {
+              "item": "buns",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            },
+            {
+              "item": "kewpie_mayo",
+              "label": null,
+              "quantity": null,
+              "unit": null,
+              "note": null,
+              "from_index": null
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Prep - Pork",
+          "steps": [
+            "Slice pork belly into strips."
+          ]
+        },
+        {
+          "name": "Blend Marinade",
+          "steps": [
+            "Blend ginger, shallot, asian pear, garlic, gochujang, gochugaru, sesame oil, sweet soy sauce, dark soy sauce, and mirin until smooth.",
+            "Toss with pork; marinate 4 hours to overnight."
+          ]
+        },
+        {
+          "name": "Quick Pickle Salad",
+          "steps": [
+            "Thinly slice daikon, cucumber, carrot, and serrano chile.",
+            "Toss with sugar, salt, and rice vinegar; rest 15 minutes. Drain lightly."
+          ]
+        },
+        {
+          "name": "Cook Pork",
+          "steps": [
+            "Heat oven to 450F (230C).",
+            "Place pork on a rack over a foil-lined sheet; bake 15–20 minutes until browned edges."
+          ]
+        },
+        {
+          "name": "Assemble",
+          "steps": [
+            "Toast buns.",
+            "Spread Kewpie mayo on buns, add pork, top with quick-pickle salad, and serve."
+          ]
+        }
+      ]
     }
   ]
 }

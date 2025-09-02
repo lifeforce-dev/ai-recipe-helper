@@ -73,7 +73,10 @@ def main():
 
     out = RecipeCatalog(recipes=merged_list)
     # Write using json.dumps of model_dump for consistent formatting and Unicode.
-    dest_path.write_text(json.dumps(out.model_dump(), indent=2, ensure_ascii=False), encoding="utf-8")
+    dest_path.write_text(
+        json.dumps(out.model_dump(exclude_none=True), indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
     print(f"Done. Added: {added}, Updated: {updated}, Total: {len(out.recipes)} -> {dest_path}")
 
 
