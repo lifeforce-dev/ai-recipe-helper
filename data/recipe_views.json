@@ -1745,6 +1745,90 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "french_toast",
+      "aliases": [
+        "french toast"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Custard Base",
+          "rank": 0,
+          "items": [
+            {
+              "item": "egg",
+              "quantity": 3.0,
+              "unit": "count"
+            },
+            {
+              "item": "egg_yolk",
+              "quantity": 2.0,
+              "unit": "count"
+            },
+            {
+              "item": "ground_cinnamon",
+              "quantity": 1.0,
+              "unit": "tsp"
+            },
+            {
+              "item": "salt",
+              "quantity": 0.5,
+              "unit": "tsp",
+              "note": "fine sea salt"
+            },
+            {
+              "item": "light_brown_sugar",
+              "quantity": 1.5,
+              "unit": "tbsp"
+            },
+            {
+              "label": "freshly grated nutmeg",
+              "note": "pinch"
+            },
+            {
+              "item": "heavy_cream",
+              "quantity": 0.5,
+              "unit": "cup"
+            },
+            {
+              "item": "whole_milk",
+              "quantity": 0.75,
+              "unit": "cup"
+            }
+          ]
+        },
+        {
+          "name": "Have Ready",
+          "rank": 1,
+          "items": [
+            {
+              "label": "thick bread slices",
+              "note": "dunk a few seconds each side"
+            },
+            {
+              "label": "unsalted butter",
+              "note": "for pan; heat until bubbling"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Prep",
+          "steps": [
+            "Combine eggs, yolks, cinnamon, salt, brown sugar, and nutmeg.",
+            "Whisk in heavy cream and whole milk."
+          ]
+        },
+        {
+          "name": "Cook",
+          "steps": [
+            "Dunk bread slices a few seconds per side in the custard.",
+            "Heat pan with butter until bubbling; cook slices a few minutes per side until golden."
+          ]
+        }
+      ]
     }
   ]
 }
