@@ -2805,6 +2805,41 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "peanut_butter_cookies_3_ingredient",
+      "aliases": [
+        "peanut butter cookies",
+        "3 ingredient peanut butter cookies",
+        "three ingredient peanut butter cookies"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Cookie Dough",
+          "items": [
+            {
+              "item": "peanut_butter"
+            },
+            {
+              "item": "dark_brown_sugar"
+            },
+            {
+              "item": "egg"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Bake",
+          "steps": [
+            "Adjust oven rack to middle position. Preheat oven to 350°F (175°C). Line two rimmed baking sheets with parchment paper.",
+            "Stir together peanut butter, brown sugar, and egg in a medium mixing bowl. Allow dough to stand for 10 minutes.",
+            "Drop dough, about one tablespoon each, onto prepared baking sheets. Lightly press tops with a fork to make a crosshatch. Optionally sprinkle with granulated sugar.",
+            "Bake until golden brown, about 12 minutes. Cool 5 minutes on the pan, then transfer to a wire rack to cool fully."
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2959,6 +2959,46 @@
       ],
       "source": "local-notes",
       "instructions": "Melt butter and chocolate over very low heat until smooth; cool 5-10 minutes. Whisk sugar, eggs, and yolk 1-2 minutes until slightly pale. Stream in cooled chocolate-butter while whisking until glossy. Whisk flour, baking powder, and salt separately (optional: swap 1 tbsp flour for 1 tbsp cornstarch; espresso powder optional). Fold dry into wet just until combined. Fold in chopped dark chocolate (optional). Line or grease 8x8 metal pan; spread batter; sprinkle flaky salt if desired. Bake at 350°F (175°C) for 25-27 minutes until a toothpick 1 inch from edge has moist crumbs. Cool at least 1 hour before slicing."
+    },
+    {
+      "recipe_id": "peanut_butter_cookies_3_ingredient",
+      "title": "3-Ingredient Peanut Butter Cookies",
+      "servings": 24,
+      "theme_tags": [
+        "dessert",
+        "baking",
+        "cookies",
+        "quick",
+        "3_ingredient"
+      ],
+      "ingredients": [
+        {
+          "item": "peanut_butter",
+          "quantity": 1.0,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "dark_brown_sugar",
+          "quantity": 0.75,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "egg",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "dairy",
+          "storage": "refrigerated"
+        }
+      ],
+      "source": "local-notes",
+      "instructions": "Adjust oven rack to middle position. Preheat oven to 350°F (175°C). Line two rimmed baking sheets with parchment paper. Stir together peanut butter, sugar, and egg in a medium mixing bowl. Allow dough to stand for 10 minutes. Drop dough, about one tablespoon each, onto prepared baking sheets. Lightly press tops of cookies with tines of a fork, making a crosshatch pattern. Sprinkle lightly with granulated sugar, optional. Bake cookies until golden brown, about 12 minutes. Allow cookies to cool on the pan for five minutes, then transfer to a wire rack to cool fully. Store, wrapped, on the counter, for up to four days."
     }
   ]
 }
