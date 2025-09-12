@@ -3078,6 +3078,76 @@
       ],
       "source": "local-notes",
       "instructions": "Step 1: Place potatoes in a large pot and cover by 1 inch with cold water. Salt the water generously (it should taste briny). Bring to a boil, then reduce heat and simmer until potatoes are very tender but not crumbly, 30–35 minutes. Drain, briefly rinse with cool water, and return to the warm pot off heat to dry while you heat the milk mixture. Step 2: Warm milk, cream, halved garlic head, and rosemary sprigs in a small saucepan over medium until fragrant, about 5 minutes; remove from heat. Step 3: Pass hot potatoes through a ricer or food mill into a large bowl. Add butter and kosher salt and stir until butter is fully incorporated. Strain the warm milk mixture; add to potatoes 1/2 cup at a time, stirring until smooth before adding more. Step 4: Serve topped with freshly ground black pepper. Do ahead: Chill up to 1 day; reheat gently, stirring often and adding 1/4 cup milk or stock to thin if needed."
+    },
+    {
+      "recipe_id": "grilled_hamburger_patties",
+      "title": "Juicy American Hamburgers",
+      "servings": 8,
+      "theme_tags": [
+        "weeknight",
+        "grilling",
+        "beef"
+      ],
+      "ingredients": [
+        {
+          "item": "ground_beef",
+          "quantity": 2.0,
+          "unit": "lb",
+          "unit_type": "mass",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "egg",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "bread_crumbs",
+          "quantity": 0.75,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "evaporated_milk",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "dairy",
+          "storage": "pantry"
+        },
+        {
+          "item": "worcestershire_sauce",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "cayenne_pepper",
+          "quantity": 0.125,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 2.0,
+          "unit": "clove",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        }
+      ],
+      "source": "local-notes",
+      "instructions": "Preheat grill to high heat. Mix ground beef, beaten egg, bread crumbs, evaporated milk, Worcestershire sauce, cayenne, and minced garlic in a large bowl by hand. Form into 8 patties. Lightly oil the grill grates. Grill patties until browned and no longer pink, about 5 minutes per side. Serve hot."
     }
   ]
 }

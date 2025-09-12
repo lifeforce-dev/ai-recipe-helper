@@ -2930,6 +2930,56 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "grilled_hamburger_patties",
+      "aliases": [
+        "grilled burgers",
+        "hamburger patties",
+        "grilled hamburger patties"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Patty Mix",
+          "items": [
+            {
+              "item": "ground_beef"
+            },
+            {
+              "item": "egg",
+              "label": "egg (beaten)"
+            },
+            {
+              "item": "bread_crumbs",
+              "label": "dry bread crumbs"
+            },
+            {
+              "item": "evaporated_milk"
+            },
+            {
+              "item": "worcestershire_sauce"
+            },
+            {
+              "item": "cayenne_pepper"
+            },
+            {
+              "item": "garlic",
+              "label": "garlic (minced)"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Grill",
+          "steps": [
+            "Preheat a grill to high heat and oil the grates lightly.",
+            "Mix ground beef, beaten egg, bread crumbs, evaporated milk, Worcestershire sauce, cayenne pepper, and minced garlic by hand until combined.",
+            "Form into 8 patties.",
+            "Grill until browned and no longer pink, about 5 minutes per side. Serve hot."
+          ]
+        }
+      ]
     }
   ]
 }
