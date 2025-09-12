@@ -3235,6 +3235,76 @@
       ],
       "source": "local-notes",
       "instructions": "Add milk to blender, then peanut butter, Greek yogurt, protein powder, frozen strawberries, banana, a pinch of salt, chia seeds, and creatine. Blend on high until very smooth, 45–60 seconds, scraping sides if needed. Adjust sweetness or thickness with honey or more milk if desired. Serve immediately."
+    },
+    {
+      "recipe_id": "best_strawberry_banana_smoothie",
+      "title": "Best Strawberry Banana Smoothie",
+      "servings": 2,
+      "theme_tags": [
+        "smoothie",
+        "drink",
+        "strawberry",
+        "banana"
+      ],
+      "ingredients": [
+        {
+          "item": "orange_juice",
+          "quantity": 1.0,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "milk",
+          "quantity": 0.75,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "banana_frozen",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "frozen"
+        },
+        {
+          "item": "strawberries",
+          "quantity": 280.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "ice_cream",
+          "quantity": 0.5,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "frozen"
+        },
+        {
+          "item": "sugar",
+          "quantity": 5.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "pinch",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        }
+      ],
+      "instructions": "Add orange juice and milk to blender. Add frozen banana, strawberries, and ice cream. Blend on high until completely smooth, 45–60 seconds. Taste; add sugar to desired sweetness and a pinch of salt to enhance flavor. Blend briefly to combine and serve immediately."
     }
   ]
 }

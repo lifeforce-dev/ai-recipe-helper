@@ -3047,6 +3047,64 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "best_strawberry_banana_smoothie",
+      "aliases": [
+        "strawberry banana smoothie",
+        "best strawberry banana smoothie"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Liquids",
+          "items": [
+            {
+              "item": "orange_juice"
+            },
+            {
+              "item": "milk"
+            }
+          ]
+        },
+        {
+          "name": "Fruit",
+          "items": [
+            {
+              "item": "banana_frozen",
+              "label": "banana (frozen)"
+            },
+            {
+              "item": "strawberries"
+            }
+          ]
+        },
+        {
+          "name": "Sweet & Balance",
+          "items": [
+            {
+              "item": "ice_cream"
+            },
+            {
+              "item": "sugar"
+            },
+            {
+              "item": "salt"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Blend",
+          "steps": [
+            "Add orange juice and milk to blender.",
+            "Add frozen banana, strawberries, and ice cream.",
+            "Blend on high until completely smooth, 45–60 seconds.",
+            "Taste; add sugar to desired sweetness and a pinch of salt to enhance flavor.",
+            "Blend briefly to combine and serve immediately."
+          ]
+        }
+      ]
     }
   ]
 }
