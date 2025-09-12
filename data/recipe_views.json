@@ -2840,6 +2840,96 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "yukon_gold_mashed_potatoes",
+      "aliases": [
+        "yukon gold mashed potatoes",
+        "mashed potatoes",
+        "herb infused mashed potatoes"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Potatoes",
+          "items": [
+            {
+              "item": "yukon_gold_potatoes"
+            }
+          ]
+        },
+        {
+          "name": "Dairy",
+          "items": [
+            {
+              "item": "whole_milk"
+            },
+            {
+              "item": "heavy_cream"
+            },
+            {
+              "item": "unsalted_butter"
+            }
+          ]
+        },
+        {
+          "name": "Aromatics",
+          "items": [
+            {
+              "item": "garlic_head",
+              "label": "garlic (halved crosswise)"
+            },
+            {
+              "item": "rosemary",
+              "label": "rosemary sprigs"
+            }
+          ]
+        },
+        {
+          "name": "Seasoning",
+          "items": [
+            {
+              "item": "kosher_salt",
+              "label": "kosher salt (Diamond or Morton)"
+            },
+            {
+              "item": "black_pepper",
+              "label": "freshly ground black pepper"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Cook Potatoes",
+          "steps": [
+            "Place potatoes in a large pot and cover by 1 inch with cold water. Salt the water so it tastes briny.",
+            "Bring to a boil, then reduce heat and simmer until very tender but not crumbly, 30–35 minutes.",
+            "Drain, briefly rinse with cool water, and return to the warm pot off heat to dry."
+          ]
+        },
+        {
+          "name": "Infuse Dairy",
+          "steps": [
+            "Warm milk, cream, halved garlic head, and rosemary sprigs in a small saucepan over medium until fragrant, about 5 minutes.",
+            "Remove from heat and let sit while potatoes are riced."
+          ]
+        },
+        {
+          "name": "Mash & Combine",
+          "steps": [
+            "Pass hot potatoes through a ricer or food mill into a large bowl (avoid letting potatoes cool).",
+            "Stir in butter and kosher salt until butter is fully incorporated.",
+            "Strain the warm milk mixture; add to potatoes 1/2 cup at a time, stirring until smooth before adding more."
+          ]
+        },
+        {
+          "name": "Finish & Serve",
+          "steps": [
+            "Top with freshly ground black pepper and serve.",
+            "Do ahead: Chill up to 1 day; reheat gently, adding 1/4 cup milk or stock to thin if needed."
+          ]
+        }
+      ]
     }
   ]
 }
