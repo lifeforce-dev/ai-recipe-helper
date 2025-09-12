@@ -3148,6 +3148,93 @@
       ],
       "source": "local-notes",
       "instructions": "Preheat grill to high heat. Mix ground beef, beaten egg, bread crumbs, evaporated milk, Worcestershire sauce, cayenne, and minced garlic in a large bowl by hand. Form into 8 patties. Lightly oil the grill grates. Grill patties until browned and no longer pink, about 5 minutes per side. Serve hot."
+    },
+    {
+      "recipe_id": "best_protein_shake",
+      "title": "Best Protein Shake",
+      "servings": 1,
+      "theme_tags": [
+        "drink",
+        "smoothie",
+        "protein",
+        "quick"
+      ],
+      "ingredients": [
+        {
+          "item": "whole_milk",
+          "quantity": 1.0,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "peanut_butter",
+          "quantity": 0.5,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "greek_yogurt",
+          "quantity": 0.5,
+          "unit": "cup",
+          "unit_type": "mass",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "ghost_milk_chocolate_protein_powder",
+          "quantity": 1.0,
+          "unit": "scoop",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "strawberries",
+          "quantity": 15.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "frozen"
+        },
+        {
+          "item": "banana",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "pinch",
+          "unit_type": "volume",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "chia_seeds",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "grain_legume",
+          "storage": "pantry"
+        },
+        {
+          "item": "creatine",
+          "quantity": 5.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        }
+      ],
+      "source": "local-notes",
+      "instructions": "Add milk to blender, then peanut butter, Greek yogurt, protein powder, frozen strawberries, banana, a pinch of salt, chia seeds, and creatine. Blend on high until very smooth, 45–60 seconds, scraping sides if needed. Adjust sweetness or thickness with honey or more milk if desired. Serve immediately."
     }
   ]
 }

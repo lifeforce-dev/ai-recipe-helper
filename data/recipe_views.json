@@ -2980,6 +2980,73 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "best_protein_shake",
+      "aliases": [
+        "protein shake",
+        "strawberry banana protein smoothie"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Base",
+          "items": [
+            {
+              "item": "whole_milk"
+            },
+            {
+              "item": "greek_yogurt",
+              "label": "full-fat Greek yogurt"
+            }
+          ]
+        },
+        {
+          "name": "Flavor & Protein",
+          "items": [
+            {
+              "item": "peanut_butter",
+              "label": "homemade peanut butter"
+            },
+            {
+              "item": "ghost_milk_chocolate_protein_powder",
+              "label": "protein powder (milk chocolate)"
+            },
+            {
+              "item": "strawberries",
+              "label": "frozen strawberries"
+            },
+            {
+              "item": "banana"
+            }
+          ]
+        },
+        {
+          "name": "Boosters",
+          "items": [
+            {
+              "item": "salt",
+              "label": "pinch of salt"
+            },
+            {
+              "item": "chia_seeds"
+            },
+            {
+              "item": "creatine",
+              "label": "creatine (pure)"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Blend",
+          "steps": [
+            "Add milk to the blender, then remaining ingredients.",
+            "Blend on high until very smooth, 45–60 seconds, scraping sides if needed.",
+            "Adjust sweetness or thickness with honey or more milk if desired. Serve immediately."
+          ]
+        }
+      ]
     }
   ]
 }
