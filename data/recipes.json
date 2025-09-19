@@ -3305,6 +3305,67 @@
         }
       ],
       "instructions": "Add orange juice and milk to blender. Add frozen banana, strawberries, and ice cream. Blend on high until completely smooth, 45–60 seconds. Taste; add sugar to desired sweetness and a pinch of salt to enhance flavor. Blend briefly to combine and serve immediately."
+    },
+    {
+      "recipe_id": "french_fries",
+      "title": "French Fries",
+      "servings": 6,
+      "theme_tags": [
+        "side",
+        "potatoes",
+        "fried"
+      ],
+      "ingredients": [
+        {
+          "item": "water",
+          "quantity": 3.0,
+          "unit": "quart",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "distilled_white_vinegar",
+          "quantity": 1.5,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "kosher_salt",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "baking_soda",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "russet_potatoes",
+          "quantity": 3.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "pantry"
+        },
+        {
+          "item": "vegetable_oil",
+          "quantity": 3.0,
+          "unit": "quart",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        }
+      ],
+      "instructions": "Line two baking sheets with paper towels. In a 7- to 8-quart pot, combine 3 quarts water, distilled white vinegar, kosher salt, and baking soda; bring to a boil over medium-high heat. Peel and cut russet potatoes into 1/4 x 1/4-inch matchsticks about 3 1/2 inches long. When the water is boiling, carefully lower the potatoes into the water. Boil 3 minutes, then gently transfer the potatoes to the prepared baking sheets. Allow to cool and dry completely, 15–20 minutes, replacing paper towels as needed. Add vegetable oil to a separate 7- to 8-quart pot and heat to 350°F (180°C). Working in batches, fry parboiled fries 30–45 seconds until pale white; transfer to a wire rack to drain completely. Repeat with remaining fries. Let fries cool completely, then freeze on a baking sheet overnight until frozen solid. When ready to serve, heat the same oil to 375°F (190°C). Working in batches, fry the frozen fries 2–3 minutes until light golden brown. Transfer to a wire rack to drain and season generously with kosher salt. Serve hot."
     }
   ]
 }

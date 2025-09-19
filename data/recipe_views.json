@@ -3105,6 +3105,89 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "french_fries",
+      "aliases": [
+        "homemade french fries",
+        "crispy french fries"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Boil Solution",
+          "items": [
+            {
+              "item": "water"
+            },
+            {
+              "item": "distilled_white_vinegar"
+            },
+            {
+              "item": "kosher_salt"
+            },
+            {
+              "item": "baking_soda"
+            }
+          ]
+        },
+        {
+          "name": "Potatoes",
+          "items": [
+            {
+              "item": "russet_potatoes",
+              "label": "russet potatoes (matchsticks)"
+            }
+          ]
+        },
+        {
+          "name": "Frying Oil",
+          "items": [
+            {
+              "item": "vegetable_oil"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Prep",
+          "steps": [
+            "Line two baking sheets with paper towels; set aside.",
+            "Peel and cut potatoes into 1/4 x 1/4-inch matchsticks about 3 1/2 inches long."
+          ]
+        },
+        {
+          "name": "Parboil",
+          "steps": [
+            "In a 7- to 8-quart pot, combine water, vinegar, kosher salt, and baking soda; bring to a boil.",
+            "Carefully lower potatoes into boiling water and boil 3 minutes.",
+            "Transfer to prepared baking sheets and cool/dry completely 15–20 minutes, replacing paper towels as needed."
+          ]
+        },
+        {
+          "name": "First Fry (350°F / 180°C)",
+          "steps": [
+            "Heat oil to 350°F in a separate heavy pot.",
+            "Working in batches, fry parboiled fries 30–45 seconds until pale; transfer to a wire rack to drain.",
+            "Repeat for remaining fries."
+          ]
+        },
+        {
+          "name": "Freeze",
+          "steps": [
+            "Cool fries completely, then freeze on a baking sheet overnight until frozen solid."
+          ]
+        },
+        {
+          "name": "Second Fry (375°F / 190°C)",
+          "steps": [
+            "Reheat the same oil to 375°F.",
+            "Fry frozen fries 2–3 minutes until light golden brown.",
+            "Transfer to a wire rack to drain and season generously with kosher salt.",
+            "Serve hot."
+          ]
+        }
+      ]
     }
   ]
 }
