@@ -3188,6 +3188,259 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "korean_bbq",
+      "aliases": [
+        "korean bbq feast",
+        "kbbq"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Bulgogi Marinade",
+          "items": [
+            {
+              "item": "brown_sugar"
+            },
+            {
+              "item": "ground_white_pepper",
+              "label": "white pepper (pinch)"
+            },
+            {
+              "item": "sesame_oil"
+            },
+            {
+              "item": "mirin"
+            },
+            {
+              "item": "honey"
+            },
+            {
+              "item": "asian_pear",
+              "label": "asian pear (pureed)"
+            },
+            {
+              "item": "soy_sauce"
+            },
+            {
+              "item": "garlic",
+              "label": "garlic (finely chopped)"
+            },
+            {
+              "item": "green_onion",
+              "label": "green onions (thinly sliced)"
+            }
+          ]
+        },
+        {
+          "name": "Beef Cuts",
+          "items": [
+            {
+              "item": "ribeye",
+              "label": "ribeye (thinly sliced)"
+            },
+            {
+              "item": "short_ribs",
+              "label": "kalbi (cross-cut short ribs)"
+            }
+          ]
+        },
+        {
+          "name": "Pork Belly Marinade",
+          "items": [
+            {
+              "item": "green_onion",
+              "label": "green onions (very finely chopped)"
+            },
+            {
+              "item": "lemon",
+              "label": "lemon (juice)"
+            },
+            {
+              "item": "gochujang"
+            },
+            {
+              "item": "honey"
+            },
+            {
+              "item": "soy_sauce"
+            },
+            {
+              "item": "rice_vinegar"
+            },
+            {
+              "item": "sesame_oil"
+            },
+            {
+              "item": "pork_belly",
+              "label": "pork belly (1/3\" slices)"
+            }
+          ]
+        },
+        {
+          "name": "Gamja Potatoes",
+          "items": [
+            {
+              "item": "vegetable_oil"
+            },
+            {
+              "item": "baby_potatoes",
+              "label": "baby potatoes (1-inch chunks)"
+            },
+            {
+              "item": "kosher_salt",
+              "label": "kosher salt (to taste)"
+            },
+            {
+              "item": "brown_sugar"
+            },
+            {
+              "item": "mirin"
+            },
+            {
+              "item": "soy_sauce"
+            },
+            {
+              "item": "dark_soy_sauce"
+            },
+            {
+              "item": "rice_vinegar",
+              "label": "rice wine vinegar"
+            },
+            {
+              "item": "honey"
+            },
+            {
+              "item": "water",
+              "label": "splash water"
+            },
+            {
+              "item": "toasted_sesame_seeds"
+            },
+            {
+              "item": "green_onion",
+              "label": "green onion (sliced)"
+            }
+          ]
+        },
+        {
+          "name": "Cucumber Salad",
+          "items": [
+            {
+              "item": "english_cucumber",
+              "label": "seedless english cucumber (coins, quartered)"
+            },
+            {
+              "item": "chili_crisp",
+              "label": "spicy chili crisp"
+            },
+            {
+              "item": "lemon",
+              "label": "lemon (juice)"
+            },
+            {
+              "item": "kosher_salt",
+              "label": "salt to taste"
+            },
+            {
+              "item": "mushroom_salt",
+              "label": "mushroom salt (optional)"
+            }
+          ]
+        },
+        {
+          "name": "Ssamjang Sauce",
+          "items": [
+            {
+              "item": "gochujang"
+            },
+            {
+              "item": "honey"
+            },
+            {
+              "item": "sesame_oil"
+            },
+            {
+              "item": "toasted_sesame_seeds"
+            },
+            {
+              "item": "doenjang"
+            },
+            {
+              "item": "green_onion"
+            },
+            {
+              "item": "garlic",
+              "label": "garlic (grated)"
+            }
+          ]
+        },
+        {
+          "name": "Sesame Garlic Sauce",
+          "items": [
+            {
+              "item": "garlic",
+              "label": "garlic (grated)"
+            },
+            {
+              "item": "flaky_salt"
+            },
+            {
+              "item": "sesame_oil"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Bulgogi",
+          "steps": [
+            "Whisk marinade ingredients; stir in green onion.",
+            "Toss ribeye with 3/4 of marinade; rest 15 minutes."
+          ]
+        },
+        {
+          "name": "Kalbi",
+          "steps": [
+            "Toss short ribs with remaining marinade; rest 15 minutes."
+          ]
+        },
+        {
+          "name": "Pork Belly",
+          "steps": [
+            "Whisk marinade ingredients until homogenous; add pork belly and marinate 15 minutes."
+          ]
+        },
+        {
+          "name": "Gamja Potatoes",
+          "steps": [
+            "Sear potatoes in oil with salt until starting to brown.",
+            "Add brown sugar, mirin, soy sauce, dark soy sauce, rice vinegar, honey, and splash of water; toss and simmer until reduced and glazed, 8–10 minutes.",
+            "Finish with sesame seeds and green onion."
+          ]
+        },
+        {
+          "name": "Cucumber Salad",
+          "steps": [
+            "Score one side of each cucumber coin in a crosshatch, quarter, salt 5 minutes; drain and rinse.",
+            "Toss with chili crisp and lemon juice; season with mushroom salt if using."
+          ]
+        },
+        {
+          "name": "Sauces",
+          "steps": [
+            "Mix Ssamjang ingredients in a bowl until combined.",
+            "Mix Sesame Garlic ingredients in a separate bowl until combined."
+          ]
+        },
+        {
+          "name": "Cook & Serve",
+          "steps": [
+            "Grill or pan-sear meats on high heat until cooked to preference.",
+            "Serve everything family-style with rice and lettuce wraps if desired."
+          ]
+        }
+      ]
     }
   ]
 }

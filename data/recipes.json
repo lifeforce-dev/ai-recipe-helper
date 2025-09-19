@@ -3366,6 +3366,374 @@
         }
       ],
       "instructions": "Line two baking sheets with paper towels. In a 7- to 8-quart pot, combine 3 quarts water, distilled white vinegar, kosher salt, and baking soda; bring to a boil over medium-high heat. Peel and cut russet potatoes into 1/4 x 1/4-inch matchsticks about 3 1/2 inches long. When the water is boiling, carefully lower the potatoes into the water. Boil 3 minutes, then gently transfer the potatoes to the prepared baking sheets. Allow to cool and dry completely, 15–20 minutes, replacing paper towels as needed. Add vegetable oil to a separate 7- to 8-quart pot and heat to 350°F (180°C). Working in batches, fry parboiled fries 30–45 seconds until pale white; transfer to a wire rack to drain completely. Repeat with remaining fries. Let fries cool completely, then freeze on a baking sheet overnight until frozen solid. When ready to serve, heat the same oil to 375°F (190°C). Working in batches, fry the frozen fries 2–3 minutes until light golden brown. Transfer to a wire rack to drain and season generously with kosher salt. Serve hot."
+    },
+    {
+      "recipe_id": "korean_bbq",
+      "title": "Korean BBQ",
+      "servings": 6,
+      "theme_tags": [
+        "korean",
+        "bbq",
+        "grill",
+        "beef",
+        "pork",
+        "sides"
+      ],
+      "ingredients": [
+        {
+          "item": "brown_sugar",
+          "quantity": 55.0,
+          "unit": "g",
+          "unit_type": "mass",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "ground_white_pepper",
+          "quantity": 1.0,
+          "unit": "pinch",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "sesame_oil",
+          "quantity": 4.0,
+          "unit": "tsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "mirin",
+          "quantity": 4.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "honey",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "asian_pear",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "soy_sauce",
+          "quantity": 0.5,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "garlic",
+          "quantity": 6.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 6.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "ribeye",
+          "quantity": 3.0,
+          "unit": "lb",
+          "unit_type": "mass",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "short_ribs",
+          "quantity": 4.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 2.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "lemon",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "gochujang",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "honey",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "soy_sauce",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "rice_vinegar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "sesame_oil",
+          "quantity": 1.0,
+          "unit": "tsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "pork_belly",
+          "quantity": 2.0,
+          "unit": "lb",
+          "unit_type": "mass",
+          "category": "meat",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "vegetable_oil",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "baby_potatoes",
+          "quantity": 1.0,
+          "unit": "lb",
+          "unit_type": "mass",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "brown_sugar",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "mirin",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "soy_sauce",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "dark_soy_sauce",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "rice_vinegar",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "honey",
+          "quantity": 2.0,
+          "unit": "tsp",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "water",
+          "quantity": 1.0,
+          "unit": "splash",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "toasted_sesame_seeds",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 2.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "english_cucumber",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "chili_crisp",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "lemon",
+          "quantity": 1.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "mushroom_salt",
+          "quantity": 1.0,
+          "unit": "pinch",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "gochujang",
+          "quantity": 0.5,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "honey",
+          "quantity": 0.333,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        },
+        {
+          "item": "sesame_oil",
+          "quantity": 3.0,
+          "unit": "tbsp",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        },
+        {
+          "item": "toasted_sesame_seeds",
+          "quantity": 2.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "doenjang",
+          "quantity": 0.75,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "green_onion",
+          "quantity": 4.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "garlic",
+          "quantity": 5.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "garlic",
+          "quantity": 3.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "produce",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "flaky_salt",
+          "quantity": 1.0,
+          "unit": "tbsp",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "sesame_oil",
+          "quantity": 0.25,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "oil_fat",
+          "storage": "pantry"
+        }
+      ],
+      "instructions": "Bulgogi: Whisk brown sugar, white pepper, sesame oil, mirin, honey, Asian pear puree, soy sauce, and garlic; stir in green onions. Marinate sliced ribeye with 3/4 of marinade for 15 minutes. Kalbi: Toss cross‑cut short ribs with remaining marinade; rest 15 minutes. Pork Belly: Whisk green onions, lemon juice, gochujang, honey, soy sauce, rice vinegar, and sesame oil; add pork belly and marinate 15 minutes. Gamja Potatoes: Sear potatoes in oil with salt until starting to brown, then add brown sugar, mirin, soy sauce, dark soy sauce, rice vinegar, honey, and a splash of water; simmer and toss until reduced and glazed, 8–10 minutes. Garnish with sesame seeds and green onion. Cucumbers: Score coins, quarter, salt 5 minutes; drain, rinse, then toss with chili crisp and lemon juice (and optional mushroom salt). Ssamjang: Stir together gochujang, honey, sesame oil, sesame seeds, doenjang, green onions, and garlic. Sesame Garlic Sauce: Mix garlic, flaky salt, and sesame oil until combined. Grill or pan‑sear meats on high heat until cooked to preference and serve everything family‑style."
     }
   ]
 }
