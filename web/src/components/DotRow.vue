@@ -27,6 +27,19 @@ const props = defineProps<{
 const left = computed(() => (props.item ? pretty(props.item) : props.left ?? ""))
 const right = computed(() => {
   if (props.qty != null && props.unit) {
+    const anyWin = window as any
+    const metaMap: Map<string, Array<{ quantity?: number; unit?: string; metric_quantity?: number; metric_unit?: string }>> | undefined = anyWin.__ING_META__
+    // Prefer explicit metric override if provided for this item and quantity+unit.
+    if (props.metric && props.item && metaMap) {
+      const list = metaMap.get(props.item)
+      if (list && list.length) {
+        const uNorm = normalizeUnit(props.unit)
+        const match = list.find(e => e.quantity === props.qty && normalizeUnit(e.unit || "") === uNorm)
+        if (match && match.metric_quantity != null && match.metric_unit) {
+          return formatQty(match.metric_quantity) + (match.metric_unit ? " " + match.metric_unit : "")
+        }
+      }
+    }
     const { qty, unit } = props.metric ? toMetricSmart(props.qty, props.unit, props.item) : { qty: props.qty, unit: props.unit }
     return formatQty(qty) + (unit ? " " + unit : "")
   }
@@ -215,13 +228,24 @@ function toMetricSmart(qty: number, unit: string, item?: string): { qty: number;
   // Try to detect unit_type from the displayed item by peeking into a global runtime map, if available.
   // Fallback to simple toMetric if no metadata is available.
   const anyWin = window as any
-  const metaMap: Map<string, { unit_type?: string }> | undefined = anyWin.__ING_META__
-  const unitType = item && metaMap ? metaMap.get(item)?.unit_type : undefined
+  const metaMap: Map<string, Array<{ quantity?: number; unit?: string; metric_quantity?: number; metric_unit?: string; unit_type?: string }>> | undefined = anyWin.__ING_META__
+  const unitType = undefined // Will rely on unit heuristics when no explicit override matches.
+  // Try to match explicit override for the exact displayed base quantity+unit.
+  if (item && metaMap) {
+    const list = metaMap.get(item)
+    if (list && list.length) {
+      const uNorm = normalizeUnit(unit)
+      const match = list.find(e => e.quantity === qty && normalizeUnit(e.unit || "") === uNorm)
+      if (match && match.metric_quantity != null && match.metric_unit) {
+        return { qty: match.metric_quantity, unit: match.metric_unit }
+      }
+    }
+  }
 
   if (unitType === "count") return { qty, unit }
   if (unitType === "mass") {
-    // Convert lb/oz to g; if already grams, return as-is; otherwise leave unmodified (unknown mass unit)
-    const u = unit.toLowerCase()
+  // Convert lb/oz to g; if already grams, return as-is; otherwise leave unmodified (unknown mass unit)
+  const u = unit.toLowerCase()
     // Item-specific density overrides for spoon/cup measures (grams per teaspoon).
     // Sources: USDA FoodData Central where available. cornstarch: 1 cup = 128 g => 48 tsp => 2.667 g/tsp.
     const gramsPerTsp: Record<string, number> = {
@@ -255,6 +279,22 @@ function toMetricSmart(qty: number, unit: string, item?: string): { qty: number;
   }
   // Unknown: fallback to existing heuristic
   return toMetric(qty, unit)
+}
+
+function normalizeUnit(u: string): string {
+  const s = u.toLowerCase()
+  if (s === "tsp" || s === "teaspoon" || s === "teaspoons") return "tsp"
+  if (s === "tbsp" || s === "tablespoon" || s === "tablespoons") return "tbsp"
+  if (s === "cup" || s === "cups") return "cup"
+  if (s === "lb" || s === "pound" || s === "pounds" || s === "lbs") return "lb"
+  if (s === "oz" || s === "ounce" || s === "ounces") return "oz"
+  if (s === "g" || s === "gram" || s === "grams") return "g"
+  if (s === "kg" || s === "kilogram" || s === "kilograms") return "kg"
+  if (s === "ml" || s === "milliliter" || s === "milliliters") return "ml"
+  if (s === "l" || s === "liter" || s === "liters") return "l"
+  if (s === "pinch" || s === "pinches") return "pinch"
+  if (s === "count") return "count"
+  return s
 }
 
 function round(n: number, decimals: number): number {

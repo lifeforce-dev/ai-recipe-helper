@@ -11,6 +11,11 @@ class Ingredient(BaseModel):
 	quantity: float
 	unit: str
 	unit_type: Optional[Literal["mass", "volume", "count"]] = None
+	# Optional explicit metric override. When present, these should take precedence
+	# over any automatic conversion logic in the UI.
+	metric_quantity: Optional[float] = None
+	metric_unit: Optional[str] = None
+	metric_unit_type: Optional[Literal["mass", "volume", "count"]] = None
 	category: Literal[
 		"meat",
 		"produce",

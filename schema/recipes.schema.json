@@ -61,6 +61,16 @@
                 "unit": {
                   "type": "string"
                 },
+                "metric_quantity": {
+                  "type": "number"
+                },
+                "metric_unit": {
+                  "type": "string"
+                },
+                "metric_unit_type": {
+                  "type": "string",
+                  "enum": ["mass", "volume", "count"]
+                },
                 "category": {
                   "type": "string",
                   "enum": [

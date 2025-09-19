@@ -3,6 +3,9 @@ export type Ingredient = {
 	quantity: number
 	unit: string
 	unit_type?: "mass" | "volume" | "count"
+	metric_quantity?: number
+	metric_unit?: string
+	metric_unit_type?: "mass" | "volume" | "count"
 	category: string
 	storage: string
 }

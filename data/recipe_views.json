@@ -3200,35 +3200,42 @@
           "name": "Bulgogi Marinade",
           "items": [
             {
-              "item": "brown_sugar"
+              "item": "brown_sugar",
+              "from_index": 0
             },
             {
               "item": "ground_white_pepper",
               "label": "white pepper (pinch)"
             },
             {
-              "item": "sesame_oil"
+              "item": "sesame_oil",
+              "from_index": 0
             },
             {
-              "item": "mirin"
+              "item": "mirin",
+              "from_index": 0
             },
             {
-              "item": "honey"
+              "item": "honey",
+              "from_index": 0
             },
             {
               "item": "asian_pear",
               "label": "asian pear (pureed)"
             },
             {
-              "item": "soy_sauce"
+              "item": "soy_sauce",
+              "from_index": 0
             },
             {
               "item": "garlic",
-              "label": "garlic (finely chopped)"
+              "label": "garlic (finely chopped)",
+              "from_index": 0
             },
             {
               "item": "green_onion",
-              "label": "green onions (thinly sliced)"
+              "label": "green onions (thinly sliced)",
+              "from_index": 0
             }
           ]
         },
@@ -3250,26 +3257,33 @@
           "items": [
             {
               "item": "green_onion",
-              "label": "green onions (very finely chopped)"
+              "label": "green onions (very finely chopped)",
+              "from_index": 1
             },
             {
               "item": "lemon",
-              "label": "lemon (juice)"
+              "label": "lemon (juice)",
+              "from_index": 0
             },
             {
-              "item": "gochujang"
+              "item": "gochujang",
+              "from_index": 0
             },
             {
-              "item": "honey"
+              "item": "honey",
+              "from_index": 1
             },
             {
-              "item": "soy_sauce"
+              "item": "soy_sauce",
+              "from_index": 1
             },
             {
-              "item": "rice_vinegar"
+              "item": "rice_vinegar",
+              "from_index": 0
             },
             {
-              "item": "sesame_oil"
+              "item": "sesame_oil",
+              "from_index": 1
             },
             {
               "item": "pork_belly",
@@ -3292,34 +3306,41 @@
               "label": "kosher salt (to taste)"
             },
             {
-              "item": "brown_sugar"
+              "item": "brown_sugar",
+              "from_index": 1
             },
             {
-              "item": "mirin"
+              "item": "mirin",
+              "from_index": 1
             },
             {
-              "item": "soy_sauce"
+              "item": "soy_sauce",
+              "from_index": 2
             },
             {
               "item": "dark_soy_sauce"
             },
             {
               "item": "rice_vinegar",
-              "label": "rice wine vinegar"
+              "label": "rice wine vinegar",
+              "from_index": 1
             },
             {
-              "item": "honey"
+              "item": "honey",
+              "from_index": 2
             },
             {
               "item": "water",
               "label": "splash water"
             },
             {
-              "item": "toasted_sesame_seeds"
+              "item": "toasted_sesame_seeds",
+              "from_index": 0
             },
             {
               "item": "green_onion",
-              "label": "green onion (sliced)"
+              "label": "green onion (sliced)",
+              "from_index": 2
             }
           ]
         },
@@ -3336,7 +3357,8 @@
             },
             {
               "item": "lemon",
-              "label": "lemon (juice)"
+              "label": "lemon (juice)",
+              "from_index": 1
             },
             {
               "item": "kosher_salt",
@@ -3352,26 +3374,32 @@
           "name": "Ssamjang Sauce",
           "items": [
             {
-              "item": "gochujang"
+              "item": "gochujang",
+              "from_index": 1
             },
             {
-              "item": "honey"
+              "item": "honey",
+              "from_index": 3
             },
             {
-              "item": "sesame_oil"
+              "item": "sesame_oil",
+              "from_index": 2
             },
             {
-              "item": "toasted_sesame_seeds"
+              "item": "toasted_sesame_seeds",
+              "from_index": 1
             },
             {
               "item": "doenjang"
             },
             {
-              "item": "green_onion"
+              "item": "green_onion",
+              "from_index": 3
             },
             {
               "item": "garlic",
-              "label": "garlic (grated)"
+              "label": "garlic (grated)",
+              "from_index": 1
             }
           ]
         },
@@ -3380,13 +3408,15 @@
           "items": [
             {
               "item": "garlic",
-              "label": "garlic (grated)"
+              "label": "garlic (grated)",
+              "from_index": 2
             },
             {
               "item": "flaky_salt"
             },
             {
-              "item": "sesame_oil"
+              "item": "sesame_oil",
+              "from_index": 3
             }
           ]
         }

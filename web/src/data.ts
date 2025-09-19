@@ -1,4 +1,4 @@
-import type { RecipeCatalog, ViewsCatalog, DisplayEntry, Recipe, RecipeView } from "./types"
+import type { RecipeCatalog, ViewsCatalog, DisplayEntry, Recipe, RecipeView, Ingredient } from "./types"
 
 export async function loadCatalogs(): Promise<DisplayEntry[]> {
 	const base = (import.meta as any).env?.BASE_URL ?? "/"
@@ -9,11 +9,27 @@ export async function loadCatalogs(): Promise<DisplayEntry[]> {
 	const views = new Map<string, RecipeView>(vc.views.map((v: RecipeView) => [v.recipe_id, v]))
 
 		// Build a quick global map for unit_type lookup in components (avoids prop drilling everywhere).
-		const meta = new Map<string, { unit_type?: string }>()
-		for (const rec of rc.recipes) {
-			for (const ing of rec.ingredients) {
-				if (!meta.has(ing.item)) meta.set(ing.item, { unit_type: (ing as any).unit_type })
+		// Build a per-item list of explicit metric overrides keyed by the exact base quantity+unit.
+		type MetaEntry = { unit_type?: string; quantity?: number; unit?: string; metric_quantity?: number; metric_unit?: string; metric_unit_type?: string }
+		const meta = new Map<string, MetaEntry[]>()
+		const pushMeta = (ing: Ingredient) => {
+			const list = meta.get(ing.item) ?? []
+			const entry: MetaEntry = {
+				unit_type: (ing as any).unit_type,
+				quantity: (ing as any).quantity,
+				unit: (ing as any).unit,
+				metric_quantity: (ing as any).metric_quantity,
+				metric_unit: (ing as any).metric_unit,
+				metric_unit_type: (ing as any).metric_unit_type,
 			}
+			// Only add if it has an explicit metric override.
+			if (entry.metric_quantity != null && entry.metric_unit) {
+				list.push(entry)
+				meta.set(ing.item, list)
+			}
+		}
+		for (const rec of rc.recipes) {
+			for (const ing of rec.ingredients) pushMeta(ing)
 		}
 		;(window as any).__ING_META__ = meta
 

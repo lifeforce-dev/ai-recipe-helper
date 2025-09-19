@@ -3382,9 +3382,12 @@
       "ingredients": [
         {
           "item": "brown_sugar",
-          "quantity": 55.0,
-          "unit": "g",
-          "unit_type": "mass",
+          "quantity": 0.25,
+          "unit": "cup",
+          "unit_type": "volume",
+          "metric_quantity": 55.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -3392,7 +3395,7 @@
           "item": "ground_white_pepper",
           "quantity": 1.0,
           "unit": "pinch",
-          "unit_type": "mass",
+          "unit_type": "volume",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -3401,6 +3404,9 @@
           "quantity": 4.0,
           "unit": "tsp",
           "unit_type": "volume",
+          "metric_quantity": 18.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -3409,6 +3415,9 @@
           "quantity": 4.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 48.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3417,6 +3426,9 @@
           "quantity": 3.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 64.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -3433,6 +3445,9 @@
           "quantity": 0.5,
           "unit": "cup",
           "unit_type": "volume",
+          "metric_quantity": 120.0,
+          "metric_unit": "ml",
+          "metric_unit_type": "volume",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3457,6 +3472,9 @@
           "quantity": 3.0,
           "unit": "lb",
           "unit_type": "mass",
+          "metric_quantity": 1.333,
+          "metric_unit": "kg",
+          "metric_unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -3489,6 +3507,9 @@
           "quantity": 2.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 40.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3497,6 +3518,9 @@
           "quantity": 2.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 42.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -3505,6 +3529,9 @@
           "quantity": 2.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 36.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3513,6 +3540,9 @@
           "quantity": 1.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 15.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3521,6 +3551,9 @@
           "quantity": 1.0,
           "unit": "tsp",
           "unit_type": "volume",
+          "metric_quantity": 5.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -3529,6 +3562,9 @@
           "quantity": 2.0,
           "unit": "lb",
           "unit_type": "mass",
+          "metric_quantity": 900.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "meat",
           "storage": "refrigerated"
         },
@@ -3545,6 +3581,9 @@
           "quantity": 1.0,
           "unit": "lb",
           "unit_type": "mass",
+          "metric_quantity": 454.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "produce",
           "storage": "refrigerated"
         },
@@ -3553,6 +3592,9 @@
           "quantity": 1.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 9.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -3561,6 +3603,9 @@
           "quantity": 1.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 14.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3569,6 +3614,9 @@
           "quantity": 2.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 36.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3577,6 +3625,9 @@
           "quantity": 2.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 36.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3585,6 +3636,9 @@
           "quantity": 2.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 30.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3593,6 +3647,9 @@
           "quantity": 2.0,
           "unit": "tsp",
           "unit_type": "volume",
+          "metric_quantity": 14.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -3633,6 +3690,9 @@
           "quantity": 2.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 30.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3648,7 +3708,7 @@
           "item": "mushroom_salt",
           "quantity": 1.0,
           "unit": "pinch",
-          "unit_type": "mass",
+          "unit_type": "volume",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -3657,6 +3717,9 @@
           "quantity": 0.5,
           "unit": "cup",
           "unit_type": "volume",
+          "metric_quantity": 103.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "pantry"
         },
@@ -3665,6 +3728,9 @@
           "quantity": 0.333,
           "unit": "cup",
           "unit_type": "volume",
+          "metric_quantity": 113.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "other",
           "storage": "pantry"
         },
@@ -3673,6 +3739,9 @@
           "quantity": 3.0,
           "unit": "tbsp",
           "unit_type": "volume",
+          "metric_quantity": 42.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "oil_fat",
           "storage": "pantry"
         },
@@ -3680,7 +3749,10 @@
           "item": "toasted_sesame_seeds",
           "quantity": 2.0,
           "unit": "tbsp",
-          "unit_type": "mass",
+          "unit_type": "volume",
+          "metric_quantity": 22.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -3689,6 +3761,9 @@
           "quantity": 0.75,
           "unit": "cup",
           "unit_type": "volume",
+          "metric_quantity": 150.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "condiment",
           "storage": "refrigerated"
         },
@@ -3720,7 +3795,10 @@
           "item": "flaky_salt",
           "quantity": 1.0,
           "unit": "tbsp",
-          "unit_type": "mass",
+          "unit_type": "volume",
+          "metric_quantity": 11.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "spice_herb",
           "storage": "pantry"
         },
@@ -3729,6 +3807,9 @@
           "quantity": 0.25,
           "unit": "cup",
           "unit_type": "volume",
+          "metric_quantity": 56.0,
+          "metric_unit": "g",
+          "metric_unit_type": "mass",
           "category": "oil_fat",
           "storage": "pantry"
         }

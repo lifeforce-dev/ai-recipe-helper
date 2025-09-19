@@ -25,6 +25,7 @@
             <DotRow
               v-else
               :left="(it as any).label"
+              :item="(it as any).item"
               :qty="(it as any).quantity"
               :unit="(it as any).unit"
               :right="(it as any).note ?? ''"
