@@ -3902,6 +3902,51 @@
         }
       ],
       "instructions": "Place peeled boiled eggs in a clean marinating container. Add minced green onions, carrots, and onions over the eggs. In a bowl, whisk together soy sauce, water, sugar, sesame seeds, and sesame oil until sugar dissolves. Pour marinade over eggs and vegetables, ensuring eggs are mostly submerged. Cover and refrigerate at least 6 hours or preferably overnight. Serve eggs halved or whole with some marinade and vegetables spooned over."
+    },
+    {
+      "recipe_id": "boiled_eggs",
+      "title": "Boiled Eggs",
+      "servings": 6,
+      "theme_tags": [
+        "egg",
+        "basic",
+        "prep"
+      ],
+      "ingredients": [
+        {
+          "item": "egg",
+          "quantity": 6.0,
+          "unit": "count",
+          "unit_type": "count",
+          "category": "dairy",
+          "storage": "refrigerated"
+        },
+        {
+          "item": "white_vinegar",
+          "quantity": 1.0,
+          "unit": "splash",
+          "unit_type": "volume",
+          "category": "condiment",
+          "storage": "pantry"
+        },
+        {
+          "item": "salt",
+          "quantity": 1.0,
+          "unit": "pinch",
+          "unit_type": "mass",
+          "category": "spice_herb",
+          "storage": "pantry"
+        },
+        {
+          "item": "water",
+          "quantity": 4.0,
+          "unit": "cup",
+          "unit_type": "volume",
+          "category": "other",
+          "storage": "pantry"
+        }
+      ],
+      "instructions": "Place eggs in a pot and cover with cold water. Add a splash of vinegar and a pinch of salt to help prevent cracking and make peeling easier. Bring to a boil over high heat. Once boiling, reduce to a simmer and cook 7 minutes for soft-boiled (or 10-12 minutes for hard-boiled). Immediately transfer to an ice bath or run under cold water until completely cooled. This stops the cooking and helps shells peel easily. Gently peel when ready to use."
     }
   ]
 }

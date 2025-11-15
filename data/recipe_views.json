@@ -3551,6 +3551,56 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "boiled_eggs",
+      "aliases": [
+        "boiled eggs",
+        "soft boiled eggs",
+        "hard boiled eggs",
+        "perfect boiled eggs"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Main",
+          "items": [
+            {
+              "item": "egg"
+            },
+            {
+              "item": "water",
+              "label": "to cover"
+            },
+            {
+              "item": "white_vinegar",
+              "label": "splash"
+            },
+            {
+              "item": "salt",
+              "label": "pinch"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Boil",
+          "steps": [
+            "Place eggs in a pot and cover with cold water.",
+            "Add a splash of vinegar and a pinch of salt to help prevent cracking and make peeling easier.",
+            "Bring to a boil over high heat.",
+            "Once boiling, reduce to a simmer and cook 7 minutes for soft-boiled (or 10-12 minutes for hard-boiled)."
+          ]
+        },
+        {
+          "name": "Cool & Peel",
+          "steps": [
+            "Immediately transfer to an ice bath or run under cold water until completely cooled.",
+            "This stops the cooking and helps shells peel easily.",
+            "Gently peel when ready to use."
+          ]
+        }
+      ]
     }
   ]
 }
