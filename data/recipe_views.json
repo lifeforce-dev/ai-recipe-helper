@@ -3471,6 +3471,86 @@
           ]
         }
       ]
+    },
+    {
+      "recipe_id": "mayak_gyeran",
+      "aliases": [
+        "mayak gyeran",
+        "korean marinated eggs",
+        "addictive eggs",
+        "soy marinated eggs"
+      ],
+      "ingredient_sections": [
+        {
+          "name": "Eggs",
+          "items": [
+            {
+              "item": "egg",
+              "label": "boiled & peeled"
+            }
+          ]
+        },
+        {
+          "name": "Aromatics",
+          "items": [
+            {
+              "item": "green_onion",
+              "label": "minced"
+            },
+            {
+              "item": "carrot",
+              "label": "minced"
+            },
+            {
+              "item": "onion",
+              "label": "minced"
+            }
+          ]
+        },
+        {
+          "name": "Marinade",
+          "items": [
+            {
+              "item": "soy_sauce"
+            },
+            {
+              "item": "water"
+            },
+            {
+              "item": "sugar"
+            },
+            {
+              "item": "sesame_seeds"
+            },
+            {
+              "item": "sesame_oil"
+            }
+          ]
+        }
+      ],
+      "instruction_sections": [
+        {
+          "name": "Prep",
+          "steps": [
+            "Place peeled boiled eggs in a clean marinating container.",
+            "Add minced green onions, carrots, and onions over the eggs."
+          ]
+        },
+        {
+          "name": "Marinade",
+          "steps": [
+            "In a bowl, whisk together soy sauce, water, sugar, sesame seeds, and sesame oil until sugar dissolves.",
+            "Pour marinade over eggs and vegetables, ensuring eggs are mostly submerged."
+          ]
+        },
+        {
+          "name": "Marinate",
+          "steps": [
+            "Cover container and refrigerate at least 6 hours or preferably overnight.",
+            "Serve eggs halved or whole with some marinade and vegetables spooned over."
+          ]
+        }
+      ]
     }
   ]
 }
